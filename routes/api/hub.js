@@ -1,11 +1,12 @@
 const router = require('express').Router();
 
-const { getHub, getAccessToken } = require('../../models/auth.model')
+const ensureAuthToken = require('../../helpers/middlewares');
 
-router.get('/', async (req,res) => {
+const { getHub } = require('../../models/auth.model');
+
+router.get('/',ensureAuthToken, async (req,res) => {
     try {
-        const accessToken = await getAccessToken();
-        const hub = await getHub(accessToken.access_token);
+        const hub = await getHub(req.accessToken);
         res.json(hub);
     } catch (error) {
         res.json({ fatal: error.message });

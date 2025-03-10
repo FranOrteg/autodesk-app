@@ -1,9 +1,13 @@
 @host = http://localhost:3000
 @urlAuth = /auth
 @urlHub = /hub
+@urlProjects = /projects
 
 ### ACCESSTOKEN
 GET {{host}}{{urlAuth}}
 
 ### HUB
 GET {{host}}{{urlHub}}
+
+### PROJECTS
+GET {{host}}{{urlProjects}}/b.1bb899d4-8dd4-42d8-aefd-6c0e35acd825
