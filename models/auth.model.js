@@ -22,7 +22,26 @@ const getAccessToken = async () => {
     }
 };
 
+const getHub = async (accessToken) => {
+    try {
+        const response = await axios.get(
+            'https://developer.api.autodesk.com/project/v1/hubs',
+            {
+                headers: {
+                "Authorization": `Bearer ${accessToken}`,
+                "Content-Type": "application/json"
+                }
+            }
+        );
+
+        return response.data;
+    } catch (error) {
+        throw new Error('Error al obtener el Hub');
+    }
+}
+
 module.exports = 
 {
-    getAccessToken
+    getAccessToken,
+    getHub
 }

@@ -1,4 +1,3 @@
-// routes/api/auth.js
 const router = require('express').Router();
 
 const { getAccessToken } = require('../../models/auth.model')

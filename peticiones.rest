@@ -1,5 +1,9 @@
 @host = http://localhost:3000
 @urlAuth = /auth
+@urlHub = /hub
 
 ### ACCESSTOKEN
 GET {{host}}{{urlAuth}}
+
+### HUB
+GET {{host}}{{urlHub}}
