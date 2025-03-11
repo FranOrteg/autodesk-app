@@ -1,7 +1,12 @@
 @host = http://localhost:3000
+@projectId = b.76947f01-cc26-47db-9681-fff27e5430ce
+@hubId = b.1bb899d4-8dd4-42d8-aefd-6c0e35acd825
 @urlAuth = /auth
 @urlHub = /hub
 @urlProjects = /projects
+@urlFiles = /files
+@urlRoot = /root
+
 
 ### ACCESSTOKEN
 GET {{host}}{{urlAuth}}
@@ -10,4 +15,9 @@ GET {{host}}{{urlAuth}}
 GET {{host}}{{urlHub}}
 
 ### PROJECTS
-GET {{host}}{{urlProjects}}/b.1bb899d4-8dd4-42d8-aefd-6c0e35acd825
+GET {{host}}{{urlProjects}}/{{hubId}}
+
+### LISTAR ARCHIVOS DEL PROYECTO (correcta)
+GET {{host}}{{urlRoot}}/{{hubId}}/{{projectId}}{{urlFiles}}
+
+
