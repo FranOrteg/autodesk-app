@@ -17,7 +17,7 @@ GET {{host}}{{urlHub}}
 ### PROJECTS
 GET {{host}}{{urlProjects}}/{{hubId}}
 
-### LISTAR ARCHIVOS DEL PROYECTO (correcta)
+### LISTAR ARCHIVOS DEL PROYECTO
 GET {{host}}{{urlRoot}}/{{hubId}}/{{projectId}}{{urlFiles}}
 
 

@@ -8,9 +8,12 @@ const axios = require('axios');
 
 async function getFolderDetails(accessToken, projectId, folderId) {
     const resp = await axios.get(
-      `https://developer.api.autodesk.com/data/v1/projects/${projectId}/folders/${encodeURIComponent(folderId)}`,
+      `https://developer.api.autodesk.com/data/v1/projects/${projectId}/folders/${folderId}`,
       {
-        headers: { Authorization: `Bearer ${accessToken}` }
+        headers: {
+            "Authorization": `Bearer ${accessToken}`,
+            "Content-Type": "application/json"
+            }
       }
     );
     // Retorna la data completa; en resp.data.data.attributes.displayName está el nombre
@@ -23,9 +26,12 @@ async function getFolderDetails(accessToken, projectId, folderId) {
 
 async function listFolderContentsRecursively(accessToken, projectId, folderId) {
     const resp = await axios.get(
-      `https://developer.api.autodesk.com/data/v1/projects/${projectId}/folders/${encodeURIComponent(folderId)}/contents`,
+      `https://developer.api.autodesk.com/data/v1/projects/${projectId}/folders/${folderId}/contents`,
       {
-        headers: { Authorization: `Bearer ${accessToken}` }
+        headers: {
+            "Authorization": `Bearer ${accessToken}`,
+            "Content-Type": "application/json"
+            }
       }
     );
   
