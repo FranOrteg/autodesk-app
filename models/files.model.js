@@ -25,29 +25,31 @@ async function getFolderDetails(accessToken, projectId, folderId) {
  */
 
 async function listFolderContentsRecursively(accessToken, projectId, folderId) {
-    const resp = await axios.get(
-      `https://developer.api.autodesk.com/data/v1/projects/${projectId}/folders/${folderId}/contents`,
-      {
-        headers: {
-            "Authorization": `Bearer ${accessToken}`,
-            "Content-Type": "application/json"
-            }
+  const resp = await axios.get(
+    `https://developer.api.autodesk.com/data/v1/projects/${projectId}/folders/${folderId}/contents`,
+    {
+      headers: {
+        "Authorization": `Bearer ${accessToken}`,
+        "Content-Type": "application/json"
       }
-    );
-  
-    // 'contents' será un array de items: cada item puede ser 'folders' o 'items'
-    const contents = resp.data.data || [];
-  
-    for (const item of contents) {
-      // Si es subcarpeta, volvemos a hacer la llamada recursiva
-      if (item.type === 'folders') {
-        item.children = await listFolderContentsRecursively(accessToken, projectId, item.id);
-      }
-      // Si es 'items', son ficheros finales (o versiones). Dependiendo de tu necesidad, puedes filtrarlos.
     }
-    
-    return contents;
-  }
+  );
+
+  return Promise.all(resp.data.data.map(async (item) => {
+    const simplifiedItem = {
+      id: item.id,
+      name: item.attributes.displayName || item.attributes.name,
+      type: item.type
+    };
+
+    if (item.type === 'folders') {
+      simplifiedItem.children = await listFolderContentsRecursively(accessToken, projectId, item.id);
+    }
+
+    return simplifiedItem;
+  }));
+}
+
   
 
 module.exports = {
