@@ -7,17 +7,29 @@
 @urlFiles = /files
 @urlRoot = /root
 
+###################
+### ACCESSTOKEN ###
+###################
 
-### ACCESSTOKEN
 GET {{host}}{{urlAuth}}
 
-### HUB
+###########
+### HUB ###
+###########
+
 GET {{host}}{{urlHub}}
 
-### PROJECTS
+################
+### PROJECTS ###
+################
+
+### Listar todos los proyectos
 GET {{host}}{{urlProjects}}/{{hubId}}
 
-### LISTAR ARCHIVOS DEL PROYECTO
+### listar recursivamente todos las subcarpetas y ficheros finales del proyecto
 GET {{host}}{{urlRoot}}/{{hubId}}/{{projectId}}{{urlFiles}}
+
+### Listar el proyecto by Id
+GET {{host}}{{urlProjects}}/{{hubId}}/{{projectId}}
 
 

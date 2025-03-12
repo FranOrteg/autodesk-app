@@ -24,8 +24,8 @@ router.get('/:hubId/:projectId/files', ensureAuthToken, async (req, res) => {
       const rootFolderId = project.relationships.rootFolder.data.id;
       
       // 4) (Opcional) Si quieres el "nombre" de esa carpeta raíz:
-      // const folderInfo = await getFolderDetails(req.accessToken, projectId, rootFolderId);
-      // console.log("El nombre del folder raíz es:", folderInfo.attributes.displayName);
+      const folderInfo = await getFolderDetails(req.accessToken, projectId, rootFolderId);
+      console.log("El nombre del folder raíz es:", folderInfo.attributes.displayName);
   
       // 5) Ahora sí, listar recursivamente todo su contenido
       const filesStructure = await listFolderContentsRecursively(req.accessToken, projectId, rootFolderId);
