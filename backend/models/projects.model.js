@@ -11,11 +11,12 @@ const listProjects = async (accessToken,hubId) => {
                 }
             }
         )
-        
+
         // Extraer solo ID y Nombre de cada proyecto
         const filteredProjects = response.data.data.map(project => ({
             id: project.id,
-            name: project.attributes?.name || "Sin nombre"
+            name: project.attributes?.name || "Sin nombre",
+            rootFolder: project.relationships.rootFolder.data.id || "Sin carpeta raíz"
         }));
 
         return filteredProjects;

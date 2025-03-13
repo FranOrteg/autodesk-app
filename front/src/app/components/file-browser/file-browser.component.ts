@@ -30,5 +30,13 @@ export class FileBrowserComponent implements OnInit {
     }
   }
   
+  async listProjectContents(projectId: string) {
+    try {
+      const response = await this.accService.listProjectContents('b.1bb899d4-8dd4-42d8-aefd-6c0e35acd825', projectId);
+      console.log('Project contents:', response);
+    } catch (error) {
+      console.error('Error listing project contents:', error);
+    }
+  }
   
 }

@@ -16,4 +16,11 @@ export class AccService {
       this.http.get<any[]>(`${this.BASE_URL}/projects/${hubId}`)
     );
   }
+
+  listProjectContents(hubId: string, projectId: string){
+    return firstValueFrom(
+      this.http.get<any[]>(`${this.BASE_URL}/root/${hubId}/${projectId}/files`)
+    );
+  }
+
 }
