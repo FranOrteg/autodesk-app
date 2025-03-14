@@ -21,38 +21,41 @@ async function getFolderDetails(accessToken, projectId, folderId) {
   }
 
 /**
- * Función recursiva para listar todo el contenido de un folder en Autodesk ACC
+ * Función recursiva para listar únicamente archivos .rvt
  */
 
-async function listFolderContentsRecursively(accessToken, projectId, folderId) {
-  const resp = await axios.get(
-    `https://developer.api.autodesk.com/data/v1/projects/${projectId}/folders/${folderId}/contents`,
-    {
-      headers: {
-        "Authorization": `Bearer ${accessToken}`,
-        "Content-Type": "application/json"
-      }
-    }
-  );
+async function listRvtFiles(accessToken, projectId, folderId) {
+  const contentsUrl = `https://developer.api.autodesk.com/data/v1/projects/${projectId}/folders/${folderId}/contents`;
 
-  return Promise.all(resp.data.data.map(async (item) => {
-    const simplifiedItem = {
-      id: item.id,
-      name: item.attributes.displayName || item.attributes.name,
-      type: item.type
-    };
+  const { data } = await axios.get(contentsUrl, {
+    headers: {
+      Authorization: `Bearer ${accessToken}`,
+      "Content-Type": "application/json",
+    },
+  });
 
+  let rvtFiles = [];
+
+  for (const item of data.data) {
     if (item.type === 'folders') {
-      simplifiedItem.children = await listFolderContentsRecursively(accessToken, projectId, item.id);
+      // Si es una carpeta, busca dentro recursivamente
+      const nestedFiles = await listRvtFiles(accessToken, projectId, item.id);
+      rvtFiles = rvtFiles.concat(nestedFiles);
+    } else if (item.type === 'items' && item.attributes.displayName.endsWith('.rvt')) {
+      // Si es un archivo .rvt, añádelo
+      rvtFiles.push({
+        id: item.id,
+        name: item.attributes.displayName,
+        type: item.type,
+      });
     }
+  }
 
-    return simplifiedItem;
-  }));
+  return rvtFiles;
 }
 
-  
 
 module.exports = {
-    listFolderContentsRecursively,
-    getFolderDetails
+  listRvtFiles,
+  getFolderDetails,
 };

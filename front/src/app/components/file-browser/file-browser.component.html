@@ -1,6 +1,24 @@
-<div class="list-group">
-    <a *ngFor="let project of arrProjects" href="#" class="list-group-item list-group-item-action">
-      {{ project.name }}
-    </a>
-</div>
+<div class="container">
+  <div class="projectList">
+    <!-- Lista de Proyectos -->
+    <div class="list-group">
+      <a 
+        *ngFor="let project of arrProjects" 
+        (click)="selectProject(project.id)" 
+        [class.active]="project.id === projectIdSelected"
+        class="list-group-item list-group-item-action"
+        href="javascript:void(0)">
+        {{ project.name }}
+      </a>
+    </div>
 
+    <!-- Archivos RVT del proyecto seleccionado -->
+    <div class="list-group" *ngIf="arrProjectContents.length > 0">
+      <a 
+        *ngFor="let file of arrProjectContents" 
+        class="list-group-item list-group-item-action">
+        {{ file.name }}
+      </a>
+    </div>
+  </div>
+</div>
