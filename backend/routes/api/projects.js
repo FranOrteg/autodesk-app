@@ -1,13 +1,13 @@
 const router = require('express').Router();
 
 const ensureAuthToken = require('../../helpers/middlewares');
-const { listProjects, getProjectById } = require('../../models/projects.model');
+const { listProjects, getProjectById, listProjectsFiltered } = require('../../models/projects.model');
 
 
 router.get('/:hubId', ensureAuthToken, async (req,res) => {
     try {
         const hubId = req.params.hubId;
-        const projects = await listProjects(req.accessToken, hubId);
+        const projects = await listProjectsFiltered(req.accessToken, hubId);
 
         res.json(projects);
     } catch (error) {

@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const listProjects = async (accessToken,hubId) => {
+const listProjectsFiltered = async (accessToken,hubId) => {
     try {
         const response = await axios.get(
             `https://developer.api.autodesk.com/project/v1/hubs/${hubId}/projects`,
@@ -20,6 +20,25 @@ const listProjects = async (accessToken,hubId) => {
         }));
 
         return filteredProjects;
+    } catch (error) {
+        throw new Error(`Error al listar los proyectos del Hub ${hubId}`);
+
+    }
+}
+
+const listProjects = async (accessToken,hubId) => {
+    try {
+        const response = await axios.get(
+            `https://developer.api.autodesk.com/project/v1/hubs/${hubId}/projects`,
+            {
+                headers: {
+                "Authorization": `Bearer ${accessToken}`,
+                "Content-Type": "application/json"
+                }
+            }
+        )
+
+        return response.data;
     } catch (error) {
         throw new Error(`Error al listar los proyectos del Hub ${hubId}`);
 
@@ -46,6 +65,7 @@ const getProjectById = async (accessToken, hubId, projectId) => {
 }
 
 module.exports = {
+    listProjectsFiltered,
     listProjects,
     getProjectById
 }
