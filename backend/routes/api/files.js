@@ -3,7 +3,7 @@ const router = require('express').Router();
 
 const ensureAuthToken = require('../../helpers/middlewares');
 
-const { listProjects } = require('../../models/projects.model');
+const { listProjects, listProjectsFiltered } = require('../../models/projects.model');
 const { listRvtFiles, getFolderDetails } = require('../../models/files.model');
 
 
@@ -12,7 +12,7 @@ router.get('/:hubId/:projectId/files', ensureAuthToken, async (req, res) => {
       const { hubId, projectId } = req.params;
   
       // 1) Obtener la lista de proyectos en ese hub
-      const projects = await listProjects(req.accessToken, hubId);
+      const projects = await listProjectsFiltered(req.accessToken, hubId);
       console.log(projects);
       
       // 2) Encontrar el proyecto que coincida con el 'projectId' del path
