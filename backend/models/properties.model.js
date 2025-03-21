@@ -69,5 +69,6 @@ async function extractRevitProperties(accessToken, urn){
 }
 
 module.exports = {
-    extractRevitProperties
+    extractRevitProperties,
+    getMetadata
 }
