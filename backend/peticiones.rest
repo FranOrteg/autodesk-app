@@ -2,6 +2,7 @@
 @projectId = b.76947f01-cc26-47db-9681-fff27e5430ce
 @hubId = b.1bb899d4-8dd4-42d8-aefd-6c0e35acd825
 @urnId= dXJuOmFkc2sud2lwcHJvZDpmcy5maWxlOnZmLnFSbHZQSFFoUmd5b0NFd0NsM2VFbGc_dmVyc2lvbj0y
+@urnId2= dXJuOmFkc2sud2lwcHJvZDpmcy5maWxlOnZmLm9fb2pBVGRMVHRPZ3lRTVJvbk1lakE_dmVyc2lvbj0x
 @urlAuth = /api/auth
 @urlHub = /api/hub
 @urlProjects = /api/projects
@@ -35,10 +36,18 @@ GET {{host}}{{urlRoot}}/{{hubId}}/{{projectId}}{{urlFiles}}
 GET {{host}}{{urlProjects}}/{{hubId}}/{{projectId}}
 
 ### Metadata of .rvt
-GET {{host}}{{urlProperties}}/meta/{{urnId}}/metadata
+GET {{host}}{{urlProperties}}/meta/{{urnId2}}/metadata
 
 ### Properties
-GET {{host}}{{urlProperties}}/{{projectId}}/{{urnId}}/rvtProperties
+GET {{host}}{{urlProperties}}/{{projectId}}/{{urnId2}}/rvtProperties
+
+### Elements
+GET {{host}}{{urlProperties}}/{{projectId}}/{{urnId2}}/allElements
+
+### Model Objects
+GET {{host}}{{urlProperties}}/{{urnId2}}/a2b6a83e-6194-14aa-a127-07431eef3eb1/modelObjects
 
 
-
+##Name: 00_Prueba Model Coordination
+##Project ID: b.76947f01-cc26-47db-9681-fff27e5430ce
+##Root Folder ID: urn:adsk.wipprod:fs.folder:co.D7F4NTwdRqqYqMaK-M01Yw
