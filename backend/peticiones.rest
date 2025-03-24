@@ -48,6 +48,15 @@ GET {{host}}{{urlProperties}}/{{projectId}}/{{urnId2}}/allElements
 GET {{host}}{{urlProperties}}/{{urnId2}}/a2b6a83e-6194-14aa-a127-07431eef3eb1/modelObjects
 
 
+
+
+
+
+
+
+
+
+
 ##Name: 00_Prueba Model Coordination
 ##Project ID: b.76947f01-cc26-47db-9681-fff27e5430ce
 ##Root Folder ID: urn:adsk.wipprod:fs.folder:co.D7F4NTwdRqqYqMaK-M01Yw

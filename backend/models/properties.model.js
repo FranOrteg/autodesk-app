@@ -99,22 +99,15 @@ async function extractRevitElements(accessToken, urn) {
             throw new Error("No metadata found for the model.");
         }
 
-        // 2. Elegir el GUID más relevante
-        let guid = metadata.data.metadata.find(view => view.isMasterView)?.guid || metadata.data.metadata[0].guid;
-
-        // 3. Obtener todos los objetos del modelo
-        const modelObjects = await getModelObjects(accessToken, urn, guid);
-        if (!modelObjects.data.collection) {
-            throw new Error("No se encontraron elementos en el modelo.");
+        // 2. Filtrar solo los GUID que tienen "role": "3d"
+        const guidList = metadata.data.metadata.filter(view => view.role === "3d").map(view => view.guid);
+        if (guidList.length === 0) {
+            throw new Error("No se encontraron vistas 3D en el modelo.");
         }
 
-        // 4. Obtener las propiedades de todos los elementos
-        const propertiesData = await getAllProperties(accessToken, urn, guid);
-        if (!propertiesData.data.collection) {
-            throw new Error("No se encontraron propiedades de los elementos.");
-        }
+        console.log(`Se encontraron ${guidList.length} vistas 3D. Procesando todas...`);
 
-        // 5. Organizar los datos por categoría (Walls, Doors, Materials, etc.)
+        // 3. Recorrer todos los GUIDs 3D y combinar los resultados
         const elements = {
             walls: [],
             doors: [],
@@ -124,35 +117,54 @@ async function extractRevitElements(accessToken, urn) {
             others: []
         };
 
-        propertiesData.data.collection.forEach(obj => {
-            const category = obj.properties["Identity Data"]?.Category || "Other";
-            const elementData = {
-                id: obj.objectId,
-                name: obj.name || "Unnamed",
-                category,
-                properties: obj.properties
-            };
+        for (const guid of guidList) {
+            console.log(`Procesando GUID: ${guid}`);
 
-            switch (category.toLowerCase()) {
-                case "walls":
-                    elements.walls.push(elementData);
-                    break;
-                case "doors":
-                    elements.doors.push(elementData);
-                    break;
-                case "windows":
-                    elements.windows.push(elementData);
-                    break;
-                case "floors":
-                    elements.floors.push(elementData);
-                    break;
-                case "materials":
-                    elements.materials.push(elementData);
-                    break;
-                default:
-                    elements.others.push(elementData);
+            // Obtener objetos del modelo
+            const modelObjects = await getModelObjects(accessToken, urn, guid);
+            if (!modelObjects.data.objects || modelObjects.data.objects.length === 0) {
+                console.warn(`No se encontraron objetos en la vista 3D GUID: ${guid}`);
+                continue;
             }
-        });
+
+            // Obtener propiedades de los objetos
+            const propertiesData = await getAllProperties(accessToken, urn, guid);
+            if (!propertiesData.data.collection || propertiesData.data.collection.length === 0) {
+                console.warn(`No se encontraron propiedades en la vista 3D GUID: ${guid}`);
+                continue;
+            }
+
+            // Organizar datos por categoría
+            propertiesData.data.collection.forEach(obj => {
+                const category = obj.properties["Identity Data"]?.Category || "Other";
+                const elementData = {
+                    id: obj.objectId,
+                    name: obj.name || "Unnamed",
+                    category,
+                    properties: obj.properties
+                };
+
+                switch (category.toLowerCase()) {
+                    case "walls":
+                        elements.walls.push(elementData);
+                        break;
+                    case "doors":
+                        elements.doors.push(elementData);
+                        break;
+                    case "windows":
+                        elements.windows.push(elementData);
+                        break;
+                    case "floors":
+                        elements.floors.push(elementData);
+                        break;
+                    case "materials":
+                        elements.materials.push(elementData);
+                        break;
+                    default:
+                        elements.others.push(elementData);
+                }
+            });
+        }
 
         return elements;
     } catch (error) {
@@ -160,6 +172,8 @@ async function extractRevitElements(accessToken, urn) {
         throw error;
     }
 }
+
+
 
 /**
  * Extrae todas las propiedades organizadas por objectId.
