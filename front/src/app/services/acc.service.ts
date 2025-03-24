@@ -7,7 +7,7 @@ import { firstValueFrom } from 'rxjs';
 })
 export class AccService {
 
-  private BASE_URL = 'http://localhost:3000';
+  private BASE_URL = 'http://localhost:3000/api';
 
   constructor(private http: HttpClient) { }
 
