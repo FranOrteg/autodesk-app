@@ -1,8 +1,9 @@
 @host = http://localhost:3000
 @projectId = b.76947f01-cc26-47db-9681-fff27e5430ce
+@projectId2= b.611f0303-7b8a-4f45-99f1-5da93b802707
 @hubId = b.1bb899d4-8dd4-42d8-aefd-6c0e35acd825
 @urnId= dXJuOmFkc2sud2lwcHJvZDpmcy5maWxlOnZmLnFSbHZQSFFoUmd5b0NFd0NsM2VFbGc_dmVyc2lvbj0y
-@urnId2= dXJuOmFkc2sud2lwcHJvZDpmcy5maWxlOnZmLm9fb2pBVGRMVHRPZ3lRTVJvbk1lakE_dmVyc2lvbj0x
+@urnId2= dXJuOmFkc2sud2lwcHJvZDpmcy5maWxlOnZmLkktRkVTWFJIU18yUG00QVpLSDFNOHc_dmVyc2lvbj0x
 @urlAuth = /api/auth
 @urlHub = /api/hub
 @urlProjects = /api/projects
@@ -30,7 +31,7 @@ GET {{host}}{{urlHub}}
 GET {{host}}{{urlProjects}}/{{hubId}}
 
 ### listar recursivamente todos las subcarpetas y ficheros finales del proyecto
-GET {{host}}{{urlRoot}}/{{hubId}}/{{projectId}}{{urlFiles}}
+GET {{host}}{{urlRoot}}/{{hubId}}/{{projectId2}}{{urlFiles}}
 
 ### Listar el proyecto by Id
 GET {{host}}{{urlProjects}}/{{hubId}}/{{projectId}}
@@ -38,14 +39,11 @@ GET {{host}}{{urlProjects}}/{{hubId}}/{{projectId}}
 ### Metadata of .rvt
 GET {{host}}{{urlProperties}}/meta/{{urnId2}}/metadata
 
-### Properties
-GET {{host}}{{urlProperties}}/{{projectId}}/{{urnId2}}/rvtProperties
-
 ### Elements
-GET {{host}}{{urlProperties}}/{{projectId}}/{{urnId2}}/allElements
+GET {{host}}{{urlProperties}}/{{projectId2}}/{{urnId2}}/allElements
 
 ### Model Objects
-GET {{host}}{{urlProperties}}/{{urnId2}}/a2b6a83e-6194-14aa-a127-07431eef3eb1/modelObjects
+GET {{host}}{{urlProperties}}/{{urnId2}}/0dfb95d2-e629-125f-507d-f115b8a3d1fd/modelObjects
 
 
 
@@ -56,7 +54,12 @@ GET {{host}}{{urlProperties}}/{{urnId2}}/a2b6a83e-6194-14aa-a127-07431eef3eb1/mo
 
 
 
-
+##PRUEBA MODEL COORDINATION
 ##Name: 00_Prueba Model Coordination
 ##Project ID: b.76947f01-cc26-47db-9681-fff27e5430ce
 ##Root Folder ID: urn:adsk.wipprod:fs.folder:co.D7F4NTwdRqqYqMaK-M01Yw
+
+##TROJENA
+##Name: Closed_21044_BCNE01_Trojena Ski Village Part 1
+##Project ID: b.611f0303-7b8a-4f45-99f1-5da93b802707
+##Root Folder ID: urn:adsk.wipprod:fs.folder:co.rCGm1uBRSzituVtkdSTuKA

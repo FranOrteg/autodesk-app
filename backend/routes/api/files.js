@@ -3,8 +3,8 @@ const router = require('express').Router();
 
 const ensureAuthToken = require('../../helpers/middlewares');
 
-const { listProjects, listProjectsFiltered } = require('../../models/projects.model');
-const { listRvtFiles, getFolderDetails } = require('../../models/files.model');
+const { listProjectsFiltered } = require('../../models/projects.model');
+const { listRvtFiles } = require('../../models/files.model');
 
 
 router.get('/:hubId/:projectId/files', ensureAuthToken, async (req, res) => {
