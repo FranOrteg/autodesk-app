@@ -4,7 +4,7 @@ const router = require('express').Router();
 const ensureAuthToken = require('../../helpers/middlewares');
 
 const { listProjectsFiltered } = require('../../models/projects.model');
-const { listRvtFiles } = require('../../models/files.model');
+const { listRvtFiles, getFileVersionId } = require('../../models/files.model');
 
 
 router.get('/:hubId/:projectId/files', ensureAuthToken, async (req, res) => {
@@ -35,4 +35,21 @@ router.get('/:hubId/:projectId/files', ensureAuthToken, async (req, res) => {
     }
   });
   
+
+  router.get('/:projectId/:itemId/versionId', ensureAuthToken, async (req, res) => {
+    try {
+      const { projectId, itemId } = req.params;
+
+      // 1) Obtener la lista de versiones de un item
+      const versionId = await getFileVersionId(req.accessToken, projectId, itemId);
+      console.log(versionId);
+
+      res.json(versionId);
+
+    } catch (error) {
+      console.error(error);
+      res.status(500).json({ fatal: error.message });
+    }
+  });
+
 module.exports = router;

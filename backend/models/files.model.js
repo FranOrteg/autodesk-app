@@ -54,8 +54,23 @@ async function listRvtFiles(accessToken, projectId, folderId) {
   return rvtFiles;
 }
 
+async function getFileVersionId(accessToken, projectId, itemId) {
+  const url = `https://developer.api.autodesk.com/data/v1/projects/${projectId}/items/${itemId}/versions`;
+
+  const { data } = await axios.get(url, {
+    headers: {
+      Authorization: `Bearer ${accessToken}`,
+      "Content-Type": "application/json",
+    },
+  });
+
+  const versionId = data.data[0].id;
+  return versionId;
+}
+
 
 module.exports = {
   listRvtFiles,
   getFolderDetails,
+  getFileVersionId,
 };

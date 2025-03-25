@@ -1,7 +1,7 @@
 const router = require('express').Router();
 
 const ensureAuthToken = require('../../helpers/middlewares');
-const { listProjects, getProjectById, listProjectsFiltered } = require('../../models/projects.model');
+const { getProjectById, listProjectsFiltered } = require('../../models/projects.model');
 
 
 router.get('/:hubId', ensureAuthToken, async (req,res) => {

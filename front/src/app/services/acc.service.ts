@@ -23,4 +23,20 @@ export class AccService {
     );
   }
 
+  getFileVersion(projectId: string, itemId: string){
+    return firstValueFrom(
+      this.http.get<any>(`${this.BASE_URL}/root/${projectId}/${itemId}/versionId`)
+    );
+  }
+
+  listFileMetadata(urnId:string){
+    return firstValueFrom(
+      this.http.get<any>(`${this.BASE_URL}/properties/meta/${urnId}/metadata`)
+    );
+  }
 }
+
+
+/* ### Metadata of .rvt
+GET {{host}}{{urlRoot}}/{{projectId}}/{{itemId}}/versionId
+ */
