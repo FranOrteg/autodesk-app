@@ -45,6 +45,9 @@ GET {{host}}{{urlProperties}}/{{projectId2}}/{{urnId2}}/allElements
 ### Model Objects
 GET {{host}}{{urlProperties}}/{{urnId2}}/0dfb95d2-e629-125f-507d-f115b8a3d1fd/modelObjects
 
+### Model Status
+GET {{host}}{{urlProperties}}/{{urnId2}}/modelStatus
+
 
 
 

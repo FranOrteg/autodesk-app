@@ -123,6 +123,8 @@ async function extractRevitElements(accessToken, urn) {
                 const cost = identityData.Cost || "Unknown";
                 const level = obj.properties["Constraints"]?.["Level"] || "No Level";
                 const phase = obj.properties["Phasing"]?.["Phase Created"] || "Unknown Phase";
+                const categoryType = obj.properties["Category Type"]?.["Category Type"] || "Unknown Type";
+                const boundingBox = obj.boundingBox || { min: [0,0,0], max: [0,0,0] };
 
                 // Objeto final con toda la info
                 const elementData = {
@@ -137,6 +139,9 @@ async function extractRevitElements(accessToken, urn) {
                     cost,
                     level,
                     phase,
+                    categoryType,
+                    ifcEntity,
+                    boundingBox,
                     properties: obj.properties
                 };
 
