@@ -72,7 +72,7 @@ async function getAllProperties(accessToken, urn, guid) {
 /**
  * Extrae todos los elementos del modelo con información detallada.
  */
-/* async function extractRevitElements(accessToken, urn) {
+async function extractRevitElements(accessToken, urn) {
     try {
         // 1. Verificar si el modelo está completamente procesado
         const manifest = await getModelStatus(accessToken, urn);
@@ -171,7 +171,7 @@ async function getAllProperties(accessToken, urn, guid) {
         console.error("Error extracting elements:", error.message);
         throw error;
     }
-} */
+}
 
 /*         ----------------------DATOS  BRUTOS---------------------------------
  */
@@ -238,7 +238,7 @@ async function getAllProperties(accessToken, urn, guid) {
         }
     } */
     
-        async function extractRevitElements(accessToken, urn) {
+        /* async function extractRevitElements(accessToken, urn) {
             try {
                 // 1️⃣ Verificar si el modelo está completamente procesado
                 const manifest = await getModelStatus(accessToken, urn);
@@ -287,15 +287,13 @@ async function getAllProperties(accessToken, urn, guid) {
                 console.error("❌ Error extracting elements:", error.message);
                 throw error;
             }
-        }
+        } */
         
-        
-    
-
 
 module.exports = {
     getModelStatus,
     extractRevitElements,
     getModelObjects,
+    getAllProperties,
     getMetadata
 }

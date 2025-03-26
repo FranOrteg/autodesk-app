@@ -47,6 +47,9 @@ GET {{host}}{{urlProperties}}/meta/{{urnId}}/metadata
 ### Elements
 GET {{host}}{{urlProperties}}/{{projectId}}/{{urnId}}/allElements
 
+### Hard Elements
+GET {{host}}{{urlProperties}}/{{urnId}}/ad842eaa-f5eb-6da5-6319-82e570dd8187/allElementsHard
+
 ### Model Objects
 GET {{host}}{{urlProperties}}/{{urnId}}/ad842eaa-f5eb-6da5-6319-82e570dd8187/modelObjects
 
