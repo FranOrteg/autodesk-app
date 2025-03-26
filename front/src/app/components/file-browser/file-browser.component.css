@@ -1,17 +1,28 @@
+
 h4 {
     font-family: 'Caveat', cursive;
+}
+
+.principal {
+    background-color: #a1bdfdba;
+    height: 100%; /* 100% de la altura de la pantalla */
+    width: 100%;  /* 100% del ancho de la pantalla */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
 }
 
 .formulario {
     min-width: 900px;
     margin: 0 auto;
-    border: 1px solid black;
+    border: 1px solid #3ed2b9;
     border-radius: 10px;
     margin-top: 40px;
     margin-bottom: 40px;
-    background-color: #2a3d6b;
+    background-color: #00000058;
     color: #c1d23e;
     position: relative;
+    box-shadow: 2px 2px 2px 2px #00000058 ;
 }
 
 .formulario h4 {
@@ -38,14 +49,13 @@ form {
 
 
 .form-select {
-    background-color: #2a3d6b;
-    border: 1px solid #c1d23e;
+    background-color: #00000058;
     color: white;
 }
 
 .btn {
-    background-color: #c1d23e;
-    border: 1px solid #c1d23e;
+    background-color: #3ed2b9;
+    border: 1px solid #3ed2b9;
     color: black;
     width: 150px;
 }
