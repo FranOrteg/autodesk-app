@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { AccService } from '../../services/acc.service';
 import { NgFor, NgIf } from '@angular/common';
+import { FormGroup, ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-file-browser',
   standalone: true,
-  imports: [NgFor, NgIf],
+  imports: [NgFor, NgIf, ReactiveFormsModule],
   templateUrl: './file-browser.component.html',
   styleUrl: './file-browser.component.css'
 })
@@ -17,8 +18,11 @@ export class FileBrowserComponent implements OnInit {
   projectIdSelected: string = '';
   fileIdSelected: string = '';
   fileStatus: string = '';
+  formulario: FormGroup;
 
-  constructor(private accService: AccService) { }
+  constructor(private accService: AccService) { 
+    this.formulario = new FormGroup({});
+  }
 
   async ngOnInit() {
     try {
@@ -35,6 +39,7 @@ export class FileBrowserComponent implements OnInit {
     const selectedProjectId = event.target.value;
     console.log('Project ID:', selectedProjectId);
     this.selectProject(selectedProjectId);
+    this.arrProjectContents = [];
   }
 
   async selectProject(projectId: string) {
@@ -65,6 +70,10 @@ export class FileBrowserComponent implements OnInit {
     } catch (error) {
       console.error('Error al obtener los metadatos:', error);
     }
+  }
+
+  async onSubmit(){
+    console.log('Formulario enviado');
   }
   
 }

@@ -1,28 +1,38 @@
 <div class="container">
-  
-  <div class="container">
-    <div class="form-floating">
-      <select class="form-select" id="floatingSelect" aria-label="Floating label select example"
-              (change)="onProjectChange($event)">
-        <option value="" disabled selected>Seleccione un proyecto</option>
-        <option *ngFor="let project of arrProjects" [value]="project.id">
-          {{ project.name }}
-        </option>
-      </select>
-      <label for="floatingSelect">Projects</label>
-    </div>
-  
-    <div class="list-group" *ngIf="arrProjectContents.length > 0">
-      <a 
-        *ngFor="let file of arrProjectContents"
-        (click)="selectFile(file.id)"
-        [class.active]="file.id === fileIdSelected" 
-        class="list-group-item list-group-item-action"
-        href="javascript:void(0)">
-        {{ file.name }}
-      </a>
-    </div>
+
+  <div class="formulario">
+    <h4>Yoda's F00D</h4>
+    <form [formGroup]="formulario" (ngSubmit)="onSubmit()">
+      
+      <div class="form-floating">
+        <select class="form-select" id="floatingSelect" aria-label="Floating label select example"
+                (change)="onProjectChange($event)">
+          <option value="" disabled selected>Seleccione un proyecto</option>
+          <option *ngFor="let project of arrProjects" [value]="project.id">
+            {{ project.name }}
+          </option>
+        </select>
+        <label for="floatingSelect">Projects</label>
+      </div>
+
+      <ul class="list-group" *ngIf="arrProjectContents.length > 0">
+        <li 
+          *ngFor="let file of arrProjectContents"
+          (click)="selectFile(file.id)"
+          [class.active]="file.id === fileIdSelected" 
+          class="list-group-item list-group-item-action">
+          {{ file.name }}
+        </li>
+      </ul>      
+
+      <div class="boton">
+        <input type="submit" value="Enviar" class="btn">
+      </div>
+
+    </form>
   </div>
+  
+</div>
   
 
 
