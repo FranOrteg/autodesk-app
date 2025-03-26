@@ -72,7 +72,7 @@ async function getAllProperties(accessToken, urn, guid) {
 /**
  * Extrae todos los elementos del modelo con información detallada.
  */
-async function extractRevitElements(accessToken, urn) {
+/* async function extractRevitElements(accessToken, urn) {
     try {
         // 1. Verificar si el modelo está completamente procesado
         const manifest = await getModelStatus(accessToken, urn);
@@ -171,7 +171,126 @@ async function extractRevitElements(accessToken, urn) {
         console.error("Error extracting elements:", error.message);
         throw error;
     }
-}
+} */
+
+/*         ----------------------DATOS  BRUTOS---------------------------------
+ */
+    /* async function extractRevitElements(accessToken, urn) {
+        try {
+            // 1️⃣ Verificar si el modelo está completamente procesado
+            const manifest = await getModelStatus(accessToken, urn);
+            if (manifest.progress !== "complete") {
+                throw new Error(`El modelo aún no está completamente procesado. Progreso: ${manifest.progress}`);
+            }
+    
+            // 2️⃣ Obtener metadata del modelo
+            const metadata = await getMetadata(accessToken, urn);
+            if (!metadata.data.metadata || metadata.data.metadata.length === 0) {
+                throw new Error("No metadata found for the model.");
+            }
+    
+            // 3️⃣ Obtener todos los GUIDs (sin filtrar por role = "3d")
+            const guidList = metadata.data.metadata.map(view => view.guid);
+            if (guidList.length === 0) {
+                throw new Error("No GUIDs found in the model.");
+            }
+    
+            console.log(`Se encontraron ${guidList.length} vistas (2D y 3D). Procesando todas...`);
+    
+            // 4️⃣ Array para almacenar todos los elementos en bruto
+            const elements = [];
+    
+            // 5️⃣ Recorrer cada GUID y extraer propiedades
+            for (const guid of guidList) {
+                console.log(`Procesando GUID: ${guid}`);
+    
+                try {
+                    const propertiesData = await getAllProperties(accessToken, urn, guid);
+    
+                    // Verificar si la respuesta tiene `data.collection`
+                    if (!propertiesData.data || !propertiesData.data.collection) {
+                        console.warn(`⚠️ Advertencia: No se encontraron propiedades en GUID: ${guid}`);
+                        continue;
+                    }
+    
+                    // 6️⃣ Agregar todos los elementos sin clasificar
+                    propertiesData.data.collection.forEach(obj => {
+                        const elementData = {
+                            id: obj.objectId,
+                            name: obj.name || "Unnamed",
+                            properties: obj.properties,
+                            guid, // Para saber de qué vista viene (2D o 3D)
+                            boundingBox: obj.boundingBox || { min: [0,0,0], max: [0,0,0] }
+                        };
+    
+                        elements.push(elementData);
+                    });
+    
+                } catch (error) {
+                    console.error(`❌ Error obteniendo propiedades del GUID ${guid}:`, error.message);
+                }
+            }
+    
+            return elements;
+        } catch (error) {
+            console.error("❌ Error extracting elements:", error.message);
+            throw error;
+        }
+    } */
+    
+        async function extractRevitElements(accessToken, urn) {
+            try {
+                // 1️⃣ Verificar si el modelo está completamente procesado
+                const manifest = await getModelStatus(accessToken, urn);
+                if (manifest.progress !== "complete") {
+                    throw new Error(`El modelo aún no está completamente procesado. Progreso: ${manifest.progress}`);
+                }
+        
+                // 2️⃣ Obtener metadata del modelo
+                const metadata = await getMetadata(accessToken, urn);
+                if (!metadata.data.metadata || metadata.data.metadata.length === 0) {
+                    throw new Error("No metadata found for the model.");
+                }
+        
+                // 3️⃣ Obtener el GUID correcto con role "3d"
+                const guid = metadata.data.metadata.find(view => view.role === "3d")?.guid;
+                if (!guid) {
+                    throw new Error("No se encontró un GUID con objetos 3D.");
+                }
+        
+                console.log(`✅ Procesando GUID 3D: ${guid}`);
+        
+                // 4️⃣ Obtener los objetos del modelo (jerarquía)
+                const objectsData = await getModelObjects(accessToken, urn, guid);
+                if (!objectsData.data.objects || objectsData.data.objects.length === 0) {
+                    throw new Error(`No se encontraron objetos en el GUID: ${guid}`);
+                }
+        
+                console.log(`✅ Se encontraron ${objectsData.data.objects.length} objetos en el modelo.`);
+        
+                // 5️⃣ Obtener las propiedades de cada objeto
+                const propertiesData = await getAllProperties(accessToken, urn, guid);
+                if (!propertiesData.data.collection || propertiesData.data.collection.length === 0) {
+                    throw new Error("No se encontraron propiedades en el modelo.");
+                }
+        
+                console.log(`✅ Se encontraron ${propertiesData.data.collection.length} propiedades de objetos.`);
+        
+                // 6️⃣ Retornar los datos en bruto
+                return {
+                    guid,
+                    objects: objectsData.data.objects,
+                    properties: propertiesData.data.collection
+                };
+        
+            } catch (error) {
+                console.error("❌ Error extracting elements:", error.message);
+                throw error;
+            }
+        }
+        
+        
+    
 
 
 module.exports = {

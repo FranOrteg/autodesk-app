@@ -5,6 +5,7 @@
 @urnId= dXJuOmFkc2sud2lwcHJvZDpmcy5maWxlOnZmLnFSbHZQSFFoUmd5b0NFd0NsM2VFbGc_dmVyc2lvbj0y
 @urnId2= dXJuOmFkc2sud2lwcHJvZDpmcy5maWxlOnZmLm9fb2pBVGRMVHRPZ3lRTVJvbk1lakE_dmVyc2lvbj0x
 @itemId= urn:adsk.wipprod:dm.lineage:o_ojATdLTtOgyQMRonMejA
+@itemId2= urn:adsk.wipprod:dm.lineage:qRlvPHQhRgyoCEwCl3eElg
 @urlAuth = /api/auth
 @urlHub = /api/hub
 @urlProjects = /api/projects
@@ -32,25 +33,25 @@ GET {{host}}{{urlHub}}
 GET {{host}}{{urlProjects}}/{{hubId}}
 
 ### listar recursivamente todos las subcarpetas y ficheros finales del proyecto
-GET {{host}}{{urlRoot}}/{{hubId}}/{{projectId2}}{{urlFiles}}
+GET {{host}}{{urlRoot}}/{{hubId}}/{{projectId}}{{urlFiles}}
 
 ### Listar el proyecto by Id
 GET {{host}}{{urlProjects}}/{{hubId}}/{{projectId}}
 
 ### Obtener el Version ID del fichero
-GET {{host}}{{urlRoot}}/{{projectId}}/{{itemId}}/versionId
+GET {{host}}{{urlRoot}}/{{projectId}}/{{itemId2}}/versionId
 
 ### Metadata of .rvt
-GET {{host}}{{urlProperties}}/meta/{{urnId2}}/metadata
+GET {{host}}{{urlProperties}}/meta/{{urnId}}/metadata
 
 ### Elements
-GET {{host}}{{urlProperties}}/{{projectId2}}/{{urnId2}}/allElements
+GET {{host}}{{urlProperties}}/{{projectId}}/{{urnId}}/allElements
 
 ### Model Objects
-GET {{host}}{{urlProperties}}/{{urnId2}}/0dfb95d2-e629-125f-507d-f115b8a3d1fd/modelObjects
+GET {{host}}{{urlProperties}}/{{urnId}}/ad842eaa-f5eb-6da5-6319-82e570dd8187/modelObjects
 
 ### Model Status
-GET {{host}}{{urlProperties}}/{{urnId2}}/modelStatus
+GET {{host}}{{urlProperties}}/{{urnId}}/modelStatus
 
 
 
@@ -65,6 +66,7 @@ GET {{host}}{{urlProperties}}/{{urnId2}}/modelStatus
 ##Name: 00_Prueba Model Coordination
 ##Project ID: b.76947f01-cc26-47db-9681-fff27e5430ce
 ##Root Folder ID: urn:adsk.wipprod:fs.folder:co.D7F4NTwdRqqYqMaK-M01Yw
+##Fichero Jimmy urn:adsk.wipprod:fs.file:vf.qRlvPHQhRgyoCEwCl3eElg?version=2
 
 ##TROJENA
 ##Name: Closed_21044_BCNE01_Trojena Ski Village Part 1
