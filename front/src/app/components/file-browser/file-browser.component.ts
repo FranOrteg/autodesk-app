@@ -31,6 +31,12 @@ export class FileBrowserComponent implements OnInit {
     }
   }
 
+  onProjectChange(event:any){
+    const selectedProjectId = event.target.value;
+    console.log('Project ID:', selectedProjectId);
+    this.selectProject(selectedProjectId);
+  }
+
   async selectProject(projectId: string) {
     
     this.projectIdSelected = projectId;
@@ -62,6 +68,7 @@ export class FileBrowserComponent implements OnInit {
   }
   
 }
+
 
 function encodeFileIdToUrn(fileId: string) {
     
