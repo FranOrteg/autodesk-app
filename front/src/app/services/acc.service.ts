@@ -34,6 +34,12 @@ export class AccService {
       this.http.get<any>(`${this.BASE_URL}/properties/meta/${urnId}/metadata`)
     );
   }
+
+  getProperties(urnId: string, guid: string){
+    return firstValueFrom(
+      this.http.get<any>(`${this.BASE_URL}/properties/${urnId}/${guid}/allElementsHard`)
+    );
+  }
 }
 
 

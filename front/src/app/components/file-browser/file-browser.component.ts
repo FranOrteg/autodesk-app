@@ -17,7 +17,9 @@ export class FileBrowserComponent implements OnInit {
   arrProjectContents: any[] = [];
   projectIdSelected: string = '';
   fileIdSelected: string = '';
-  fileStatus: string = '';
+  fileVersion: string = '';
+  fileVersionTranslate: string = '';
+  fileStatus: any = {};
   formulario: FormGroup;
 
   constructor(private accService: AccService) { 
@@ -56,24 +58,60 @@ export class FileBrowserComponent implements OnInit {
   }
   
   async selectFile(fileId: string) {
-    
     this.fileIdSelected = encodeFileIdToUrn(fileId);
     console.log('File ID:', this.fileIdSelected);
     
     try {
-      const fileVersion = await this.accService.getFileVersion(this.projectIdSelected,fileId);
-      console.log('Version:', fileVersion);
-      const fileVersiontranslate = encodeFileIdToUrn(fileVersion);
-
-      this.fileStatus = await this.accService.listFileMetadata(fileVersiontranslate);
-      console.log('Metadata:', this.fileStatus);
+      this.fileVersion = await this.accService.getFileVersion(this.projectIdSelected, fileId);
+      console.log('Version:', this.fileVersion);
+      this.fileVersionTranslate = encodeFileIdToUrn(this.fileVersion);
+      console.log('Version Translate:', this.fileVersionTranslate);
+  
+      const metadataResponse = await this.accService.listFileMetadata(this.fileVersionTranslate);
+      console.log('Metadata:', metadataResponse);
+  
+      // Validar que la respuesta tiene la estructura esperada
+      if (metadataResponse && metadataResponse.data && metadataResponse.data.metadata) {
+        this.fileStatus = metadataResponse;
+      } else {
+        console.error('Respuesta inesperada al obtener metadatos:', metadataResponse);
+        this.fileStatus = {}; // Asegurar que no sea string
+      }
     } catch (error) {
       console.error('Error al obtener los metadatos:', error);
+      this.fileStatus = {}; // Evitar errores posteriores
     }
   }
+  
 
   async onSubmit(){
-    console.log('Formulario enviado');
+    if(!this.fileIdSelected || !this.fileStatus){
+      console.error('No hay un archivo seleccionado o no se han obtenido los metadatos.');
+      return;
+    }
+
+    // Extraer el URN del archivo y el GUID del modelo
+    const urnId = this.fileVersionTranslate;
+    const metadataArray = this.fileStatus.data.metadata;
+
+    // Buscar el guid correcto
+    const metadata = metadataArray.find((item: any) => item.role === '3d');
+
+    if(!metadata){
+      console.error('No se encontró el GUID valido');
+      return;
+    }
+
+    const guid = metadata.guid;
+
+    console.log('Enviando al Backend', {urnId, guid});
+
+    try {
+      const response = await this.accService.getProperties(urnId, guid);
+      console.log('Respuesta del Backend:', response);
+    } catch (error) {
+      console.error('Error al enviar los datos:', error);
+    }
   }
   
 }
