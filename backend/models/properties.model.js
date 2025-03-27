@@ -57,7 +57,7 @@ async function getModelObjects(accessToken, urn, guid){
  */
 
 async function getAllProperties(accessToken, urn, guid) {
-    const url = `https://developer.api.autodesk.com/modelderivative/v2/designdata/${urn}/metadata/${guid}/properties`;
+    const url = `https://developer.api.autodesk.com/modelderivative/v2/designdata/${urn}/metadata/${guid}/properties?forceget=true`;
 
     const { data } = await axios.get(url, {
         headers: {

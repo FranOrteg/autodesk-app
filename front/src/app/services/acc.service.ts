@@ -37,7 +37,9 @@ export class AccService {
 
   getProperties(urnId: string, guid: string){
     return firstValueFrom(
-      this.http.get<any>(`${this.BASE_URL}/properties/${urnId}/${guid}/allElementsHard`)
+      this.http.get<any>(`${this.BASE_URL}/properties/${urnId}/${guid}/allElementsHard`,
+        { headers: {'Cache-Control': 'no-cache'}}
+      )
     );
   }
 }
