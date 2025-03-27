@@ -17,6 +17,7 @@ export class FileBrowserComponent implements OnInit {
   arrProjectContents: any[] = [];
   projectIdSelected: string = '';
   fileIdSelected: string = '';
+  fileIdEncoded: string = '';
   fileVersion: string = '';
   fileVersionTranslate: string = '';
   fileStatus: any = {};
@@ -58,12 +59,15 @@ export class FileBrowserComponent implements OnInit {
   }
   
   async selectFile(fileId: string) {
-    this.fileIdSelected = encodeFileIdToUrn(fileId);
+    this.fileIdSelected = fileId;
+    this.fileIdEncoded = encodeFileIdToUrn(fileId);
+
     console.log('File ID:', this.fileIdSelected);
     
     try {
       this.fileVersion = await this.accService.getFileVersion(this.projectIdSelected, fileId);
       console.log('Version:', this.fileVersion);
+      
       this.fileVersionTranslate = encodeFileIdToUrn(this.fileVersion);
       console.log('Version Translate:', this.fileVersionTranslate);
   
@@ -85,7 +89,7 @@ export class FileBrowserComponent implements OnInit {
   
 
   async onSubmit(){
-    if(!this.fileIdSelected || !this.fileStatus){
+    if(!this.fileIdEncoded || !this.fileStatus){
       console.error('No hay un archivo seleccionado o no se han obtenido los metadatos.');
       return;
     }

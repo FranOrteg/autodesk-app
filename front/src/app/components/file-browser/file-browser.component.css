@@ -44,7 +44,6 @@ form {
 
 .list-group-item {
     cursor: pointer;
-    margin-top: 5px;
 }
 
 
@@ -64,4 +63,11 @@ form {
     display: flex;
     justify-content: center;
     padding: 20px;
+}
+
+.list-group-item.active {
+    background-color: #00000058;
+    color: white;
+    font-weight: bold;
+    border: none;
 }
