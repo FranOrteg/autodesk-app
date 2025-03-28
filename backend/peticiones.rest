@@ -42,7 +42,7 @@ GET {{host}}{{urlProjects}}/{{hubId}}/{{projectId}}
 GET {{host}}{{urlRoot}}/{{projectId}}/{{itemId2}}/versionId
 
 ### Metadata of .rvt
-GET {{host}}{{urlProperties}}/meta/{{urnId}}/metadata
+GET {{host}}{{urlProperties}}/meta/{{urnId2}}/metadata
 
 ### Elements
 GET {{host}}{{urlProperties}}/{{projectId}}/{{urnId}}/allElements
@@ -51,7 +51,7 @@ GET {{host}}{{urlProperties}}/{{projectId}}/{{urnId}}/allElements
 GET {{host}}{{urlProperties}}/{{urnId}}/387999db-2c35-0c10-bea9-76f78ea2d06e/allElementsHard
 
 ### Model Objects
-GET {{host}}{{urlProperties}}/{{urnId}}/ad842eaa-f5eb-6da5-6319-82e570dd8187/modelObjects
+GET {{host}}{{urlProperties}}/{{urnId}}/387999db-2c35-0c10-bea9-76f78ea2d06e/modelObjects
 
 ### Model Status
 GET {{host}}{{urlProperties}}/{{urnId}}/modelStatus

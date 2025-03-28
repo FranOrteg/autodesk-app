@@ -45,6 +45,3 @@ export class AccService {
 }
 
 
-/* ### Metadata of .rvt
-GET {{host}}{{urlRoot}}/{{projectId}}/{{itemId}}/versionId
- */
