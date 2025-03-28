@@ -69,6 +69,10 @@ async function getAllProperties(accessToken, urn, guid) {
     return data;
 }
 
+const getDbProperties = () => {
+    return db.query('SELECT * FROM properties');
+}
+
 /**
  * Extrae todos los elementos del modelo con información detallada.
  */
@@ -295,5 +299,6 @@ module.exports = {
     extractRevitElements,
     getModelObjects,
     getAllProperties,
-    getMetadata
+    getMetadata,
+    getDbProperties
 }

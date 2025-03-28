@@ -13,6 +13,7 @@
 @urlRoot = /api/root
 @urlProperties = /api/properties
 
+
 ###################
 ### ACCESSTOKEN ###
 ###################
@@ -58,7 +59,8 @@ GET {{host}}{{urlProperties}}/{{urnId}}/modelStatus
 
 
 
-
+### Database revit_model
+GET {{host}}{{urlProperties}}/models
 
 
 

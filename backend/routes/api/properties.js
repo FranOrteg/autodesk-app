@@ -1,7 +1,12 @@
 const express = require('express');
 const router = express.Router();
 const ensureAuthToken = require('../../helpers/middlewares');
-const { getMetadata, extractRevitElements, getModelObjects, getModelStatus, getAllProperties } = require('../../models/properties.model');
+const { getMetadata, 
+        extractRevitElements, 
+        getModelObjects, 
+        getModelStatus, 
+        getAllProperties,
+        getDbProperties } = require('../../models/properties.model');
 
 router.get('/meta/:urn/metadata', ensureAuthToken, async (req, res) => {
     try {
@@ -68,6 +73,17 @@ router.get('/:urn/modelStatus', ensureAuthToken, async (req, res) => {
         const modelStatus = await getModelStatus(req.accessToken, urn);
 
         res.json(modelStatus);
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ fatal: error.message });
+    }
+});
+
+router.get('/models', async (req,res) => {
+    try {
+        const [properties] = await getDbProperties();
+
+        res.json(properties);
     } catch (error) {
         console.error(error);
         res.status(500).json({ fatal: error.message });
