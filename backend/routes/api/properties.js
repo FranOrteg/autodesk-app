@@ -6,7 +6,9 @@ const { getMetadata,
         getModelObjects, 
         getModelStatus, 
         getAllProperties,
-        getDbProperties } = require('../../models/properties.model');
+        getDbProperties,
+        insertElements
+    } = require('../../models/properties.model');
 
 router.get('/meta/:urn/metadata', ensureAuthToken, async (req, res) => {
     try {
@@ -84,6 +86,19 @@ router.get('/models', async (req,res) => {
         const [properties] = await getDbProperties();
 
         res.json(properties);
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ fatal: error.message });
+    }
+});
+
+router.post('/insertElements', async (req, res) => {
+    try {
+        const { objectid, name, externalId, type } = req.body;
+
+        const [result] = await insertElements({ objectid, name, externalId, type });
+
+        res.json(result);
     } catch (error) {
         console.error(error);
         res.status(500).json({ fatal: error.message });
