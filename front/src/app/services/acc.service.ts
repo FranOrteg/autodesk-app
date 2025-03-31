@@ -43,10 +43,20 @@ export class AccService {
     );
   }
 
-  insertElement(element: any){
+  async saveModelData(elements: any[], properties: any){
+    if (!elements || !properties) {
+      console.error('Error: Datos inválidos para guardar el modelo.');
+      return Promise.reject('Datos inválidos');
+    }
+
+    const payload = { elements, properties};
+    
     return firstValueFrom(
-      this.http.post<any>(`${this.BASE_URL}/properties/insertElements`, element)
-    );
+      this.http.post<any>(`${this.BASE_URL}/properties/storeModelData`, payload)
+    ).catch(error => {
+      console.error('Error al guardar los datos:', error);
+      return Promise.reject(error);
+    });
   }
 }
 

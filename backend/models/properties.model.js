@@ -185,14 +185,24 @@ const getDbProperties = () => {
 }
 
 /**
- * Obtiene todas las propiedades de los elementos del modelo almacenadas en la BBDD.
+ * Almacena los elementos del modelo en la BBDD.
  */
 const insertElements = ({objectid, name, externalId, type}) => {
-    return db.query('INSERT INTO elements (objectid, name, externalId, type) VALUES (?, ?, ?,?)',
+    return db.query('INSERT INTO elements (objectid, name, externalId, type) VALUES (?, ?, ?,?) ON DUPLICATE KEY UPDATE name = VALUES(name), type = VALUES(type)',
         [objectid, name, externalId, type]
     );
 }
 
+/**
+ * Almacena las propuedades del modelo en la BBDD.
+ */
+const insertProperties = ({element_id, category, property_name, property_value}) => {
+    return db.query(`INSERT INTO properties (element_id, category, property_name, property_value) 
+         VALUES (?, ?, ?, ?) 
+         ON DUPLICATE KEY UPDATE property_value = VALUES(property_value)`,
+        [element_id, category, property_name, property_value]
+    );
+}
 
 module.exports = {
     getModelStatus,
@@ -201,5 +211,6 @@ module.exports = {
     getAllProperties,
     getMetadata,
     getDbProperties,
-    insertElements
+    insertElements,
+    insertProperties
 }

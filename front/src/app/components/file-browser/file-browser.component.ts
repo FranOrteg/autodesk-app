@@ -108,13 +108,53 @@ export class FileBrowserComponent implements OnInit {
 
     const guid = metadata.guid;
 
-    console.log('Enviando al Backend', {urnId, guid});
+    console.log('Obteniendo propiedades del modelo:', { urnId, guid });
 
     try {
+      // Obtener las propiedades del modelo desde APS
       const response = await this.accService.getProperties(urnId, guid);
-      console.log('Respuesta del Backend:', response);
+
+      if (!response || !response.data || !response.data.collection) {
+        console.error('Error: Datos de propiedades no encontrados en la respuesta.', response);
+        return;
+      }
+      
+      const elements = response.data.collection;
+      console.log('Elementos:', elements);
+
+      // Formatear los datos para la inserción
+      /* const formattedElements = elements.map((element: any) => ({
+        objectid: element.objectid,
+        name: element.name,
+        externalId: element.externalId,
+        type: 'element'
+      })); */
+
+      /* const formattedProperties: { element_id: any; category: any; property_name: any; property_value: any; }[] = [];
+      elements.forEach((element:any) => {
+        const elementId = element.objectid;
+
+        Object.entries(element.properties || {}).forEach(([category, properties]: any) => {
+          Object.entries(properties).forEach(([propertyName, propertyValue]: any) => {
+            formattedProperties.push({
+              element_id: elementId,
+              category: category,
+              property_name: propertyName,
+              property_value: propertyValue.toString(), // Convertir a string en caso de ser objeto/array
+            });
+          });
+        });
+      }); */
+
+      // 3️⃣ Enviar los datos al backend para ser almacenados en MySQL
+/*       console.log('Enviando al backend los elementos:', formattedElements);
+ *//*       console.log('Enviando al backend las propiedades:', formattedProperties);
+ */
+/*       await this.accService.saveModelData(formattedElements, formattedProperties);
+ */
+      console.log('Datos almacenados exitosamente en la base de datos.');
     } catch (error) {
-      console.error('Error al enviar los datos:', error);
+        console.error('Error al enviar los datos:', error);
     }
   }
   

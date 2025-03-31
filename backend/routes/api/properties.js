@@ -7,7 +7,8 @@ const { getMetadata,
         getModelStatus, 
         getAllProperties,
         getDbProperties,
-        insertElements
+        insertElements,
+        insertProperties
     } = require('../../models/properties.model');
 
 router.get('/meta/:urn/metadata', ensureAuthToken, async (req, res) => {
@@ -92,13 +93,27 @@ router.get('/models', async (req,res) => {
     }
 });
 
-router.post('/insertElements', async (req, res) => {
+router.post('/storeModelData', async (req, res) => {
     try {
-        const { objectid, name, externalId, type } = req.body;
+        const { elements, properties } = req.body;
 
-        const [result] = await insertElements({ objectid, name, externalId, type });
+        if (!elements || !properties) {
+            return res.status(400).json({ message: 'Datos inválidos' });
+        }
 
-        res.json(result);
+        // Insertar elementos
+        for (const element of elements) {
+            const { objectid, name, externalId, type } = element;
+            await insertElements({ objectid, name, externalId, type });
+        }
+
+        // Insertar propiedades
+        for (const property of properties) {
+            const { element_id, category, property_name, property_value } = property;
+            await insertProperties({ element_id, category, property_name, property_value });
+        }
+
+        res.json({ message: 'Datos almacenados correctamente' });
     } catch (error) {
         console.error(error);
         res.status(500).json({ fatal: error.message });
