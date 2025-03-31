@@ -62,6 +62,17 @@ GET {{host}}{{urlProperties}}/{{urnId}}/modelStatus
 ### Database revit_model
 GET {{host}}{{urlProperties}}/models
 
+### Insert ELements
+POST {{host}}{{urlProperties}}/insertElements
+Content-Type: application/json
+
+{
+    "objectid": 3,
+    "name": "Level 2",
+    "externalId": "a9a13a2c-cb23-4a3a-bb87-986a41305963-1111177c",
+    "type": "Wall",
+    "created_at": "2025-05-16 12:00:00"
+}
 
 
 

@@ -42,6 +42,12 @@ export class AccService {
       )
     );
   }
+
+  insertElement(element: any){
+    return firstValueFrom(
+      this.http.post<any>(`${this.BASE_URL}/properties/insertElements`, element)
+    );
+  }
 }
 
 
