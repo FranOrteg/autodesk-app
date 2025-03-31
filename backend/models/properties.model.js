@@ -191,19 +191,17 @@ const insertElements = (element) => {
     return db.query(
         'INSERT INTO elements (objectid, name, externalId, type) VALUES (?, ?, ?, ?) ON DUPLICATE KEY UPDATE name = VALUES(name), type = VALUES(type)',
         [element.objectid, element.name, element.externalId, element.type]
-    ).then(result => {
-        return result[0].insertId; // Devuelve el id del elemento insertado
-    });
+    )
 }
 
 /**
  * Almacena las propuedades del modelo en la BBDD.
  */
 const insertProperties = (properties) => {
-    return db.query(`INSERT INTO properties (element_id, category, property_name, property_value) 
+    return db.query(`INSERT INTO properties (element_objectid, category, property_name, property_value) 
          VALUES (?, ?, ?, ?) 
          ON DUPLICATE KEY UPDATE property_value = VALUES(property_value)`,
-        [properties.element_id, properties.category, properties.property_name, properties.property_value]
+        [properties.element_objectid, properties.category, properties.property_name, properties.property_value]
     );
 }
 

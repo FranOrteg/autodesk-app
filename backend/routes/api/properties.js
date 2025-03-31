@@ -101,22 +101,32 @@ router.post('/storeModelData', async (req, res) => {
             return res.status(400).json({ message: 'Datos inválidos' });
         }
 
-        // Insertar elementos y obtener sus `id`
+         // Insertar elementos
         for (const element of elements) {
             const { objectid, name, externalId, type } = element;
-            // Insertar el elemento y obtener el id generado
-            const elementId = await insertElements({ objectid, name, externalId, type });
-            console.log(`Elemento insertado con ID: ${elementId}`);
-
-            // Actualizar las propiedades para usar el `elementId`
-            const elementProperties = properties.filter(p => p.element_id === objectid);
-            for (const property of elementProperties) {
-                const { category, property_name, property_value } = property;
-                // Usamos el `elementId` para asociar las propiedades
-                await insertProperties({ element_id: elementId, category, property_name, property_value });
-            }
+            await insertElements({ objectid, name, externalId, type });
+            console.log(`Elemento insertado con objectID: ${objectid}`);
         }
 
+        // Insertar propiedades
+        for (const property of properties) {
+            const { element_id, category, property_name, property_value } = property;
+
+            // Asegurar que element_id existe en elements como objectid
+            const existingElement = elements.find(e => e.objectid === element_id);
+            if (!existingElement) {
+                console.warn(`Advertencia: No se encontró element_objectid=${element_id} en elements. Saltando.`);
+                continue; // Evita insertar si no hay referencia válida
+            }
+
+            await insertProperties({ 
+                element_objectid: element_id, 
+                category, 
+                property_name, 
+                property_value 
+            });
+        }
+            
         res.json({ message: 'Datos almacenados correctamente' });
     } catch (error) {
         console.error(error);
