@@ -123,35 +123,34 @@ export class FileBrowserComponent implements OnInit {
       console.log('Elementos:', elements);
 
       // Formatear los datos para la inserción
-      /* const formattedElements = elements.map((element: any) => ({
+      const formattedElements = elements.map((element: any) => ({
         objectid: element.objectid,
         name: element.name,
         externalId: element.externalId,
         type: 'element'
-      })); */
-
-      /* const formattedProperties: { element_id: any; category: any; property_name: any; property_value: any; }[] = [];
-      elements.forEach((element:any) => {
+      }));
+      console.log("Formatted Elements: ", formattedElements);
+      
+      const formattedProperties = elements.flatMap((element: any) => {
         const elementId = element.objectid;
-
-        Object.entries(element.properties || {}).forEach(([category, properties]: any) => {
-          Object.entries(properties).forEach(([propertyName, propertyValue]: any) => {
-            formattedProperties.push({
-              element_id: elementId,
-              category: category,
-              property_name: propertyName,
-              property_value: propertyValue.toString(), // Convertir a string en caso de ser objeto/array
-            });
-          });
+        return Object.entries(element.properties || {}).flatMap(([category, properties]: any) => {
+          return Object.entries(properties).map(([propertyName, propertyValue]: any) => ({
+            element_id: elementId,
+            category: category,
+            property_name: propertyName,
+            property_value: propertyValue.toString(), // Convertir a string en caso de ser objeto/array
+          }));
         });
-      }); */
+      });
+
+      console.log("Formatted Properties: ", formattedProperties);
 
       // 3️⃣ Enviar los datos al backend para ser almacenados en MySQL
-/*       console.log('Enviando al backend los elementos:', formattedElements);
- *//*       console.log('Enviando al backend las propiedades:', formattedProperties);
- */
-/*       await this.accService.saveModelData(formattedElements, formattedProperties);
- */
+      console.log('Enviando al backend los elementos:', formattedElements);
+      console.log('Enviando al backend las propiedades:', formattedProperties);
+
+      await this.accService.saveModelData(formattedElements, formattedProperties);
+
       console.log('Datos almacenados exitosamente en la base de datos.');
     } catch (error) {
         console.error('Error al enviar los datos:', error);

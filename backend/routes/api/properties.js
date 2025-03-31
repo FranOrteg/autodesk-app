@@ -101,16 +101,20 @@ router.post('/storeModelData', async (req, res) => {
             return res.status(400).json({ message: 'Datos inválidos' });
         }
 
-        // Insertar elementos
+        // Insertar elementos y obtener sus `id`
         for (const element of elements) {
             const { objectid, name, externalId, type } = element;
-            await insertElements({ objectid, name, externalId, type });
-        }
+            // Insertar el elemento y obtener el id generado
+            const elementId = await insertElements({ objectid, name, externalId, type });
+            console.log(`Elemento insertado con ID: ${elementId}`);
 
-        // Insertar propiedades
-        for (const property of properties) {
-            const { element_id, category, property_name, property_value } = property;
-            await insertProperties({ element_id, category, property_name, property_value });
+            // Actualizar las propiedades para usar el `elementId`
+            const elementProperties = properties.filter(p => p.element_id === objectid);
+            for (const property of elementProperties) {
+                const { category, property_name, property_value } = property;
+                // Usamos el `elementId` para asociar las propiedades
+                await insertProperties({ element_id: elementId, category, property_name, property_value });
+            }
         }
 
         res.json({ message: 'Datos almacenados correctamente' });
