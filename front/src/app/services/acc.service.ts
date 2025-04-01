@@ -17,6 +17,13 @@ export class AccService {
     );
   }
 
+  getProjectById(hubId: string, projectId: string){
+    return firstValueFrom(
+      this.http.get<any>(`${this.BASE_URL}/projects/${hubId}/${projectId}`)
+    );
+  
+  }
+
   listProjectContents(hubId: string, projectId: string){
     return firstValueFrom(
       this.http.get<any[]>(`${this.BASE_URL}/root/${hubId}/${projectId}/files`)
@@ -43,13 +50,13 @@ export class AccService {
     );
   }
 
-  async saveModelData(elements: any[], properties: any){
-    if (!elements || !properties) {
+  async saveModelData(modelName: string, urn: string, elements: any[], properties: any){
+    if (!modelName || !urn || !elements || !properties) {
       console.error('Error: Datos inválidos para guardar el modelo.');
       return Promise.reject('Datos inválidos');
     }
 
-    const payload = { elements, properties};
+    const payload = { modelName, urn, elements, properties};
     
     return firstValueFrom(
       this.http.post<any>(`${this.BASE_URL}/properties/storeModelData`, payload)

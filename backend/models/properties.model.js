@@ -189,8 +189,8 @@ const getDbProperties = () => {
  */
 const insertElements = (element) => {
     return db.query(
-        'INSERT INTO elements (objectid, name, externalId, type) VALUES (?, ?, ?, ?) ON DUPLICATE KEY UPDATE name = VALUES(name), type = VALUES(type)',
-        [element.objectid, element.name, element.externalId, element.type]
+        'INSERT INTO elements (objectid, name, externalId, type, model_id) VALUES (?, ?, ?, ?, ?) ON DUPLICATE KEY UPDATE name = VALUES(name), type = VALUES(type)',
+        [element.objectid, element.name, element.externalId, element.type, element.model_id]
     )
 }
 
@@ -198,12 +198,25 @@ const insertElements = (element) => {
  * Almacena las propuedades del modelo en la BBDD.
  */
 const insertProperties = (properties) => {
-    return db.query(`INSERT INTO properties (element_objectid, category, property_name, property_value) 
-         VALUES (?, ?, ?, ?) 
+    return db.query(`INSERT INTO properties (element_objectid, category, property_name, property_value, model_id) 
+         VALUES (?, ?, ?, ?, ?) 
          ON DUPLICATE KEY UPDATE property_value = VALUES(property_value)`,
-        [properties.element_objectid, properties.category, properties.property_name, properties.property_value]
+        [properties.element_objectid, properties.category, properties.property_name, properties.property_value, properties.model_id]
     );
 }
+
+/**
+ * Insertar modelo en la BBDD
+ */
+const insertModel = (model) => {
+    return db.query(
+        'INSERT INTO models (name, urn) VALUES (?, ?) ON DUPLICATE KEY UPDATE name = VALUES(name)',
+        [model.name, model.urn]
+    ).then( result => {
+        return result[0].insertId;
+    });
+}
+
 
 module.exports = {
     getModelStatus,
@@ -213,5 +226,6 @@ module.exports = {
     getMetadata,
     getDbProperties,
     insertElements,
-    insertProperties
+    insertProperties,
+    insertModel
 }

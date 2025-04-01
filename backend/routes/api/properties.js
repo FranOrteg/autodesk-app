@@ -8,7 +8,8 @@ const { getMetadata,
         getAllProperties,
         getDbProperties,
         insertElements,
-        insertProperties
+        insertProperties,
+        insertModel
     } = require('../../models/properties.model');
 
 router.get('/meta/:urn/metadata', ensureAuthToken, async (req, res) => {
@@ -95,17 +96,22 @@ router.get('/models', async (req,res) => {
 
 router.post('/storeModelData', async (req, res) => {
     try {
-        const { elements, properties } = req.body;
+        const { modelName, urn, elements, properties } = req.body;
 
-        if (!elements || !properties) {
+        if (!modelName || !urn || !elements || !properties) {
             return res.status(400).json({ message: 'Datos inválidos' });
         }
+
+        // Insertar el modelo y obtener su ID
+        const modelId = await insertModel({ name: modelName, urn });
+        console.log(`Modelo insertado con ID: ${modelId}`);
+
 
          // Insertar elementos
         for (const element of elements) {
             const { objectid, name, externalId, type } = element;
-            await insertElements({ objectid, name, externalId, type });
-            console.log(`Elemento insertado con objectID: ${objectid}`);
+            await insertElements({ objectid, name, externalId, type,  model_id: modelId  });
+            console.log(`Elemento insertado con objectID: ${objectid} en el modelo ${modelId}`);
         }
 
         // Insertar propiedades
@@ -123,7 +129,8 @@ router.post('/storeModelData', async (req, res) => {
                 element_objectid: element_id, 
                 category, 
                 property_name, 
-                property_value 
+                property_value,
+                model_id: modelId 
             });
         }
             
