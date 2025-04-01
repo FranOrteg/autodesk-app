@@ -95,7 +95,8 @@ export class FileBrowserComponent implements OnInit {
     }
 
     // Extraer el URN del archivo y el GUID del modelo
-    const urnId = this.fileVersionTranslate;
+    const urnId = this.fileIdSelected;
+    const urnIdTranslate = this.fileVersionTranslate;
     const metadataArray = this.fileStatus.data.metadata;
 
     // Buscar el guid correcto
@@ -108,11 +109,11 @@ export class FileBrowserComponent implements OnInit {
 
     const guid = metadata.guid;
 
-    console.log('Obteniendo propiedades del modelo:', { urnId, guid });
+    console.log('Obteniendo propiedades del modelo:', { urnIdTranslate, guid });
 
     try {
       // Obtener las propiedades del modelo desde APS
-      const response = await this.accService.getProperties(urnId, guid);
+      const response = await this.accService.getProperties(urnIdTranslate, guid);
 
       if (!response || !response.data || !response.data.collection) {
         console.error('Error: Datos de propiedades no encontrados en la respuesta.', response);
