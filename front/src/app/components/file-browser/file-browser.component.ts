@@ -98,20 +98,32 @@ export class FileBrowserComponent implements OnInit {
     const urnId = this.fileIdSelected;
     const urnIdTranslate = this.fileVersionTranslate;
     const metadataArray = this.fileStatus.data.metadata;
-
-    // Buscar el guid correcto
-    const metadata = metadataArray.find((item: any) => item.role === '3d');
-
-    if(!metadata){
-      console.error('No se encontró el GUID valido');
-      return;
-    }
-
-    const guid = metadata.guid;
-
-    console.log('Obteniendo propiedades del modelo:', { urnIdTranslate, guid });
-
+    
     try {
+
+      // Obtener el nombre del proyecto
+      const data = await this.accService.getProjectById(this.labitHubId, this.projectIdSelected);
+      console.log('Datos del proyecto:', data);
+
+      if (!data || !data.data || !data.data.attributes || !data.data.attributes.name) {
+        console.error('Error: No se pudo obtener el nombre del proyecto.');
+        return;
+      }
+
+      const projectName = data.data.attributes.name; 
+      console.log('Nombre del proyecto:', projectName);
+
+      // Buscar el guid correcto
+      const metadata = metadataArray.find((item: any) => item.role === '3d');
+
+      if(!metadata){
+        console.error('No se encontró el GUID valido');
+        return;
+      }
+
+      const guid = metadata.guid;
+      console.log('Obteniendo propiedades del modelo:', { urnIdTranslate, guid });
+
       // Obtener las propiedades del modelo desde APS
       const response = await this.accService.getProperties(urnIdTranslate, guid);
 
@@ -150,7 +162,7 @@ export class FileBrowserComponent implements OnInit {
       console.log('Enviando al backend los elementos:', formattedElements);
       console.log('Enviando al backend las propiedades:', formattedProperties);
 
-      await this.accService.saveModelData("Nombre modelo", urnId, formattedElements, formattedProperties);
+      await this.accService.saveModelData(projectName, urnId, formattedElements, formattedProperties);
 
       console.log('Datos almacenados exitosamente en la base de datos.');
     } catch (error) {
