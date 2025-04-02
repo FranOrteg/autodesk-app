@@ -15,5 +15,8 @@ router.use('/root', require('./api/files'));
 // Properties
 router.use('/properties', require('./api/properties'));
 
+// Model
+router.use('/model', require('./api/model'));
+
 
 module.exports = router;

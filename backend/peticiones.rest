@@ -12,6 +12,7 @@
 @urlFiles = /files
 @urlRoot = /api/root
 @urlProperties = /api/properties
+@urlModels = /api/model
 
 
 ###################
@@ -59,8 +60,8 @@ GET {{host}}{{urlProperties}}/{{urnId}}/modelStatus
 
 
 
-### Database revit_model
-GET {{host}}{{urlProperties}}/models
+### Database revit_model properties
+GET {{host}}{{urlModels}}/models
 
 ### Insert ELements
 POST {{host}}{{urlProperties}}/insertElements

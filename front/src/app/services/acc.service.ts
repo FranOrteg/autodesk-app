@@ -59,7 +59,7 @@ export class AccService {
     const payload = { modelName, urn, elements, properties};
     
     return firstValueFrom(
-      this.http.post<any>(`${this.BASE_URL}/properties/storeModelData`, payload)
+      this.http.post<any>(`${this.BASE_URL}/model/storeModelData`, payload)
     ).catch(error => {
       console.error('Error al guardar los datos:', error);
       return Promise.reject(error);
