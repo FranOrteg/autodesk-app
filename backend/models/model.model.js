@@ -7,7 +7,14 @@
  */
 const getDbProperties = () => {
     return db.query('SELECT * FROM properties');
-}
+};
+
+/**
+ * Obtiene todos las elementos del modelo almacenadas en la BBDD.
+ */
+const getDbElements = () => {
+    return db.query('SELECT * FROM elements');
+};
 
 /**
  * Almacena los elementos del modelo en la BBDD.
@@ -65,6 +72,7 @@ const insertModel = async (model) => {
 
 module.exports = {
     getDbProperties,
+    getDbElements,
     insertElementsBatch,
     insertPropertiesBatch,
     insertModel,

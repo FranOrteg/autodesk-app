@@ -4,11 +4,12 @@ const router = express.Router();
 const { insertModel, 
         insertElementsBatch, 
         insertPropertiesBatch, 
-        getDbProperties } = require('../../models/model.model');
+        getDbProperties,
+        getDbElements } = require('../../models/model.model');
 
 /* GET */
 
-router.get('/models', async (req,res) => {
+router.get('/modelProperties', async (req,res) => {
     try {
         const [properties] = await getDbProperties();
 
@@ -18,6 +19,18 @@ router.get('/models', async (req,res) => {
         res.status(500).json({ fatal: error.message });
     }
 });
+
+router.get('/modelElements', async (req,res) => {
+    try {
+        const [elements] = await getDbElements();
+
+        res.json(elements);
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ fatal: error.message });
+    }
+});
+
 
 
 /* POST */

@@ -59,9 +59,11 @@ GET {{host}}{{urlProperties}}/{{urnId}}/387999db-2c35-0c10-bea9-76f78ea2d06e/mod
 GET {{host}}{{urlProperties}}/{{urnId}}/modelStatus
 
 
+### Database revit_model Elements
+GET {{host}}{{urlModels}}/modelElements
 
 ### Database revit_model properties
-GET {{host}}{{urlModels}}/models
+GET {{host}}{{urlModels}}/modelProperties
 
 ### Insert ELements
 POST {{host}}{{urlProperties}}/insertElements
