@@ -6,7 +6,9 @@ const { insertModel,
         insertPropertiesBatch, 
         getDbProperties,
         getDbElements,
-        getDbModels } = require('../../models/model.model');
+        getDbModels,
+        getDbModelsById
+    } = require('../../models/model.model');
 
 /* GET */
 
@@ -35,6 +37,18 @@ router.get('/modelElements', async (req,res) => {
 router.get('/getModels', async (req,res) => {
     try {
         const [models] = await getDbModels();
+
+        res.json(models);
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ fatal: error.message });
+    }
+});
+
+router.get('/getModels/:modelId', async (req, res) => {
+    try {
+        const { modelId } = req.params;
+        const [models] = await getDbModelsById(modelId);
 
         res.json(models);
     } catch (error) {

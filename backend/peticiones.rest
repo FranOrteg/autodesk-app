@@ -71,6 +71,9 @@ GET {{host}}{{urlModels}}/modelProperties
 ### Database models
 GET {{host}}{{urlModels}}/getModels
 
+### Database Models By Id
+GET {{host}}{{urlModels}}/getModels/1
+
 ### Insert ELements
 POST {{host}}{{urlProperties}}/insertElements
 Content-Type: application/json
@@ -85,15 +88,3 @@ Content-Type: application/json
 
 
 
-
-
-##PRUEBA MODEL COORDINATION
-##Name: 00_Prueba Model Coordination
-##Project ID: b.76947f01-cc26-47db-9681-fff27e5430ce
-##Root Folder ID: urn:adsk.wipprod:fs.folder:co.D7F4NTwdRqqYqMaK-M01Yw
-##Fichero Jimmy urn:adsk.wipprod:fs.file:vf.qRlvPHQhRgyoCEwCl3eElg?version=2
-
-##TROJENA
-##Name: Closed_21044_BCNE01_Trojena Ski Village Part 1
-##Project ID: b.611f0303-7b8a-4f45-99f1-5da93b802707
-##Root Folder ID: urn:adsk.wipprod:fs.folder:co.rCGm1uBRSzituVtkdSTuKA
