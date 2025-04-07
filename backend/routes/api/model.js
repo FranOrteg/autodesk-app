@@ -98,6 +98,7 @@ router.post('/storeModelData', async (req, res) => {
         for (let i = 0; i < validProperties.length; i += chunkSize) {
             const chunk = validProperties.slice(i, i + chunkSize).map(property => ({
                 ...property,
+                element_objectid: property.element_id,
                 model_id: modelId
             }));
             await insertPropertiesBatch(chunk);
