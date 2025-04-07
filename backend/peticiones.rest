@@ -85,6 +85,3 @@ Content-Type: application/json
     "type": "Wall",
     "created_at": "2025-05-16 12:00:00"
 }
-
-
-
