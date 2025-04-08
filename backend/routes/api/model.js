@@ -1,15 +1,19 @@
 const express = require('express');
 const router = express.Router();
 
-const { insertModel, 
-        insertElementsBatch, 
-        insertPropertiesBatch, 
-        getDbProperties,
-        getDbElements,
-        getDbModels,
-        getDbModelsById,
-        getDbModelsByName
-    } = require('../../models/model.model');
+const { 
+    insertModel, 
+    insertElementsBatch, 
+    getDbProperties,
+    getDbElements,
+    getDbModels,
+    getDbModelsById,
+    getDbModelsByName
+} = require('../../models/model.model');
+
+const { 
+    insertPropertiesBatch
+} = require('../../models/properties.model');
 
 /* GET */
 

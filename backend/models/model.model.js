@@ -61,25 +61,6 @@ const insertElementsBatch = async (elements) => {
     return db.query(query, [values]);
 };
 
-
-/**
- * Almacena las propuedades del modelo en la BBDD.
- */
-const insertPropertiesBatch = async (properties) => {
-    if (properties.length === 0) return;
-
-    const values = properties.map(p => [p.element_objectid, p.category, p.property_name, p.property_value, p.model_id]);
-    
-    const query = `
-        INSERT INTO properties (element_objectid, category, property_name, property_value, model_id) 
-        VALUES ? 
-        ON DUPLICATE KEY UPDATE property_value = VALUES(property_value)
-    `;
-
-    return db.query(query, [values]);
-};
-
-
 /**
  * Insertar modelo en la BBDD
  */
@@ -102,7 +83,6 @@ module.exports = {
     getDbProperties,
     getDbElements,
     insertElementsBatch,
-    insertPropertiesBatch,
     insertModel,
     getDbModels,
     getDbModelsById,

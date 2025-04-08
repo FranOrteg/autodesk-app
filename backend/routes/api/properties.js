@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const ensureAuthToken = require('../../helpers/middlewares');
 const { getMetadata, 
-        extractRevitElements, 
         getModelObjects, 
         getModelStatus, 
         getAllProperties } = require('../../models/properties.model');
@@ -35,20 +34,6 @@ router.get('/:urn/:guid/modelObjects', ensureAuthToken, async (req,res) => {
         res.status(500).json({ fatal: error.message });
     }
 });
-
-router.get('/:projectId/:urn/allElements', ensureAuthToken, async (req, res) => {
-    try {
-        const { projectId, urn } = req.params;
-
-        // Obtener todos los elementos del modelo
-        const elements = await extractRevitElements(req.accessToken, urn);
-
-        res.json(elements);
-    } catch (error) {
-        console.error(error);
-        res.status(500).json({ fatal: error.message });
-    }
-}); 
 
 router.get('/:urn/:guid/allElementsHard', ensureAuthToken, async (req, res) => {
     try {

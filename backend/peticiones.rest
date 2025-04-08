@@ -46,9 +46,6 @@ GET {{host}}{{urlRoot}}/{{projectId}}/{{itemId2}}/versionId
 ### Metadata of .rvt
 GET {{host}}{{urlProperties}}/meta/{{urnId2}}/metadata
 
-### Elements
-GET {{host}}{{urlProperties}}/{{projectId}}/{{urnId}}/allElements
-
 ### Hard Elements
 GET {{host}}{{urlProperties}}/{{urnId}}/387999db-2c35-0c10-bea9-76f78ea2d06e/allElementsHard
 
