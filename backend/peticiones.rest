@@ -74,6 +74,9 @@ GET {{host}}{{urlModels}}/getModels
 ### Database Models By Id
 GET {{host}}{{urlModels}}/getModels/1
 
+### Database Model By Name
+GET {{host}}{{urlModels}}/getModels/name/00_Prueba Model Coordination
+
 ### Insert ELements
 POST {{host}}{{urlProperties}}/insertElements
 Content-Type: application/json

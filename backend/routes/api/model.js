@@ -7,7 +7,8 @@ const { insertModel,
         getDbProperties,
         getDbElements,
         getDbModels,
-        getDbModelsById
+        getDbModelsById,
+        getDbModelsByName
     } = require('../../models/model.model');
 
 /* GET */
@@ -49,6 +50,18 @@ router.get('/getModels/:modelId', async (req, res) => {
     try {
         const { modelId } = req.params;
         const [models] = await getDbModelsById(modelId);
+
+        res.json(models);
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ fatal: error.message });
+    }
+});
+
+router.get('/getModels/name/:modelName', async (req, res) => {
+    try {
+        const { modelName } = req.params;
+        const [models] = await getDbModelsByName(modelName);
 
         res.json(models);
     } catch (error) {

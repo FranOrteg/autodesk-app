@@ -17,6 +17,13 @@ const getDbElements = () => {
 };
 
 /**
+ * Obtiene todos las elementos del modelo almacenadas en la BBDD por ID.
+ */
+const getDbElementsById = (elementId) => {
+    return db.query('SELECT * FROM elements WHERE id', [elementId]);
+};
+
+/**
  * Obtiene todos los modelos almacenadas en la BBDD.
  */
 const getDbModels = () => {
@@ -28,6 +35,13 @@ const getDbModels = () => {
  */
 const getDbModelsById = (modelId) => {
     return db.query('SELECT * FROM models WHERE id = ?;', [modelId]);
+};
+
+/**
+ * Obtiene el modelo almacenadas en la BBDD por ID.
+ */
+const getDbModelsByName = (modelName) => {
+    return db.query('SELECT * FROM models WHERE name = ?;', [modelName]);
 };
 
 /**
@@ -91,5 +105,7 @@ module.exports = {
     insertPropertiesBatch,
     insertModel,
     getDbModels,
-    getDbModelsById
+    getDbModelsById,
+    getDbElementsById,
+    getDbModelsByName
 }
