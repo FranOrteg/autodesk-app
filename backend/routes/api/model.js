@@ -4,7 +4,6 @@ const router = express.Router();
 const { 
     insertModel, 
     insertElementsBatch, 
-    getDbProperties,
     getDbElements,
     getDbModels,
     getDbModelsById,
@@ -12,7 +11,8 @@ const {
 } = require('../../models/model.model');
 
 const { 
-    insertPropertiesBatch
+    insertPropertiesBatch,
+    getDbProperties
 } = require('../../models/properties.model');
 
 /* GET */

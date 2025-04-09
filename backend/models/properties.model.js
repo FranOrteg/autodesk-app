@@ -74,6 +74,20 @@ async function getAllProperties(accessToken, urn, guid) {
 /* ######## */
 
 /**
+ * Obtiene todas las propiedades de los elementos del modelo almacenadas en la BBDD.
+ */
+const getDbProperties = () => {
+    return db.query('SELECT * FROM properties');
+};
+
+/**
+ * Obtiene todas las propiedades de los elementos del modelo almacenadas en la BBDD mediante su ID.
+ */
+const getDbPropertiesById = (propertiesId) => {
+    return db.query('SELECT * FROM properties WHERE id = ?', [propertiesId]);
+};
+
+/**
  * Almacena las propuedades del modelo en la BBDD.
  */
 const insertPropertiesBatch = async (properties) => {
@@ -96,5 +110,7 @@ module.exports = {
     getModelObjects,
     getAllProperties,
     getMetadata,
-    insertPropertiesBatch
+    insertPropertiesBatch,
+    getDbProperties,
+    getDbPropertiesById
 }
