@@ -13,6 +13,7 @@
 @urlRoot = /api/root
 @urlProperties = /api/properties
 @urlModels = /api/model
+@urlElements = /api/elements
 
 
 ###################
@@ -60,7 +61,7 @@ GET {{host}}{{urlProperties}}/{{urnId}}/modelStatus
 ############
 
 ### Database revit_model Elements
-GET {{host}}{{urlModels}}/modelElements
+GET {{host}}{{urlElements}}/modelElements
 
 ### Database revit_model properties
 GET {{host}}{{urlModels}}/modelProperties

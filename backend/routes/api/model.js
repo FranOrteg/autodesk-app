@@ -3,8 +3,6 @@ const router = express.Router();
 
 const { 
     insertModel, 
-    insertElementsBatch, 
-    getDbElements,
     getDbModels,
     getDbModelsById,
     getDbModelsByName
@@ -14,6 +12,10 @@ const {
     insertPropertiesBatch,
     getDbProperties
 } = require('../../models/properties.model');
+
+const {
+    insertElementsBatch
+} = require('../../models/elements.model');
 
 /* GET */
 
@@ -28,16 +30,6 @@ router.get('/modelProperties', async (req,res) => {
     }
 });
 
-router.get('/modelElements', async (req,res) => {
-    try {
-        const [elements] = await getDbElements();
-
-        res.json(elements);
-    } catch (error) {
-        console.error(error);
-        res.status(500).json({ fatal: error.message });
-    }
-});
 
 router.get('/getModels', async (req,res) => {
     try {

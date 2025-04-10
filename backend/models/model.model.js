@@ -3,20 +3,6 @@
 /* ######## */
 
 /**
- * Obtiene todos las elementos del modelo almacenadas en la BBDD.
- */
-const getDbElements = () => {
-    return db.query('SELECT * FROM elements');
-};
-
-/**
- * Obtiene todos las elementos del modelo almacenadas en la BBDD por ID.
- */
-const getDbElementsById = (elementId) => {
-    return db.query('SELECT * FROM elements WHERE id = ?', [elementId]);
-};
-
-/**
  * Obtiene todos los modelos almacenadas en la BBDD.
  */
 const getDbModels = () => {
@@ -37,22 +23,6 @@ const getDbModelsByName = (modelName) => {
     return db.query('SELECT * FROM models WHERE name = ?;', [modelName]);
 };
 
-/**
- * Almacena los elementos del modelo en la BBDD.
- */
-const insertElementsBatch = async (elements) => {
-    if (elements.length === 0) return;
-
-    const values = elements.map(e => [e.objectid, e.name, e.externalId, e.type, e.model_id]);
-    
-    const query = `
-        INSERT INTO elements (objectid, name, externalId, type, model_id) 
-        VALUES ? 
-        ON DUPLICATE KEY UPDATE name = VALUES(name), type = VALUES(type)
-    `;
-
-    return db.query(query, [values]);
-};
 
 /**
  * Insertar modelo en la BBDD
@@ -73,11 +43,8 @@ const insertModel = async (model) => {
 };
 
 module.exports = {
-    getDbElements,
-    insertElementsBatch,
     insertModel,
     getDbModels,
     getDbModelsById,
-    getDbElementsById,
     getDbModelsByName,
 }
