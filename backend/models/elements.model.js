@@ -16,6 +16,27 @@ const getDbElementsById = (elementId) => {
     return db.query('SELECT * FROM elements WHERE id = ?', [elementId]);
 };
 
+/**
+ * Obtiene todos las elementos del modelo almacenadas en la BBDD por Nombre.
+ */
+const getDbElementsByName = (elementName) => {
+    return db.query('SELECT * FROM elements WHERE name = ?', [elementName]);
+};
+
+/**
+ * Obtiene todos las elementos del modelo almacenadas en la BBDD por Nombre.
+ */
+const getDbElementsByModelId = (modelId) => {
+    return db.query('SELECT * FROM elements WHERE model_id = ?', [modelId]);
+};
+
+/**
+ * Obtiene todos las elementos del modelo almacenadas en la BBDD por Tipo.
+ */
+const getDbElementsByType = (type) => {
+    return db.query('SELECT * FROM elements WHERE type = ?', [type]);
+};
+
 
 /**
  * Almacena los elementos del modelo en la BBDD.
@@ -38,5 +59,8 @@ const insertElementsBatch = async (elements) => {
 module.exports = {
     getDbElements,
     getDbElementsById,
-    insertElementsBatch
+    insertElementsBatch,
+    getDbElementsByName,
+    getDbElementsByModelId,
+    getDbElementsByType
 }
