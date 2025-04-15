@@ -38,10 +38,17 @@ const getDbElementsByType = (type) => {
 };
 
 /**
- * Obtiene todos las elementos del modelo almacenadas en la BBDD por Tipo.
+ * Obtiene todos las elementos del modelo almacenadas en la BBDD por ObjectId y ordenados por ObjectId.
  */
 const getDbElementsByObjectid = (objectid) => {
-    return db.query('SELECT * FROM elements WHERE objectid = ?', [objectid]);
+    return db.query('SELECT * FROM elements WHERE objectid = ? ORDER BY objectid', [objectid]);
+};
+
+/**
+ * Obtiene todos las elementos del modelo almacenadas en la BBDD por external Id y ordenados por externalId.
+ */
+const getDbElementsByExternalId = (externalId) => {
+    return db.query('SELECT * FROM elements WHERE externalId = ? ORDER BY externalId', [externalId]);
 };
 
 
@@ -70,5 +77,6 @@ module.exports = {
     getDbElementsByName,
     getDbElementsByModelId,
     getDbElementsByType,
-    getDbElementsByObjectid
+    getDbElementsByObjectid,
+    getDbElementsByExternalId
 }
