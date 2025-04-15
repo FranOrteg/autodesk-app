@@ -24,6 +24,13 @@ const getDbModelsByName = (modelName) => {
 };
 
 /**
+ * Obtiene el modelo almacenadas en la BBDD por la urn.
+ */
+const getDbModelsByUrn = (urn) => {
+    return db.query('SELECT * FROM models WHERE urn = ?;', [urn]);
+};
+
+/**
  * Insertar modelo en la BBDD
  */
 const insertModel = async (model) => {
@@ -46,4 +53,5 @@ module.exports = {
     getDbModels,
     getDbModelsById,
     getDbModelsByName,
+    getDbModelsByUrn
 }
