@@ -37,6 +37,13 @@ const getDbElementsByType = (type) => {
     return db.query('SELECT * FROM elements WHERE type = ?', [type]);
 };
 
+/**
+ * Obtiene todos las elementos del modelo almacenadas en la BBDD por Tipo.
+ */
+const getDbElementsByObjectid = (objectid) => {
+    return db.query('SELECT * FROM elements WHERE objectid = ?', [objectid]);
+};
+
 
 /**
  * Almacena los elementos del modelo en la BBDD.
@@ -62,5 +69,6 @@ module.exports = {
     insertElementsBatch,
     getDbElementsByName,
     getDbElementsByModelId,
-    getDbElementsByType
+    getDbElementsByType,
+    getDbElementsByObjectid
 }
