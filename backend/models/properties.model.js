@@ -95,6 +95,14 @@ const getDbPropertiesByCategory = (category) => {
 };
 
 /**
+ * Obtiene todas las propiedades de los elementos del modelo almacenadas en la BBDD mediante el Id del elemento.
+ */
+const getDbPropertiesByElementId = (element_objectid) => {
+    return db.query('SELECT * FROM properties WHERE element_objectid = ?', [element_objectid]);
+};
+
+
+/**
  * Almacena las propuedades del modelo en la BBDD.
  */
 const insertPropertiesBatch = async (properties) => {
@@ -120,5 +128,6 @@ module.exports = {
     insertPropertiesBatch,
     getDbProperties,
     getDbPropertiesById,
-    getDbPropertiesByCategory
+    getDbPropertiesByCategory,
+    getDbPropertiesByElementId
 }

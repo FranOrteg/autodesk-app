@@ -23,7 +23,6 @@ const getDbModelsByName = (modelName) => {
     return db.query('SELECT * FROM models WHERE name = ?;', [modelName]);
 };
 
-
 /**
  * Insertar modelo en la BBDD
  */
