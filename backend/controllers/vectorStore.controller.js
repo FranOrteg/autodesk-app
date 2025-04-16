@@ -65,7 +65,7 @@ const uploadModelToVectorStore = async (req, res) => {
     });
       
     // Eliminar archivo temporal
-    await fsp.unlink(filepath);
+    // await fsp.unlink(filepath);
 
     res.status(200).json({
       message: `Modelo "${modelName}" subido correctamente al vector store`,

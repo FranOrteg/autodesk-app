@@ -1,0 +1,4152 @@
+Nombre del modelo: 24046_CSMD01_Claudio Coello 83
+URN: urn:adsk.wipprod:dm.lineage:ZzQlsZ32QJWFRWwe4bg6ng
+
+Elemento 2:
+- Nombre: Nivel 1, Entrada
+- Estructura: No
+- Planta de edificio: Yes
+- Subproyecto: Niveles y rejillas compartidos
+- Editado por: 
+- Elevación: 0.000 m
+- Planta encima: Por defecto
+- Altura de cálculo: 0.000 m
+- Caja de referencia: Ninguno
+- Exportar a IFC: Por tipo
+- IfcGUID: 29TFpHBYXAnw12nix37b4C
+
+Elemento 3:
+- Nombre: Nivel 1, Techo
+- Estructura: No
+- Planta de edificio: Yes
+- Subproyecto: Niveles y rejillas compartidos
+- Editado por: 
+- Elevación: 3.120 m
+- Planta encima: Por defecto
+- Altura de cálculo: 0.000 m
+- Caja de referencia: Ninguno
+- Exportar a IFC: Por tipo
+- IfcGUID: 29TFpHBYXAnw12nix37bGc
+
+Elemento 4:
+- Nombre: Nivel 2
+- Estructura: No
+- Planta de edificio: Yes
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Elevación: 0.150 m
+- Planta encima: Por defecto
+- Altura de cálculo: 0.000 m
+- Caja de referencia: Ninguno
+- Exportar a IFC: Por tipo
+- IfcGUID: 1Uj3Pkf_f8ZBH_1kWOVLSJ
+
+Elemento 3147:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsGcS
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 7.656 m
+- Área: 19.455 m^2
+- Volumen: 1.945 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3148:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsGdH
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 1.902 m
+- Área: 4.769 m^2
+- Volumen: 0.476 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3202:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 2
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 2.970 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsGxL
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 2.500 m
+- Área: 7.425 m^2
+- Volumen: 0.742 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3203:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 2
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 2.970 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsGy9
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 1.718 m
+- Área: 5.108 m^2
+- Volumen: 0.510 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3204:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 2
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 2.970 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsGzk
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 0.200 m
+- Área: 0.594 m^2
+- Volumen: 0.059 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3205:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 2
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 2.970 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsG_F
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 1.821 m
+- Área: 5.410 m^2
+- Volumen: 0.541 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3206:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 2
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 2.970 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsGmM
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 3.080 m
+- Área: 9.148 m^2
+- Volumen: 0.915 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3207:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 2
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 2.970 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsGpT
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 1.031 m
+- Área: 2.915 m^2
+- Volumen: 0.291 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3208:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 2
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 2.970 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsG9M
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 5.732 m
+- Área: 16.882 m^2
+- Volumen: 1.688 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3149:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsGDS
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 10.389 m
+- Área: 32.579 m^2
+- Volumen: 3.257 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3150:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsGE0
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 4.827 m
+- Área: 12.682 m^2
+- Volumen: 1.268 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3151:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsG0u
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 2.379 m
+- Área: 7.426 m^2
+- Volumen: 0.742 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3152:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsG4P
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 2.511 m
+- Área: 6.054 m^2
+- Volumen: 0.605 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3153:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsG5f
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 0.203 m
+- Área: 0.646 m^2
+- Volumen: 0.063 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3154:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsG6L
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 0.204 m
+- Área: 0.636 m^2
+- Volumen: 0.064 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3155:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsGPh
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 0.181 m
+- Área: 0.878 m^2
+- Volumen: 0.088 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3156:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsGQY
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 2.271 m
+- Área: 6.774 m^2
+- Volumen: 0.677 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3157:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsGRf
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 0.199 m
+- Área: 0.624 m^2
+- Volumen: 0.062 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3158:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsGSk
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 1.421 m
+- Área: 4.120 m^2
+- Volumen: 0.412 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3159:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsGTD
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 0.219 m
+- Área: 0.998 m^2
+- Volumen: 0.100 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3160:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsGVO
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 0.940 m
+- Área: 2.932 m^2
+- Volumen: 0.293 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3161:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsGGc
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 0.201 m
+- Área: 0.630 m^2
+- Volumen: 0.063 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3162:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsGJL
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 0.939 m
+- Área: 2.618 m^2
+- Volumen: 0.262 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3163:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsHe2
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 2.422 m
+- Área: 7.509 m^2
+- Volumen: 0.751 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3166:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsHbv
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 2.453 m
+- Área: 5.872 m^2
+- Volumen: 0.587 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3167:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsHcE
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 0.700 m
+- Área: 1.872 m^2
+- Volumen: 0.187 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3168:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsHd7
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 2.422 m
+- Área: 7.291 m^2
+- Volumen: 0.729 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3169:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsHv7
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 2.422 m
+- Área: 5.821 m^2
+- Volumen: 0.582 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3170:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsHwq
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 0.600 m
+- Área: 1.716 m^2
+- Volumen: 0.172 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3172:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsH8v
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 0.240 m
+- Área: 0.749 m^2
+- Volumen: 0.075 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3173:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsH9c
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 1.258 m
+- Área: 0.119 m^2
+- Volumen: 0.012 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3174:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsHAu
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 0.288 m
+- Área: 1.061 m^2
+- Volumen: 0.106 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3175:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsHCf
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 0.245 m
+- Área: 1.076 m^2
+- Volumen: 0.108 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3176:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsHDK
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 1.258 m
+- Área: 0.187 m^2
+- Volumen: 0.018 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3177:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsHEg
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 0.245 m
+- Área: 0.765 m^2
+- Volumen: 0.076 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3210:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 2
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 2.970 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsHO7
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 0.746 m
+- Área: 1.922 m^2
+- Volumen: 0.192 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3211:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 2
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 2.970 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsHQA
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 0.914 m
+- Área: 3.014 m^2
+- Volumen: 0.301 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3194:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 10 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsKlt
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 1.200 m
+- Área: 3.635 m^2
+- Volumen: 0.363 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3378:
+- Estructura: 
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.100 m
+- Función: Exterior
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Subproyecto: Tipos de muro
+- Editado por: 
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_b
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3164:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 7 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsHkY
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 3cRlYsK$T2jh1vXKHtsHl4
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 6.186 m
+- Área: 17.787 m^2
+- Volumen: 1.245 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.070 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3165:
+- Estructura: No
+- Uso estructural: No portante
+- Línea de ubicación: Cara de acabado: Interior
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Distancia de extensión de base: 0.000 m
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Distancia de extensión superior: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Por defecto - 7 cm
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsHYq
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 3cRlYsK$T2jh1vXKHtsHl4
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 2.375 m
+- Área: 7.304 m^2
+- Volumen: 0.511 m^3
+- Sección transversal: Vertical
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.070 m
+- Función: Exterior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3379:
+- Estructura: 
+- Envolvente en inserciones: Sin envolvente
+- Envolvente en extremos: Ninguno
+- Anchura: 0.070 m
+- Función: Exterior
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Imagen de tipo: 
+- Nota clave: Md.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Subproyecto: Tipos de muro
+- Editado por: 
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 3cRlYsK$T2jh1vXKHtsHl4
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3376:
+
+
+Elemento 3179:
+- Área: 0.874 m^2
+- Anchura: 1.120 m
+- Altura: 0.780 m
+- Grosor: 0.020 m
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Acristalado
+- Nota clave: 
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Código de montaje: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Tipo predefinido de IFC: 
+- Exportar a IFC como: 
+- Exportar a IFC: Por tipo
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsHMc
+- Introducir el tipo predefinido de IFC: 
+- Exportar tipo a IFC como: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 22q55WkeXCV9I$ZK9x1QBr
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Desfase: 0.000 m
+- Tipo de construcción: 
+- Acabado: 
+- Material: Cristal
+- Construcción analítica: 1/8 en cristalera simple Pilkington
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.900
+- Coeficiente de incremento de calor solar: 0.860
+- Resistencia térmica (R): 0.149 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 6.707 W/(m²·K)
+
+Elemento 3180:
+- Área: 0.874 m^2
+- Anchura: 1.120 m
+- Altura: 0.780 m
+- Grosor: 0.020 m
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Acristalado
+- Nota clave: 
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Código de montaje: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Tipo predefinido de IFC: 
+- Exportar a IFC como: 
+- Exportar a IFC: Por tipo
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsHMZ
+- Introducir el tipo predefinido de IFC: 
+- Exportar tipo a IFC como: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 22q55WkeXCV9I$ZK9x1QBr
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Desfase: 0.000 m
+- Tipo de construcción: 
+- Acabado: 
+- Material: Cristal
+- Construcción analítica: 1/8 en cristalera simple Pilkington
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.900
+- Coeficiente de incremento de calor solar: 0.860
+- Resistencia térmica (R): 0.149 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 6.707 W/(m²·K)
+
+Elemento 3181:
+- Área: 0.874 m^2
+- Anchura: 1.120 m
+- Altura: 0.780 m
+- Grosor: 0.020 m
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Acristalado
+- Nota clave: 
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Código de montaje: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Tipo predefinido de IFC: 
+- Exportar a IFC como: 
+- Exportar a IFC: Por tipo
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsHMT
+- Introducir el tipo predefinido de IFC: 
+- Exportar tipo a IFC como: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 22q55WkeXCV9I$ZK9x1QBr
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Desfase: 0.000 m
+- Tipo de construcción: 
+- Acabado: 
+- Material: Cristal
+- Construcción analítica: 1/8 en cristalera simple Pilkington
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.900
+- Coeficiente de incremento de calor solar: 0.860
+- Resistencia térmica (R): 0.149 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 6.707 W/(m²·K)
+
+Elemento 3182:
+- Área: 0.874 m^2
+- Anchura: 1.120 m
+- Altura: 0.780 m
+- Grosor: 0.020 m
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Acristalado
+- Nota clave: 
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Código de montaje: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Tipo predefinido de IFC: 
+- Exportar a IFC como: 
+- Exportar a IFC: Por tipo
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsHMV
+- Introducir el tipo predefinido de IFC: 
+- Exportar tipo a IFC como: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 22q55WkeXCV9I$ZK9x1QBr
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Desfase: 0.000 m
+- Tipo de construcción: 
+- Acabado: 
+- Material: Cristal
+- Construcción analítica: 1/8 en cristalera simple Pilkington
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.900
+- Coeficiente de incremento de calor solar: 0.860
+- Resistencia térmica (R): 0.149 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 6.707 W/(m²·K)
+
+Elemento 3178:
+- Estructura: No
+- Uso estructural: No portante
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Muro cortina - horizontal
+- Imagen de tipo: 
+- Nota clave: Mc.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsHMd
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_Z
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 1.120 m
+- Área: 3.494 m^2
+- Número: 4
+- Justificación: Inicio
+- Ángulo: 0.000 °
+- Desfase: 0.000 m
+- Diseño: Espaciado máximo
+- Espaciado: 2.500 m
+- Ajustar para tamaño de montante: Yes
+- Número: 3
+- Justificación: Inicio
+- Ángulo: 0.000 °
+- Desfase: 0.000 m
+- Diseño: Espaciado máximo
+- Espaciado: 1.000 m
+- Ajustar para tamaño de montante: Yes
+- Sección transversal: Vertical
+- Material estructural: 
+- Función: Exterior
+- Incrustar automáticamente: Yes
+- Panel de muro cortina: Ninguno
+- Condición de unión: Borde y rejilla vertical continua
+- Tipo de interior: Ninguno
+- Tipo de borde 1: Ninguno
+- Tipo de borde 2: Ninguno
+- Tipo de interior: Ninguno
+- Tipo de borde 1: Ninguno
+- Tipo de borde 2: Ninguno
+
+Elemento 3184:
+- Área: 0.858 m^2
+- Anchura: 1.100 m
+- Altura: 0.780 m
+- Grosor: 0.020 m
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Acristalado
+- Nota clave: 
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Código de montaje: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Tipo predefinido de IFC: 
+- Exportar a IFC como: 
+- Exportar a IFC: Por tipo
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsIfM
+- Introducir el tipo predefinido de IFC: 
+- Exportar tipo a IFC como: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 22q55WkeXCV9I$ZK9x1QBr
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Desfase: 0.000 m
+- Tipo de construcción: 
+- Acabado: 
+- Material: Cristal
+- Construcción analítica: 1/8 en cristalera simple Pilkington
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.900
+- Coeficiente de incremento de calor solar: 0.860
+- Resistencia térmica (R): 0.149 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 6.707 W/(m²·K)
+
+Elemento 3185:
+- Área: 0.858 m^2
+- Anchura: 1.100 m
+- Altura: 0.780 m
+- Grosor: 0.020 m
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Acristalado
+- Nota clave: 
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Código de montaje: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Tipo predefinido de IFC: 
+- Exportar a IFC como: 
+- Exportar a IFC: Por tipo
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsIfJ
+- Introducir el tipo predefinido de IFC: 
+- Exportar tipo a IFC como: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 22q55WkeXCV9I$ZK9x1QBr
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Desfase: 0.000 m
+- Tipo de construcción: 
+- Acabado: 
+- Material: Cristal
+- Construcción analítica: 1/8 en cristalera simple Pilkington
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.900
+- Coeficiente de incremento de calor solar: 0.860
+- Resistencia térmica (R): 0.149 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 6.707 W/(m²·K)
+
+Elemento 3186:
+- Área: 0.858 m^2
+- Anchura: 1.100 m
+- Altura: 0.780 m
+- Grosor: 0.020 m
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Acristalado
+- Nota clave: 
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Código de montaje: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Tipo predefinido de IFC: 
+- Exportar a IFC como: 
+- Exportar a IFC: Por tipo
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsIfD
+- Introducir el tipo predefinido de IFC: 
+- Exportar tipo a IFC como: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 22q55WkeXCV9I$ZK9x1QBr
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Desfase: 0.000 m
+- Tipo de construcción: 
+- Acabado: 
+- Material: Cristal
+- Construcción analítica: 1/8 en cristalera simple Pilkington
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.900
+- Coeficiente de incremento de calor solar: 0.860
+- Resistencia térmica (R): 0.149 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 6.707 W/(m²·K)
+
+Elemento 3187:
+- Área: 0.858 m^2
+- Anchura: 1.100 m
+- Altura: 0.780 m
+- Grosor: 0.020 m
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Acristalado
+- Nota clave: 
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Código de montaje: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Tipo predefinido de IFC: 
+- Exportar a IFC como: 
+- Exportar a IFC: Por tipo
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsIfF
+- Introducir el tipo predefinido de IFC: 
+- Exportar tipo a IFC como: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 22q55WkeXCV9I$ZK9x1QBr
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Desfase: 0.000 m
+- Tipo de construcción: 
+- Acabado: 
+- Material: Cristal
+- Construcción analítica: 1/8 en cristalera simple Pilkington
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.900
+- Coeficiente de incremento de calor solar: 0.860
+- Resistencia térmica (R): 0.149 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 6.707 W/(m²·K)
+
+Elemento 3183:
+- Estructura: No
+- Uso estructural: No portante
+- Restricción de base: Nivel 1, Entrada
+- Desfase de base: 0.000 m
+- La base está enlazada: No
+- Restricción superior: Hasta nivel: Nivel 1, Techo
+- Altura desconectada: 3.120 m
+- Desfase superior: 0.000 m
+- La parte superior está enlazada: No
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Muro cortina - horizontal
+- Imagen de tipo: 
+- Nota clave: Mc.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsIfN
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_Z
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Longitud: 1.100 m
+- Área: 3.432 m^2
+- Número: 4
+- Justificación: Inicio
+- Ángulo: 0.000 °
+- Desfase: 0.000 m
+- Diseño: Espaciado máximo
+- Espaciado: 2.500 m
+- Ajustar para tamaño de montante: Yes
+- Número: 3
+- Justificación: Inicio
+- Ángulo: 0.000 °
+- Desfase: 0.000 m
+- Diseño: Espaciado máximo
+- Espaciado: 1.000 m
+- Ajustar para tamaño de montante: Yes
+- Sección transversal: Vertical
+- Material estructural: 
+- Función: Exterior
+- Incrustar automáticamente: Yes
+- Panel de muro cortina: Ninguno
+- Condición de unión: Borde y rejilla vertical continua
+- Tipo de interior: Ninguno
+- Tipo de borde 1: Ninguno
+- Tipo de borde 2: Ninguno
+- Tipo de interior: Ninguno
+- Tipo de borde 1: Ninguno
+- Tipo de borde 2: Ninguno
+
+Elemento 3467:
+- Imagen de tipo: 
+- Nota clave: Mc.1
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Subproyecto: Tipos de muro cortina
+- Editado por: 
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_Z
+- Material estructural: 
+- Función: Exterior
+- Incrustar automáticamente: Yes
+- Panel de muro cortina: Ninguno
+- Condición de unión: Borde y rejilla vertical continua
+- Diseño: Espaciado máximo
+- Espaciado: 2.500 m
+- Ajustar para tamaño de montante: Yes
+- Diseño: Espaciado máximo
+- Espaciado: 1.000 m
+- Ajustar para tamaño de montante: Yes
+- Tipo de interior: Ninguno
+- Tipo de borde 1: Ninguno
+- Tipo de borde 2: Ninguno
+- Tipo de interior: Ninguno
+- Tipo de borde 1: Ninguno
+- Tipo de borde 2: Ninguno
+
+Elemento 3377:
+
+
+Elemento 3134:
+
+
+Elemento 3171:
+- Nivel: Nivel 1, Entrada
+- Desfase de altura desde nivel: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Estructura: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Tiene asociación: No
+- Nombre de tipo: Por defecto - 30 cm
+- Imagen de tipo: 
+- Nota clave: S.6
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsH_X
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_R
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Pendiente: 0.000 °
+- Perímetro: 30.231 m
+- Área: 36.814 m^2
+- Volumen: 11.044 m^3
+- Elevación en parte superior: 0.000 m
+- Elevación en parte inferior: -0.300 m
+- Grosor: 0.300 m
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Grosor predeterminado: 0.300 m
+- Función: Interior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3209:
+- Nivel: Nivel 2
+- Desfase de altura desde nivel: 0.000 m
+- Delimitación de habitación: Yes
+- Relacionado con masa: No
+- Estructura: No
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Tiene asociación: No
+- Nombre de tipo: Por defecto - 30 cm
+- Imagen de tipo: 
+- Nota clave: S.6
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsH$e
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_R
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Pendiente: 0.000 °
+- Perímetro: 29.491 m
+- Área: 31.227 m^2
+- Volumen: 9.368 m^3
+- Elevación en parte superior: 0.150 m
+- Elevación en parte inferior: -0.150 m
+- Grosor: 0.300 m
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Grosor predeterminado: 0.300 m
+- Función: Interior
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3383:
+- Estructura: 
+- Grosor predeterminado: 0.300 m
+- Función: Interior
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Imagen de tipo: 
+- Nota clave: S.6
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Costo: 0.000 ฿
+- Subproyecto: Tipos de suelo
+- Editado por: 
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 0wQknZQiXEOBcv2M5Gzx_R
+- Material estructural: <Por categoría>
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3382:
+
+
+Elemento 3135:
+
+
+Elemento 3188:
+- Altura de extremo inicial: 2.357 m
+- Nivel: Nivel 1, Entrada
+- Altura de antepecho: 1.057 m
+- Imagen: 
+- Comentarios: 
+- Marca: 1
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: 90 x 130 cm
+- Nota clave: 
+- Fabricante: 
+- Código de montaje: 
+- Modelo: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 17
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Tipo predefinido de IFC: 
+- Exportar a IFC como: 
+- Exportar a IFC: Por tipo
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsIij
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Operación: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 3cRlYsK$T2jh1vXKHtsIkn
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Cierre de muro: Por anfitrión
+- Tipo de construcción: 
+- Vuelo antepecho: 0.068 m
+- Altura: 1.300 m
+- Anchura: 0.900 m
+- Anchura aproximada: 0.000 m
+- Altura aproximada: 0.000 m
+- Vidrio: Vidrio
+- Carpintería: Madera - Castaño
+- Antepecho: Piedra - Gris
+- Construcción analítica: <Ninguno>
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.000
+- Coeficiente de incremento de calor solar: 0.000
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+
+Elemento 3189:
+- Altura de extremo inicial: 2.357 m
+- Nivel: Nivel 1, Entrada
+- Altura de antepecho: 1.057 m
+- Imagen: 
+- Comentarios: 
+- Marca: 2
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: 90 x 130 cm
+- Nota clave: 
+- Fabricante: 
+- Código de montaje: 
+- Modelo: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 17
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Tipo predefinido de IFC: 
+- Exportar a IFC como: 
+- Exportar a IFC: Por tipo
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsIjC
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Operación: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 3cRlYsK$T2jh1vXKHtsIkn
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Cierre de muro: Por anfitrión
+- Tipo de construcción: 
+- Vuelo antepecho: 0.068 m
+- Altura: 1.300 m
+- Anchura: 0.900 m
+- Anchura aproximada: 0.000 m
+- Altura aproximada: 0.000 m
+- Vidrio: Vidrio
+- Carpintería: Madera - Castaño
+- Antepecho: Piedra - Gris
+- Construcción analítica: <Ninguno>
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.000
+- Coeficiente de incremento de calor solar: 0.000
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+
+Elemento 3190:
+- Altura de extremo inicial: 2.320 m
+- Nivel: Nivel 1, Entrada
+- Altura de antepecho: 1.020 m
+- Imagen: 
+- Comentarios: 
+- Marca: 3
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: 90 x 130 cm
+- Nota clave: 
+- Fabricante: 
+- Código de montaje: 
+- Modelo: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 17
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Tipo predefinido de IFC: 
+- Exportar a IFC como: 
+- Exportar a IFC: Por tipo
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsIaG
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Operación: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 3cRlYsK$T2jh1vXKHtsIkn
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Cierre de muro: Por anfitrión
+- Tipo de construcción: 
+- Vuelo antepecho: 0.068 m
+- Altura: 1.300 m
+- Anchura: 0.900 m
+- Anchura aproximada: 0.000 m
+- Altura aproximada: 0.000 m
+- Vidrio: Vidrio
+- Carpintería: Madera - Castaño
+- Antepecho: Piedra - Gris
+- Construcción analítica: <Ninguno>
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.000
+- Coeficiente de incremento de calor solar: 0.000
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+
+Elemento 3480:
+- Cierre de muro: Por anfitrión
+- Tipo de construcción: 
+- Vuelo antepecho: 0.068 m
+- Altura: 1.300 m
+- Altura de antepecho: 0.800 m
+- Anchura: 0.900 m
+- Anchura aproximada: 0.000 m
+- Altura aproximada: 0.000 m
+- Nota clave: 
+- Fabricante: 
+- Código de montaje: 
+- Modelo: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 17
+- Subproyecto: Familia  : Ventanas : Ventana simple
+- Editado por: 
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Operación: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 3cRlYsK$T2jh1vXKHtsIkn
+- Vidrio: Vidrio
+- Carpintería: Madera - Castaño
+- Antepecho: Piedra - Gris
+- Construcción analítica: <Ninguno>
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.000
+- Coeficiente de incremento de calor solar: 0.000
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+
+Elemento 3191:
+- Altura de extremo inicial: 2.494 m
+- Nivel: Nivel 1, Entrada
+- Altura de antepecho: 1.144 m
+- Imagen: 
+- Comentarios: 
+- Marca: 4
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: 40X135
+- Nota clave: 
+- Fabricante: 
+- Código de montaje: 
+- Modelo: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 18
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Tipo predefinido de IFC: 
+- Exportar a IFC como: 
+- Exportar a IFC: Por tipo
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsIvU
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Operación: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 3cRlYsK$T2jh1vXKHtsIy1
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Cierre de muro: Por anfitrión
+- Tipo de construcción: 
+- Vuelo antepecho: 0.068 m
+- Altura: 1.350 m
+- Anchura: 0.400 m
+- Anchura aproximada: 0.000 m
+- Altura aproximada: 0.000 m
+- Vidrio: Vidrio
+- Carpintería: Madera - Castaño
+- Antepecho: Piedra - Gris
+- Construcción analítica: <Ninguno>
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.000
+- Coeficiente de incremento de calor solar: 0.000
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+
+Elemento 3192:
+- Altura de extremo inicial: 2.494 m
+- Nivel: Nivel 1, Entrada
+- Altura de antepecho: 1.144 m
+- Imagen: 
+- Comentarios: 
+- Marca: 6
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: 40X135
+- Nota clave: 
+- Fabricante: 
+- Código de montaje: 
+- Modelo: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 18
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Tipo predefinido de IFC: 
+- Exportar a IFC como: 
+- Exportar a IFC: Por tipo
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsImU
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Operación: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 3cRlYsK$T2jh1vXKHtsIy1
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Cierre de muro: Por anfitrión
+- Tipo de construcción: 
+- Vuelo antepecho: 0.068 m
+- Altura: 1.350 m
+- Anchura: 0.400 m
+- Anchura aproximada: 0.000 m
+- Altura aproximada: 0.000 m
+- Vidrio: Vidrio
+- Carpintería: Madera - Castaño
+- Antepecho: Piedra - Gris
+- Construcción analítica: <Ninguno>
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.000
+- Coeficiente de incremento de calor solar: 0.000
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+
+Elemento 3481:
+- Cierre de muro: Por anfitrión
+- Tipo de construcción: 
+- Vuelo antepecho: 0.068 m
+- Altura: 1.350 m
+- Altura de antepecho: 0.800 m
+- Anchura: 0.400 m
+- Anchura aproximada: 0.000 m
+- Altura aproximada: 0.000 m
+- Nota clave: 
+- Fabricante: 
+- Código de montaje: 
+- Modelo: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 18
+- Subproyecto: Familia  : Ventanas : Ventana simple
+- Editado por: 
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Operación: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 3cRlYsK$T2jh1vXKHtsIy1
+- Vidrio: Vidrio
+- Carpintería: Madera - Castaño
+- Antepecho: Piedra - Gris
+- Construcción analítica: <Ninguno>
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.000
+- Coeficiente de incremento de calor solar: 0.000
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+
+Elemento 3193:
+- Altura de extremo inicial: 2.404 m
+- Nivel: Nivel 1, Entrada
+- Altura de antepecho: 1.104 m
+- Imagen: 
+- Comentarios: 
+- Marca: 7
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: 100 x 130 cm
+- Nota clave: 
+- Fabricante: 
+- Código de montaje: 
+- Modelo: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 19
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Tipo predefinido de IFC: 
+- Exportar a IFC como: 
+- Exportar a IFC: Por tipo
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsJKm
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Operación: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 3cRlYsK$T2jh1vXKHtsKhp
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Cierre de muro: Por anfitrión
+- Tipo de construcción: 
+- Vuelo antepecho: 0.068 m
+- Altura: 1.300 m
+- Anchura: 1.000 m
+- Anchura aproximada: 0.000 m
+- Altura aproximada: 0.000 m
+- Vidrio: Vidrio
+- Carpintería: Madera - Castaño
+- Antepecho: Piedra - Gris
+- Construcción analítica: <Ninguno>
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.000
+- Coeficiente de incremento de calor solar: 0.000
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+
+Elemento 3482:
+- Cierre de muro: Por anfitrión
+- Tipo de construcción: 
+- Vuelo antepecho: 0.068 m
+- Altura: 1.300 m
+- Altura de antepecho: 0.800 m
+- Anchura: 1.000 m
+- Anchura aproximada: 0.000 m
+- Altura aproximada: 0.000 m
+- Nota clave: 
+- Fabricante: 
+- Código de montaje: 
+- Modelo: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 19
+- Subproyecto: Familia  : Ventanas : Ventana simple
+- Editado por: 
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Operación: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 3cRlYsK$T2jh1vXKHtsKhp
+- Vidrio: Vidrio
+- Carpintería: Madera - Castaño
+- Antepecho: Piedra - Gris
+- Construcción analítica: <Ninguno>
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.000
+- Coeficiente de incremento de calor solar: 0.000
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+
+Elemento 3479:
+
+
+Elemento 3141:
+
+
+Elemento 3195:
+- Altura de extremo inicial: 2.100 m
+- Nivel: Nivel 1, Entrada
+- Altura de antepecho: 0.000 m
+- Tipo de marco: 
+- Cierre de muro: Ambas
+- Tipo de construcción: 
+- Función: Interior
+- Imagen: 
+- Comentarios: 
+- Marca: 1
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: 70 x 210 cm
+- Fabricante: 
+- Código de montaje: 
+- Nota clave: 
+- Modelo: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 4
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Tipo predefinido de IFC: 
+- Exportar a IFC como: 
+- Exportar a IFC: Por tipo
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsKW7
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Operación: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 22q55WkeXCV9I$ZK9x1RvX
+- Material de marco: 
+- Acabado: 
+- Hoja: <Por categoría>
+- Carpintería: <Por categoría>
+- Tirador: <Por categoría>
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Altura: 2.100 m
+- Anchura: 0.700 m
+- Anchura aproximada: 0.000 m
+- Altura aproximada: 0.000 m
+- Grosor: 0.000 m
+- Construcción analítica: Metal
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.000
+- Coeficiente de incremento de calor solar: 0.000
+- Resistencia térmica (R): 0.270 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 3.702 W/(m²·K)
+
+Elemento 3196:
+- Altura de extremo inicial: 2.100 m
+- Nivel: Nivel 1, Entrada
+- Altura de antepecho: 0.000 m
+- Tipo de marco: 
+- Cierre de muro: Ambas
+- Tipo de construcción: 
+- Función: Interior
+- Imagen: 
+- Comentarios: 
+- Marca: 2
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: 70 x 210 cm
+- Fabricante: 
+- Código de montaje: 
+- Nota clave: 
+- Modelo: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 4
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Tipo predefinido de IFC: 
+- Exportar a IFC como: 
+- Exportar a IFC: Por tipo
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsKZi
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Operación: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 22q55WkeXCV9I$ZK9x1RvX
+- Material de marco: 
+- Acabado: 
+- Hoja: <Por categoría>
+- Carpintería: <Por categoría>
+- Tirador: <Por categoría>
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Altura: 2.100 m
+- Anchura: 0.700 m
+- Anchura aproximada: 0.000 m
+- Altura aproximada: 0.000 m
+- Grosor: 0.000 m
+- Construcción analítica: Metal
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.000
+- Coeficiente de incremento de calor solar: 0.000
+- Resistencia térmica (R): 0.270 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 3.702 W/(m²·K)
+
+Elemento 3197:
+- Altura de extremo inicial: 2.100 m
+- Nivel: Nivel 1, Entrada
+- Altura de antepecho: 0.000 m
+- Tipo de marco: 
+- Cierre de muro: Ambas
+- Tipo de construcción: 
+- Función: Interior
+- Imagen: 
+- Comentarios: 
+- Marca: 3
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: 70 x 210 cm
+- Fabricante: 
+- Código de montaje: 
+- Nota clave: 
+- Modelo: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 4
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Tipo predefinido de IFC: 
+- Exportar a IFC como: 
+- Exportar a IFC: Por tipo
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsKtR
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Operación: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 22q55WkeXCV9I$ZK9x1RvX
+- Material de marco: 
+- Acabado: 
+- Hoja: <Por categoría>
+- Carpintería: <Por categoría>
+- Tirador: <Por categoría>
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Altura: 2.100 m
+- Anchura: 0.700 m
+- Anchura aproximada: 0.000 m
+- Altura aproximada: 0.000 m
+- Grosor: 0.000 m
+- Construcción analítica: Metal
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.000
+- Coeficiente de incremento de calor solar: 0.000
+- Resistencia térmica (R): 0.270 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 3.702 W/(m²·K)
+
+Elemento 3198:
+- Altura de extremo inicial: 2.100 m
+- Nivel: Nivel 1, Entrada
+- Altura de antepecho: 0.000 m
+- Tipo de marco: 
+- Cierre de muro: Ambas
+- Tipo de construcción: 
+- Función: Interior
+- Imagen: 
+- Comentarios: 
+- Marca: 4
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: 70 x 210 cm
+- Fabricante: 
+- Código de montaje: 
+- Nota clave: 
+- Modelo: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 4
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Tipo predefinido de IFC: 
+- Exportar a IFC como: 
+- Exportar a IFC: Por tipo
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsK8D
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Operación: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 22q55WkeXCV9I$ZK9x1RvX
+- Material de marco: 
+- Acabado: 
+- Hoja: <Por categoría>
+- Carpintería: <Por categoría>
+- Tirador: <Por categoría>
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Altura: 2.100 m
+- Anchura: 0.700 m
+- Anchura aproximada: 0.000 m
+- Altura aproximada: 0.000 m
+- Grosor: 0.000 m
+- Construcción analítica: Metal
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.000
+- Coeficiente de incremento de calor solar: 0.000
+- Resistencia térmica (R): 0.270 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 3.702 W/(m²·K)
+
+Elemento 3487:
+- Cierre de muro: Ambas
+- Tipo de construcción: 
+- Función: Interior
+- Altura: 2.100 m
+- Anchura: 0.700 m
+- Anchura aproximada: 0.000 m
+- Altura aproximada: 0.000 m
+- Grosor: 0.000 m
+- Fabricante: 
+- Código de montaje: 
+- Nota clave: 
+- Modelo: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 4
+- Subproyecto: Familia  : Puertas : Puerta de 1 hoja
+- Editado por: 
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Operación: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 22q55WkeXCV9I$ZK9x1RvX
+- Hoja: <Por categoría>
+- Carpintería: <Por categoría>
+- Tirador: <Por categoría>
+- Construcción analítica: Metal
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.000
+- Coeficiente de incremento de calor solar: 0.000
+- Resistencia térmica (R): 0.270 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 3.702 W/(m²·K)
+
+Elemento 3199:
+- Altura de extremo inicial: 2.100 m
+- Nivel: Nivel 1, Entrada
+- Altura de antepecho: 0.000 m
+- Tipo de marco: 
+- Cierre de muro: Por anfitrión
+- Tipo de construcción: 
+- Función: Interior
+- Imagen: 
+- Comentarios: 
+- Marca: 5
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: 100 x 210 cm
+- Fabricante: 
+- Código de montaje: 
+- Nota clave: 
+- Modelo: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 3
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Tipo predefinido de IFC: 
+- Exportar a IFC como: 
+- Exportar a IFC: Por tipo
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsKDi
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Operación: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 22q55WkeXCV9I$ZK9x1Rvd
+- Material de marco: 
+- Acabado: 
+- Hoja: <Por categoría>
+- Carpintería: <Por categoría>
+- Tirador: <Por categoría>
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Altura: 2.100 m
+- Anchura: 1.000 m
+- Anchura aproximada: 0.000 m
+- Altura aproximada: 0.000 m
+- Grosor: 0.000 m
+- Construcción analítica: Metal
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.000
+- Coeficiente de incremento de calor solar: 0.000
+- Resistencia térmica (R): 0.270 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 3.702 W/(m²·K)
+
+Elemento 3488:
+- Cierre de muro: Por anfitrión
+- Tipo de construcción: 
+- Función: Interior
+- Altura: 2.100 m
+- Anchura: 1.000 m
+- Anchura aproximada: 0.000 m
+- Altura aproximada: 0.000 m
+- Grosor: 0.000 m
+- Fabricante: 
+- Código de montaje: 
+- Nota clave: 
+- Modelo: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Clasificación para incendios: 
+- Costo: 0.000 ฿
+- Imagen de tipo: 
+- Descripción de montaje: 
+- Marca de tipo: 3
+- Subproyecto: Familia  : Puertas : Puerta de 1 hoja
+- Editado por: 
+- Número OmniClass: 
+- Título OmniClass: 
+- Nombre de código: 
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Operación: 
+- Exportar tipo a IFC: Por defecto
+- Tipo IfcGUID: 22q55WkeXCV9I$ZK9x1Rvd
+- Hoja: <Por categoría>
+- Carpintería: <Por categoría>
+- Tirador: <Por categoría>
+- Construcción analítica: Metal
+- Definir propiedades térmicas por: Tipo esquemático
+- Transmitancia de luz visual: 0.000
+- Coeficiente de incremento de calor solar: 0.000
+- Resistencia térmica (R): 0.270 (m²·K)/W
+- Coeficiente de transferencia de calor (U): 3.702 W/(m²·K)
+
+Elemento 3486:
+
+
+Elemento 3142:
+
+
+Elemento 3200:
+- Nivel: Nivel 1, Techo
+- Desfase de altura desde nivel: 0.000 m
+- Delimitación de habitación: Yes
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Falso techo continuo de placa de yeso laminado
+- Imagen de tipo: 
+- Nota clave: 
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsKFS
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 014$kwHPjA$PB$mrfzHE_H
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Pendiente: 0.000 °
+- Perímetro: 30.231 m
+- Área: 36.814 m^2
+- Volumen: 2.209 m^3
+- Estructura: 
+- Grosor: 0.060 m
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3201:
+- Nivel: Nivel 1, Techo
+- Desfase de altura desde nivel: 0.000 m
+- Delimitación de habitación: Yes
+- Imagen: 
+- Comentarios: 
+- Marca: 
+- Subproyecto: Nube de puntos
+- Editado por: 
+- Nombre de tipo: Falso techo continuo de placa de yeso laminado
+- Imagen de tipo: 
+- Nota clave: 
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Costo: 0.000 ฿
+- Exportar a IFC: Por tipo
+- Exportar a IFC como: 
+- Tipo predefinido de IFC: 
+- IfcGUID: 3cRlYsK$T2jh1vXKHtsK0V
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 014$kwHPjA$PB$mrfzHE_H
+- Fase de creación: Nueva construcción
+- Fase de derribo: Ninguno
+- Pendiente: 0.000 °
+- Perímetro: 26.166 m
+- Área: 29.303 m^2
+- Volumen: 1.758 m^3
+- Estructura: 
+- Grosor: 0.060 m
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3520:
+- Estructura: 
+- Grosor: 0.060 m
+- Patrón de relleno de detalle bajo: 
+- Color de relleno de detalle bajo: 0
+- Imagen de tipo: 
+- Nota clave: 
+- Modelo: 
+- Fabricante: 
+- Comentarios de tipo: 
+- URL: 
+- Descripción: 
+- Descripción de montaje: 
+- Código de montaje: 
+- Marca de tipo: 
+- Costo: 0.000 ฿
+- Subproyecto: Tipos de techo
+- Editado por: 
+- Exportar tipo a IFC: Por defecto
+- Exportar tipo a IFC como: 
+- Introducir el tipo predefinido de IFC: 
+- Tipo IfcGUID: 014$kwHPjA$PB$mrfzHE_H
+- Coeficiente de transferencia de calor (U): 0.000 W/(m²·K)
+- Resistencia térmica (R): 0.000 (m²·K)/W
+- Masa térmica: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absortancia: 0.700
+- Aspereza: 3
+
+Elemento 3519:
+
+
+Elemento 3144:
+
+
+Elemento 1:
+- Nombre de organización: 
+- Descripción de organización: 
+- Nombre del edificio: 
+- Autor: 
+- Subproyecto: Información de proyecto
+- Editado por: 
+- IfcSite GUID: 
+- IfcBuilding GUID: 
+- IfcProject GUID: 
+- Fecha de emisión de proyecto: Fecha de emisión
+- Estado de proyecto: Estado de proyecto
+- Nombre de cliente: Propietario
+- Dirección de proyecto: Introduzca dirección aquí
+- Nombre de proyecto: Nombre de proyecto
+- Número de proyecto: 0001
+- Configuración de análisis de ruta: 
