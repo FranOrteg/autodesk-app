@@ -21,5 +21,8 @@ router.use('/model', require('./api/model'));
 // Elements
 router.use('/elements', require('./api/elements'));
 
+// VectorStore OpenAI
+router.use('/vectorStore', require('./api/vectorStore'));
+
 
 module.exports = router;
