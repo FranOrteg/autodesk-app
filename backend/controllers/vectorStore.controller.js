@@ -30,7 +30,7 @@ function formatPropertiesToTextPerModel(modelName, urn, collection) {
       .join("\n\n");
 }
 
-exports.uploadModelToVectorStore = async (req, res) => {
+const uploadModelToVectorStore = async (req, res) => {
   try {
       const { modelName, urn, elements, properties } = req.body;
 
@@ -85,4 +85,8 @@ exports.uploadModelToVectorStore = async (req, res) => {
     console.error("Error al subir el modelo a Vector Store:", error);
     res.status(500).json({ error: "Error interno", detail: error.message });
   }
+};
+
+module.exports = {
+  uploadModelToVectorStore,
 };

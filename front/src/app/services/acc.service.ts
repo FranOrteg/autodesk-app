@@ -69,7 +69,7 @@ export class AccService {
   uploadModelToVectorStore(modelName: string, urn: string, elements: any[], properties: any) {
     const payload = { modelName, urn, elements, properties };
     return firstValueFrom(
-      this.http.post<any>(`${this.BASE_URL}/vectorstore/upload`, payload)
+      this.http.post<any>(`${this.BASE_URL}/vectorStore/upload`, payload)
     );
   }  
 

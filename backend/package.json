@@ -16,6 +16,7 @@
     "googleapis": "^146.0.0",
     "morgan": "~1.9.1",
     "mysql2": "^3.13.0",
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "openai": "^4.94.0"
   }
 }

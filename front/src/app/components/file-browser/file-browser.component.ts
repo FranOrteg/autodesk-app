@@ -162,7 +162,12 @@ export class FileBrowserComponent implements OnInit {
       console.log('Enviando al backend los elementos:', formattedElements);
       console.log('Enviando al backend las propiedades:', formattedProperties);
 
-      await this.accService.saveModelData(projectName, urnId, formattedElements, formattedProperties);
+      // Almacenar los datos en MySQL
+      //await this.accService.saveModelData(projectName, urnId, formattedElements, formattedProperties);
+      
+      // Subir Fichero al vector Store de OPEN AI
+      await this.accService.uploadModelToVectorStore(projectName, urnId, formattedElements, formattedProperties);
+
 
       console.log('Datos almacenados exitosamente en la base de datos.');
     } catch (error) {
