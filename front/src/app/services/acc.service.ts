@@ -65,6 +65,14 @@ export class AccService {
       return Promise.reject(error);
     });
   }
+
+  uploadModelToVectorStore(modelName: string, urn: string, elements: any[], properties: any) {
+    const payload = { modelName, urn, elements, properties };
+    return firstValueFrom(
+      this.http.post<any>(`${this.BASE_URL}/vectorstore/upload`, payload)
+    );
+  }  
+
 }
 
 
