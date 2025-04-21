@@ -10,21 +10,48 @@ const openai = new OpenAI({
 const VECTOR_STORE_ID = process.env.OPENAI_VECTOR_STORE_ID;
 const ASSISTANT_ID = process.env.OPENAI_ASSISTANT_ID;
 
-// Formatea las propiedades del modelo como texto legible por el asistente con categorías explícitas
-function formatPropertiesToTextPerModel(modelName, urn, collection) {
-  return `Nombre del modelo: ${modelName}\nURN: ${urn}\n\n` +
-    collection.map((element) => {
-      const props = Object.entries(element.properties || {})
-        .map(([category, values]) => {
-          const categoryProps = Object.entries(values)
-            .map(([prop, val]) => `[${category}] ${prop}: ${val}`)
-            .join("\n");
-          return categoryProps;
-        })
+function formatElementText(element) {
+  const props = Object.entries(element.properties || {})
+    .map(([category, values]) => {
+      return Object.entries(values)
+        .map(([prop, val]) => `[${category}] ${prop}: ${val}`)
         .join("\n");
+    })
+    .join("\n");
 
-      return `Elemento ${element.objectid} - ${element.name}\nExternal ID: ${element.externalId}\nTipo: ${element.type}\n\nPropiedades:\n${props}`;
-    }).join("\n\n---\n\n");
+  return `Elemento ${element.objectid} - ${element.name}\nExternal ID: ${element.externalId}\nTipo: ${element.type}\n\nPropiedades:\n${props}`;
+}
+
+function createChunksWithHeader(modelName, urn, enrichedCollection, chunkSize) {
+  const chunks = [];
+  let currentChunk = [];
+  let currentSize = 0;
+
+  for (let el of enrichedCollection) {
+    const elementText = formatElementText(el);
+    const elementBuffer = Buffer.from(elementText + "\n\n---\n\n", "utf-8");
+
+    if (currentSize + elementBuffer.length > chunkSize && currentChunk.length > 0) {
+      chunks.push(currentChunk);
+      currentChunk = [];
+      currentSize = 0;
+    }
+
+    currentChunk.push(el);
+    currentSize += elementBuffer.length;
+  }
+
+  if (currentChunk.length > 0) {
+    chunks.push(currentChunk);
+  }
+
+  return chunks;
+}
+
+function buildChunkText(modelName, urn, chunkIndex, totalChunks, chunkElements) {
+  const header = `CHUNK ${chunkIndex + 1} OF ${totalChunks} (Modelo: ${modelName}, URN: ${urn})\n\n`;
+  const body = chunkElements.map(formatElementText).join("\n\n---\n\n");
+  return header + body;
 }
 
 const uploadModelToVectorStore = async (req, res) => {
@@ -35,7 +62,6 @@ const uploadModelToVectorStore = async (req, res) => {
       return res.status(400).json({ error: "Faltan datos requeridos" });
     }
 
-    // Enriquecer elementos con propiedades
     const enrichedCollection = elements.map((el) => {
       const props = properties.filter((p) => p.element_id === el.objectid);
       const grouped = props.reduce((acc, { category, property_name, property_value }) => {
@@ -46,33 +72,37 @@ const uploadModelToVectorStore = async (req, res) => {
       return { ...el, properties: grouped };
     });
 
-    const content = formatPropertiesToTextPerModel(modelName, urn, enrichedCollection);
-
     const safeModelName = modelName.replace(/\s+/g, "_").replace(/[^\w\-]/g, "");
-    const filename = `${safeModelName}.txt`;
-    const filepath = path.join(__dirname, "..", "temp", filename);
+    const tempDir = path.join(__dirname, "..", "temp");
+    const CHUNK_SIZE = 10 * 1024 * 1024;
 
-    // Guardar archivo temporalmente
-    await fsp.writeFile(filepath, content);
+    const chunks = createChunksWithHeader(modelName, urn, enrichedCollection, CHUNK_SIZE);
+    const totalChunks = chunks.length;
+    const chunkFileIds = [];
 
-    // Subir archivo a OpenAI
-    const file = await openai.files.create({
-      file: fs.createReadStream(filepath),
-      purpose: "assistants",
-    });
+    for (let i = 0; i < totalChunks; i++) {
+      const chunkText = buildChunkText(modelName, urn, i, totalChunks, chunks[i]);
+      const chunkFilename = `${safeModelName}_chunk_${i + 1}_of_${totalChunks}.txt`;
+      const chunkPath = path.join(tempDir, chunkFilename);
 
-    // Asociar archivo al vector store
-    await openai.vectorStores.fileBatches.create(VECTOR_STORE_ID, {
-      file_ids: [file.id],
-    });
+      await fsp.writeFile(chunkPath, chunkText);
 
-    // Eliminar archivo temporal
-    // await fsp.unlink(filepath);
+      const file = await openai.files.create({
+        file: fs.createReadStream(chunkPath),
+        purpose: "assistants",
+      });
+
+      await openai.vectorStores.fileBatches.create(VECTOR_STORE_ID, {
+        file_ids: [file.id],
+      });
+
+      chunkFileIds.push(file.id);
+      //await fsp.unlink(chunkPath);
+    }
 
     res.status(200).json({
-      message: `Modelo "${modelName}" subido correctamente al vector store`,
-      file_id: file.id,
-      filename,
+      message: `Modelo "${modelName}" subido correctamente al vector store en ${totalChunks} fragmentos`,
+      files_uploaded: chunkFileIds,
     });
 
   } catch (error) {
