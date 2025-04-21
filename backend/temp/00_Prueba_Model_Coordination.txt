@@ -1,0 +1,337 @@
+Nombre del modelo: 00_Prueba Model Coordination
+URN: urn:adsk.wipprod:dm.lineage:qRlvPHQhRgyoCEwCl3eElg
+
+Elemento 2:
+- Name: Level 1
+- Structural: No
+- Building Story: Yes
+- Workset: Shared Views, Levels, Grids
+- Edited by: 
+- Elevation: 0.000 mm
+- Story Above: Default
+- Computation Height: 0.000 mm
+- Scope Box: None
+- Export to IFC: By Type
+- IfcGUID: 2feJeiooDAEhk7c6f1C5uV
+
+Elemento 39:
+- Structural: No
+- Structural Usage: Non-bearing
+- Location Line: Wall Centerline
+- Base Constraint: Level 1
+- Base Offset: 0.000 mm
+- Base is Attached: No
+- Base Extension Distance: 0.000 mm
+- Top Constraint: Unconnected
+- Unconnected Height: 4000.000 mm
+- Top Offset: 0.000 mm
+- Top is Attached: No
+- Top Extension Distance: 0.000 mm
+- Room Bounding: Yes
+- Related to Mass: No
+- Image: 
+- Comments: este es un comentario del prmimer muro
+- Mark: LB-Basic wall - elemento 1
+- Workset: Workset1
+- Edited by: 
+- Type Name: LB-Basic wall - tipo 1
+- Type Image: 
+- Keynote: 
+- Model: 
+- Manufacturer: 
+- Type Comments: comentario de tipo 2
+- URL: 
+- Description: 
+- Assembly Description: 
+- Assembly Code: 
+- Type Mark: LB-Basic wall - tipo 1 - type mark 1
+- Fire Rating: 
+- Cost: 0.000 ฿
+- Export to IFC: By Type
+- Export to IFC As: 
+- IFC Predefined Type: 
+- IfcGUID: 2feJeiooDAEhk7c6f1C59l
+- Export Type to IFC: Default
+- Export Type to IFC As: 
+- Type IFC Predefined Type: 
+- Type IfcGUID: 2feJeiooDAEhk7c6f1C596
+- Phase Created: New Construction
+- Phase Demolished: None
+- Length: 1800.000 mm
+- Area: 7.200 m^2
+- Volume: 1.440 m^3
+- Cross-Section: Vertical
+- Structure: 
+- Wrapping at Inserts: Do not wrap
+- Wrapping at Ends: None
+- Width: 200.000 mm
+- Function: Exterior
+- Coarse Scale Fill Pattern: 
+- Coarse Scale Fill Color: 0
+- Structural Material: 
+- Heat Transfer Coefficient (U): 0.000 W/(m²·K)
+- Thermal Resistance (R): 0.000 (m²·K)/W
+- Thermal Mass: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absorptance: 0.100
+- Roughness: 1
+
+Elemento 2175:
+- Structural: No
+- Structural Usage: Non-bearing
+- Location Line: Wall Centerline
+- Base Constraint: Level 1
+- Base Offset: 0.000 mm
+- Base is Attached: No
+- Base Extension Distance: 0.000 mm
+- Top Constraint: Unconnected
+- Unconnected Height: 4000.000 mm
+- Top Offset: 0.000 mm
+- Top is Attached: No
+- Top Extension Distance: 0.000 mm
+- Room Bounding: Yes
+- Related to Mass: No
+- Image: 
+- Comments: 
+- Mark: LB-Basic wall - elemento 2
+- Workset: Workset1
+- Edited by: 
+- Type Name: LB-Basic wall - tipo 1
+- Type Image: 
+- Keynote: 
+- Model: 
+- Manufacturer: 
+- Type Comments: comentario de tipo 2
+- URL: 
+- Description: 
+- Assembly Description: 
+- Assembly Code: 
+- Type Mark: LB-Basic wall - tipo 1 - type mark 1
+- Fire Rating: 
+- Cost: 0.000 ฿
+- Export to IFC: By Type
+- Export to IFC As: 
+- IFC Predefined Type: 
+- IfcGUID: 2qm$xwp8L5WgdpotIJvvqn
+- Export Type to IFC: Default
+- Export Type to IFC As: 
+- Type IFC Predefined Type: 
+- Type IfcGUID: 2feJeiooDAEhk7c6f1C596
+- Phase Created: New Construction
+- Phase Demolished: None
+- Length: 760.000 mm
+- Area: 3.040 m^2
+- Volume: 0.608 m^3
+- Cross-Section: Vertical
+- Structure: 
+- Wrapping at Inserts: Do not wrap
+- Wrapping at Ends: None
+- Width: 200.000 mm
+- Function: Exterior
+- Coarse Scale Fill Pattern: 
+- Coarse Scale Fill Color: 0
+- Structural Material: 
+- Heat Transfer Coefficient (U): 0.000 W/(m²·K)
+- Thermal Resistance (R): 0.000 (m²·K)/W
+- Thermal Mass: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absorptance: 0.100
+- Roughness: 1
+
+Elemento 2154:
+- Structure: 
+- Wrapping at Inserts: Do not wrap
+- Wrapping at Ends: None
+- Width: 200.000 mm
+- Function: Exterior
+- Coarse Scale Fill Pattern: 
+- Coarse Scale Fill Color: 0
+- Type Image: 
+- Keynote: 
+- Model: 
+- Manufacturer: 
+- Type Comments: comentario de tipo 2
+- URL: 
+- Description: 
+- Assembly Description: 
+- Assembly Code: 
+- Type Mark: LB-Basic wall - tipo 1 - type mark 1
+- Fire Rating: 
+- Cost: 0.000 ฿
+- Workset: Wall Types
+- Edited by: 
+- Export Type to IFC: Default
+- Export Type to IFC As: 
+- Type IFC Predefined Type: 
+- Type IfcGUID: 2feJeiooDAEhk7c6f1C596
+- Structural Material: 
+- Heat Transfer Coefficient (U): 0.000 W/(m²·K)
+- Thermal Resistance (R): 0.000 (m²·K)/W
+- Thermal Mass: 0.000 autodesk.unit.unit:kilojoulesPerSquareMeterKelvin-1.0.0
+- Absorptance: 0.100
+- Roughness: 1
+
+Elemento 2152:
+
+
+Elemento 35:
+
+
+Elemento 2176:
+- Level: Level 1
+- Elevation from Level: 0.000 mm
+- Host: Level : Level 1
+- Offset from Host: 0.000 mm
+- Moves With Nearby Elements: No
+- Default Elevation: 0.000 mm
+- Image: 
+- Comments: 
+- Mark: 
+- Workset: Workset1
+- Edited by: 
+- Type Name: LB-furniture - tipo 1
+- Type Image: 
+- Keynote: 
+- Model: 
+- Manufacturer: 
+- Type Comments: 
+- URL: 
+- Description: 
+- Assembly Code: 
+- Cost: 0.000 ฿
+- Assembly Description: 
+- Type Mark: 
+- OmniClass Number: 23.40.20.00
+- OmniClass Title: General Furniture and Specialties
+- Code Name: 
+- IFC Predefined Type: 
+- Export to IFC As: 
+- Export to IFC: By Type
+- IfcGUID: 2qm$xwp8L5WgdpotIJvvxp
+- Type IFC Predefined Type: 
+- Export Type to IFC As: 
+- Export Type to IFC: Default
+- Type IfcGUID: 2qm$xwp8L5WgdpotIJvvxN
+- Phase Created: New Construction
+- Phase Demolished: None
+
+Elemento 2177:
+- Level: Level 1
+- Elevation from Level: 0.000 mm
+- Host: Level : Level 1
+- Offset from Host: 0.000 mm
+- Moves With Nearby Elements: No
+- Default Elevation: 0.000 mm
+- Image: 
+- Comments: segundo elemento
+- Mark: 
+- Workset: Workset1
+- Edited by: 
+- Type Name: LB-furniture - tipo 1
+- Type Image: 
+- Keynote: 
+- Model: 
+- Manufacturer: 
+- Type Comments: 
+- URL: 
+- Description: 
+- Assembly Code: 
+- Cost: 0.000 ฿
+- Assembly Description: 
+- Type Mark: 
+- OmniClass Number: 23.40.20.00
+- OmniClass Title: General Furniture and Specialties
+- Code Name: 
+- IFC Predefined Type: 
+- Export to IFC As: 
+- Export to IFC: By Type
+- IfcGUID: 2qm$xwp8L5WgdpotIJvu6W
+- Type IFC Predefined Type: 
+- Export Type to IFC As: 
+- Export Type to IFC: Default
+- Type IfcGUID: 2qm$xwp8L5WgdpotIJvvxN
+- Phase Created: New Construction
+- Phase Demolished: None
+
+Elemento 2178:
+- Level: Level 1
+- Elevation from Level: 0.000 mm
+- Host: Level : Level 1
+- Offset from Host: 0.000 mm
+- Moves With Nearby Elements: No
+- Default Elevation: 0.000 mm
+- Image: 
+- Comments: tercer eleento
+- Mark: 
+- Workset: Workset1
+- Edited by: 
+- Type Name: LB-furniture - tipo 1
+- Type Image: 
+- Keynote: 
+- Model: 
+- Manufacturer: 
+- Type Comments: 
+- URL: 
+- Description: 
+- Assembly Code: 
+- Cost: 0.000 ฿
+- Assembly Description: 
+- Type Mark: 
+- OmniClass Number: 23.40.20.00
+- OmniClass Title: General Furniture and Specialties
+- Code Name: 
+- IFC Predefined Type: 
+- Export to IFC As: 
+- Export to IFC: By Type
+- IfcGUID: 2qm$xwp8L5WgdpotIJvu7x
+- Type IFC Predefined Type: 
+- Export Type to IFC As: 
+- Export Type to IFC: Default
+- Type IfcGUID: 2qm$xwp8L5WgdpotIJvvxN
+- Phase Created: New Construction
+- Phase Demolished: None
+
+Elemento 2276:
+- Default Elevation: 0.000 mm
+- Type Image: 
+- Keynote: 
+- Model: 
+- Manufacturer: 
+- Type Comments: 
+- URL: 
+- Description: 
+- Assembly Code: 
+- Cost: 0.000 ฿
+- Assembly Description: 
+- Type Mark: 
+- Workset: Family  : Furniture : LB-furniture
+- Edited by: 
+- OmniClass Number: 23.40.20.00
+- OmniClass Title: General Furniture and Specialties
+- Code Name: 
+- Type IFC Predefined Type: 
+- Export Type to IFC As: 
+- Export Type to IFC: Default
+- Type IfcGUID: 2qm$xwp8L5WgdpotIJvvxN
+
+Elemento 2275:
+
+
+Elemento 2174:
+
+
+Elemento 1:
+- Organization Name: 
+- Organization Description: 
+- Building Name: 
+- Author: 
+- Workset: Project Info
+- Edited by: 
+- IfcSite GUID: 
+- IfcBuilding GUID: 
+- IfcProject GUID: 
+- Project Issue Date: 
+- Project Status: 
+- Client Name: 
+- Project Address: 
+- Project Name: 
+- Project Number: 
+- Route Analysis Settings: 
