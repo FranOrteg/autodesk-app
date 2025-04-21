@@ -10,19 +10,21 @@ const openai = new OpenAI({
 const VECTOR_STORE_ID = process.env.OPENAI_VECTOR_STORE_ID;
 const ASSISTANT_ID = process.env.OPENAI_ASSISTANT_ID;
 
-// Formatea las propiedades del modelo como texto legible por el asistente
+// Formatea las propiedades del modelo como texto legible por el asistente con categorías explícitas
 function formatPropertiesToTextPerModel(modelName, urn, collection) {
   return `Nombre del modelo: ${modelName}\nURN: ${urn}\n\n` +
     collection.map((element) => {
       const props = Object.entries(element.properties || {})
         .map(([category, values]) => {
-          return Object.entries(values)
-            .map(([prop, val]) => `- ${prop}: ${val}`)
+          const categoryProps = Object.entries(values)
+            .map(([prop, val]) => `[${category}] ${prop}: ${val}`)
             .join("\n");
+          return categoryProps;
         })
         .join("\n");
-      return `Elemento ${element.objectid}:\n${props}`;
-    }).join("\n\n");
+
+      return `Elemento ${element.objectid} - ${element.name}\nExternal ID: ${element.externalId}\nTipo: ${element.type}\n\nPropiedades:\n${props}`;
+    }).join("\n\n---\n\n");
 }
 
 const uploadModelToVectorStore = async (req, res) => {
@@ -61,9 +63,9 @@ const uploadModelToVectorStore = async (req, res) => {
 
     // Asociar archivo al vector store
     await openai.vectorStores.fileBatches.create(VECTOR_STORE_ID, {
-        file_ids: [file.id],
+      file_ids: [file.id],
     });
-      
+
     // Eliminar archivo temporal
     // await fsp.unlink(filepath);
 
