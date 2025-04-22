@@ -19,8 +19,8 @@ function formatElementText(element) {
     })
     .join("\n");
 
-  return `Elemento ${element.objectid} - ${element.name}\nExternal ID: ${element.externalId}\nTipo: ${element.type}\n\nPropiedades:\n${props}`;
-}
+    return `Elemento ID: ${element.objectid}\nNombre: ${element.name}\nExternal ID: ${element.externalId}\nTipo: ${element.type}\n\nPropiedades:\n${props}`;
+  }
 
 function createChunksWithHeader(modelName, urn, enrichedCollection, chunkSize) {
   const chunks = [];
