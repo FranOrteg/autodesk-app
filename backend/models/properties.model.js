@@ -69,6 +69,35 @@ async function getAllProperties(accessToken, urn, guid) {
     return data;
 }
 
+/* Envia el modelo a traducir a Autodesk model derivative Api */
+
+async function translateModel(accessToken, urn) {
+    const url = 'https://developer.api.autodesk.com/modelderivative/v2/designdata/job';
+
+    const payload = {
+        input: {
+            urn: urn
+        },
+        output: {
+            formats: [
+                {
+                    type: 'svf',
+                    views: ['2d', '3d']
+                }
+            ]
+        }
+    };
+
+    const { data } = await axios.post(url, payload, {
+        headers: {
+            'Authorization': `Bearer ${accessToken}`,
+            'Content-Type': 'application/json'
+        }
+    });
+
+    return data;
+}
+
 /* ######## */
 /* ##BBDD## */
 /* ######## */
@@ -129,5 +158,6 @@ module.exports = {
     getDbProperties,
     getDbPropertiesById,
     getDbPropertiesByCategory,
-    getDbPropertiesByElementId
+    getDbPropertiesByElementId,
+    translateModel
 }

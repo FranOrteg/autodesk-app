@@ -4,7 +4,9 @@ const ensureAuthToken = require('../../helpers/middlewares');
 const { getMetadata, 
         getModelObjects, 
         getModelStatus, 
-        getAllProperties } = require('../../models/properties.model');
+        getAllProperties,
+        translateModel
+    } = require('../../models/properties.model');
 
 router.get('/meta/:urn/metadata', ensureAuthToken, async (req, res) => {
     try {
@@ -63,5 +65,18 @@ router.get('/:urn/modelStatus', ensureAuthToken, async (req, res) => {
     }
 });
 
+router.post('/:urn/translate', ensureAuthToken, async (req, res) => {
+    try {
+        const { urn } = req.params;
+
+        // obtener las propiedades del archivo
+        const translate = await translateModel(req.accessToken, urn);
+
+        res.json(translate);
+    } catch (error) {
+        console.error("error al traducir el modelo");
+        res.status(500).json({ fatal: error.message });
+    }
+});
 
 module.exports = router;

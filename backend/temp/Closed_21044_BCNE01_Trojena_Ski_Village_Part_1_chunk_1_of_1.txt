@@ -1,0 +1,1147 @@
+CHUNK 1 OF 1 (Modelo: Closed_21044_BCNE01_Trojena Ski Village Part 1, URN: urn:adsk.wipprod:dm.lineage:R935JUEJTTqZRPiqI-Jz2w)
+
+Elemento ID: 3
+Nombre: SKI_LS01
+External ID: 7cfb783a-e1c5-4957-842e-07dc8476cea2-00012923
+Tipo: element
+
+Propiedades:
+[Extents] Scope Box: None
+[Constraints] Elevation: 2179.675 m
+[Constraints] Story Above: Default
+[Dimensions] Computation Height: 0.000 m
+[Identity Data] Name: SKI_LS01
+[Identity Data] Structural: No
+[Identity Data] Building Story: Yes
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+
+---
+
+Elemento ID: 5
+Nombre: SKI_LS02
+External ID: 13912105-0ab5-4671-80db-786b42362619-00011e75
+Tipo: element
+
+Propiedades:
+[Extents] Scope Box: None
+[Constraints] Elevation: 2055.000 m
+[Constraints] Story Above: Default
+[Dimensions] Computation Height: 0.000 m
+[Identity Data] Name: SKI_LS02
+[Identity Data] Structural: No
+[Identity Data] Building Story: Yes
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+
+---
+
+Elemento ID: 6
+Nombre: SKI_LS04
+External ID: baf22a6f-ece1-446d-9438-c5dfeb99715e-000168bf
+Tipo: element
+
+Propiedades:
+[Extents] Scope Box: None
+[Constraints] Elevation: 1820.000 m
+[Constraints] Story Above: Default
+[Dimensions] Computation Height: 0.000 m
+[Identity Data] Name: SKI_LS04
+[Identity Data] Structural: No
+[Identity Data] Building Story: Yes
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+
+---
+
+Elemento ID: 7
+Nombre: SKI_GM
+External ID: 562dd310-aab1-495f-b840-d491bc84edaa-0001e25f
+Tipo: element
+
+Propiedades:
+[Extents] Scope Box: None
+[Constraints] Elevation: 2120.000 m
+[Constraints] Story Above: Default
+[Dimensions] Computation Height: 0.000 m
+[Identity Data] Name: SKI_GM
+[Identity Data] Structural: No
+[Identity Data] Building Story: Yes
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+
+---
+
+Elemento ID: 9
+Nombre: SKI_LS05
+External ID: 93589efc-0a2d-498c-ab11-b806d8828c47-0014faf9
+Tipo: element
+
+Propiedades:
+[Extents] Scope Box: None
+[Constraints] Elevation: 1927.003 m
+[Constraints] Story Above: Default
+[Dimensions] Computation Height: 0.000 m
+[Identity Data] Name: SKI_LS05
+[Identity Data] Structural: No
+[Identity Data] Building Story: Yes
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+
+---
+
+Elemento ID: 58
+Nombre: Floor [14786]
+External ID: c7833047-ea9a-45bc-9ce8-657ef4660b13-000039c2
+Tipo: element
+
+Propiedades:
+[Data] Slopes_Difficulty level: GOOD
+[Data] Slopes_Material: SYNTHETIC
+[Data] Slopes_Light: No
+[Data] Slopes_Length: 643.879 m
+[Data] Uniclass2015PrCode: 
+[Data] Uniclass2015PrTitle: 
+[Data] Uniclass2015SsCode: 
+[Data] Uniclass2015SsTitle: 
+[Data] TSheetCode: 
+[Data] TSheetTitle: 
+[Data] OperationsClass: 
+[Data] RiskClass: 
+[Slab Shape Edit] Curved Edge Condition: 0
+[Constraints] Level: 00_SKI_SlopesStart
+[Constraints] Height Offset From Level: 0.000 m
+[Constraints] Room Bounding: Yes
+[Constraints] Related to Mass: No
+[Phasing] Phase Created: New Construction
+[Phasing] Phase Demolished: None
+[Structural] Structural: No
+[Structural] Enable Analytical Model: No
+[Structural] STR_Description: 
+[Dimensions] Slope: 0.000 degree
+[Dimensions] Perimeter: 1293.417 m
+[Dimensions] Area: 25430.563 m^2
+[Dimensions] Volume: 6357.641 m^3
+[Dimensions] Elevation at Top: 0.000 m
+[Dimensions] Elevation at Bottom: 0.000 m
+[Dimensions] Thickness: 0.250 m
+[Identity Data] Type Name: SKI_00_CRA Slopes
+[Identity Data] Image: 
+[Identity Data] Comments: 
+[Identity Data] Mark: 4C
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+[Identity Data] Type Image: 
+[Identity Data] Keynote: 
+[Identity Data] Model: 
+[Identity Data] Manufacturer: 
+[Identity Data] Type Comments: 
+[Identity Data] URL: 
+[Identity Data] Description: CRA SLOPES
+[Identity Data] Assembly Description: 
+[Identity Data] Assembly Code: 
+[Identity Data] Type Mark: 
+[Identity Data] Cost: 0.000
+[Identity Data] MasterFormatRef: 
+[Other] AssetIdentifier: 
+[Other] BarCode: 
+[Other] InstallationDate: 
+[Other] ProductionYear: 
+[Other] SerialNumber: 
+[Other] TagNumber: 
+[Other] WarrantyStartDate: 
+[Other] ModelReference: 
+[Other] AccessibilityPerformance: 
+[Other] CodePerformance: 
+[Other] Color: 
+[Other] Constituents: 
+[Other] Features: 
+[Other] Finish: 
+[Other] Grade: 
+[Other] Material: 
+[Other] NominalHeight: 0.000 m
+[Other] NominalLength: 0.000 m
+[Other] NominalWidth: 0.000 m
+[Other] ReplacementCost: 
+[Other] Shape: 
+[Other] Size: 
+[Other] SustainabilityPerformance: 
+[Other] WarrantyDescription: 
+[Other] WarrantyDurationLabor: 
+[Other] WarrantyDurationParts: 
+[Other] WarrantyGuarantorLabor: 
+[Other] WarrantyGuarantorParts: 
+[Other] ModelNumber: 
+[Other] ExpectedLife: 
+[Other] AssetType: 
+[Other] ResponsibleSourcing: 
+[Analytical Properties] Heat Transfer Coefficient (U): 0.000 watt / (m^2 kelvin)
+[Analytical Properties] Thermal Resistance (R): 0.000 m^2 kelvin / watt
+[Analytical Properties] Thermal mass: 0.000 kjoule / kelvin
+[Analytical Properties] Absorptance: 0.100
+[Analytical Properties] Roughness: 1
+[IFC Parameters] IfcEntity: 
+[IFC Parameters] IfcEntity[Type]: 
+[Materials and Finishes] Structural Material: <By Category>
+[Graphics] Coarse Scale Fill Pattern: 
+[Graphics] Coarse Scale Fill Color: 0
+[Construction] Structure: 
+[Construction] Default Thickness: 0.250 m
+[Construction] Function: Interior
+
+---
+
+Elemento ID: 59
+Nombre: Floor [16761]
+External ID: be47f6a5-c576-45a3-b042-17730b6db5e6-00004179
+Tipo: element
+
+Propiedades:
+[Data] Slopes_Difficulty level: GOOD
+[Data] Slopes_Material: SYNTHETIC
+[Data] Slopes_Light: Yes
+[Data] Slopes_Length: 498.527 m
+[Data] Uniclass2015PrCode: 
+[Data] Uniclass2015PrTitle: 
+[Data] Uniclass2015SsCode: 
+[Data] Uniclass2015SsTitle: 
+[Data] TSheetCode: 
+[Data] TSheetTitle: 
+[Data] OperationsClass: 
+[Data] RiskClass: 
+[Slab Shape Edit] Curved Edge Condition: 0
+[Constraints] Level: 00_SKI_SlopesStart
+[Constraints] Height Offset From Level: 0.000 m
+[Constraints] Room Bounding: Yes
+[Constraints] Related to Mass: No
+[Phasing] Phase Created: New Construction
+[Phasing] Phase Demolished: None
+[Structural] Structural: No
+[Structural] Enable Analytical Model: No
+[Structural] STR_Description: 
+[Dimensions] Slope: 0.000 degree
+[Dimensions] Perimeter: 1043.677 m
+[Dimensions] Area: 18879.267 m^2
+[Dimensions] Volume: 4719.817 m^3
+[Dimensions] Elevation at Top: 0.000 m
+[Dimensions] Elevation at Bottom: 0.000 m
+[Dimensions] Thickness: 0.250 m
+[Identity Data] Type Name: SKI_00_CRA Slopes
+[Identity Data] Image: 
+[Identity Data] Comments: 
+[Identity Data] Mark: 4D
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+[Identity Data] Type Image: 
+[Identity Data] Keynote: 
+[Identity Data] Model: 
+[Identity Data] Manufacturer: 
+[Identity Data] Type Comments: 
+[Identity Data] URL: 
+[Identity Data] Description: CRA SLOPES
+[Identity Data] Assembly Description: 
+[Identity Data] Assembly Code: 
+[Identity Data] Type Mark: 
+[Identity Data] Cost: 0.000
+[Identity Data] MasterFormatRef: 
+[Other] AssetIdentifier: 
+[Other] BarCode: 
+[Other] InstallationDate: 
+[Other] ProductionYear: 
+[Other] SerialNumber: 
+[Other] TagNumber: 
+[Other] WarrantyStartDate: 
+[Other] ModelReference: 
+[Other] AccessibilityPerformance: 
+[Other] CodePerformance: 
+[Other] Color: 
+[Other] Constituents: 
+[Other] Features: 
+[Other] Finish: 
+[Other] Grade: 
+[Other] Material: 
+[Other] NominalHeight: 0.000 m
+[Other] NominalLength: 0.000 m
+[Other] NominalWidth: 0.000 m
+[Other] ReplacementCost: 
+[Other] Shape: 
+[Other] Size: 
+[Other] SustainabilityPerformance: 
+[Other] WarrantyDescription: 
+[Other] WarrantyDurationLabor: 
+[Other] WarrantyDurationParts: 
+[Other] WarrantyGuarantorLabor: 
+[Other] WarrantyGuarantorParts: 
+[Other] ModelNumber: 
+[Other] ExpectedLife: 
+[Other] AssetType: 
+[Other] ResponsibleSourcing: 
+[Analytical Properties] Heat Transfer Coefficient (U): 0.000 watt / (m^2 kelvin)
+[Analytical Properties] Thermal Resistance (R): 0.000 m^2 kelvin / watt
+[Analytical Properties] Thermal mass: 0.000 kjoule / kelvin
+[Analytical Properties] Absorptance: 0.100
+[Analytical Properties] Roughness: 1
+[IFC Parameters] IfcEntity: 
+[IFC Parameters] IfcEntity[Type]: 
+[Materials and Finishes] Structural Material: <By Category>
+[Graphics] Coarse Scale Fill Pattern: 
+[Graphics] Coarse Scale Fill Color: 0
+[Construction] Structure: 
+[Construction] Default Thickness: 0.250 m
+[Construction] Function: Interior
+
+---
+
+Elemento ID: 60
+Nombre: Floor [70426]
+External ID: 87ac3ada-92d4-40ff-9dae-42aeca4c7f5a-0001131a
+Tipo: element
+
+Propiedades:
+[Data] Slopes_Difficulty level: GOOD
+[Data] Slopes_Material: SNOW OVER SYNTHETIC
+[Data] Slopes_Light: Yes
+[Data] Slopes_Length: 746.810 m
+[Data] Uniclass2015PrCode: 
+[Data] Uniclass2015PrTitle: 
+[Data] Uniclass2015SsCode: 
+[Data] Uniclass2015SsTitle: 
+[Data] TSheetCode: 
+[Data] TSheetTitle: 
+[Data] OperationsClass: 
+[Data] RiskClass: 
+[Slab Shape Edit] Curved Edge Condition: 0
+[Constraints] Level: 00_SKI_SlopesStart
+[Constraints] Height Offset From Level: 0.000 m
+[Constraints] Room Bounding: Yes
+[Constraints] Related to Mass: No
+[Phasing] Phase Created: New Construction
+[Phasing] Phase Demolished: None
+[Structural] Structural: No
+[Structural] Enable Analytical Model: No
+[Structural] STR_Description: 
+[Dimensions] Slope: 0.000 degree
+[Dimensions] Perimeter: 2292.443 m
+[Dimensions] Area: 56154.485 m^2
+[Dimensions] Volume: 14038.621 m^3
+[Dimensions] Elevation at Top: 0.000 m
+[Dimensions] Elevation at Bottom: 0.000 m
+[Dimensions] Thickness: 0.250 m
+[Identity Data] Type Name: SKI_00_CRA Slopes
+[Identity Data] Image: 
+[Identity Data] Comments: 
+[Identity Data] Mark: 1B
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+[Identity Data] Type Image: 
+[Identity Data] Keynote: 
+[Identity Data] Model: 
+[Identity Data] Manufacturer: 
+[Identity Data] Type Comments: 
+[Identity Data] URL: 
+[Identity Data] Description: CRA SLOPES
+[Identity Data] Assembly Description: 
+[Identity Data] Assembly Code: 
+[Identity Data] Type Mark: 
+[Identity Data] Cost: 0.000
+[Identity Data] MasterFormatRef: 
+[Other] AssetIdentifier: 
+[Other] BarCode: 
+[Other] InstallationDate: 
+[Other] ProductionYear: 
+[Other] SerialNumber: 
+[Other] TagNumber: 
+[Other] WarrantyStartDate: 
+[Other] ModelReference: 
+[Other] AccessibilityPerformance: 
+[Other] CodePerformance: 
+[Other] Color: 
+[Other] Constituents: 
+[Other] Features: 
+[Other] Finish: 
+[Other] Grade: 
+[Other] Material: 
+[Other] NominalHeight: 0.000 m
+[Other] NominalLength: 0.000 m
+[Other] NominalWidth: 0.000 m
+[Other] ReplacementCost: 
+[Other] Shape: 
+[Other] Size: 
+[Other] SustainabilityPerformance: 
+[Other] WarrantyDescription: 
+[Other] WarrantyDurationLabor: 
+[Other] WarrantyDurationParts: 
+[Other] WarrantyGuarantorLabor: 
+[Other] WarrantyGuarantorParts: 
+[Other] ModelNumber: 
+[Other] ExpectedLife: 
+[Other] AssetType: 
+[Other] ResponsibleSourcing: 
+[Analytical Properties] Heat Transfer Coefficient (U): 0.000 watt / (m^2 kelvin)
+[Analytical Properties] Thermal Resistance (R): 0.000 m^2 kelvin / watt
+[Analytical Properties] Thermal mass: 0.000 kjoule / kelvin
+[Analytical Properties] Absorptance: 0.100
+[Analytical Properties] Roughness: 1
+[IFC Parameters] IfcEntity: 
+[IFC Parameters] IfcEntity[Type]: 
+[Materials and Finishes] Structural Material: <By Category>
+[Graphics] Coarse Scale Fill Pattern: 
+[Graphics] Coarse Scale Fill Color: 0
+[Construction] Structure: 
+[Construction] Default Thickness: 0.250 m
+[Construction] Function: Interior
+
+---
+
+Elemento ID: 61
+Nombre: Floor [500298]
+External ID: d6fc2bd3-ffdb-4d2e-a055-6d84aaeff078-0007972a
+Tipo: element
+
+Propiedades:
+[Data] Slopes_Difficulty level: GOOD
+[Data] Slopes_Material: SNOW
+[Data] Slopes_Light: Yes
+[Data] Slopes_Length: 628.714 m
+[Data] Uniclass2015PrCode: 
+[Data] Uniclass2015PrTitle: 
+[Data] Uniclass2015SsCode: 
+[Data] Uniclass2015SsTitle: 
+[Data] TSheetCode: 
+[Data] TSheetTitle: 
+[Data] OperationsClass: 
+[Data] RiskClass: 
+[Slab Shape Edit] Curved Edge Condition: 0
+[Constraints] Level: 00_SKI_SlopesStart
+[Constraints] Height Offset From Level: 0.000 m
+[Constraints] Room Bounding: Yes
+[Constraints] Related to Mass: No
+[Phasing] Phase Created: New Construction
+[Phasing] Phase Demolished: None
+[Structural] Structural: No
+[Structural] Enable Analytical Model: No
+[Structural] STR_Description: 
+[Dimensions] Slope: 0.000 degree
+[Dimensions] Perimeter: 1213.396 m
+[Dimensions] Area: 18832.399 m^2
+[Dimensions] Volume: 4708.100 m^3
+[Dimensions] Elevation at Top: 0.000 m
+[Dimensions] Elevation at Bottom: 0.000 m
+[Dimensions] Thickness: 0.250 m
+[Identity Data] Type Name: SKI_00_CRA Slopes
+[Identity Data] Image: 
+[Identity Data] Comments: 
+[Identity Data] Mark: 1C
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+[Identity Data] Type Image: 
+[Identity Data] Keynote: 
+[Identity Data] Model: 
+[Identity Data] Manufacturer: 
+[Identity Data] Type Comments: 
+[Identity Data] URL: 
+[Identity Data] Description: CRA SLOPES
+[Identity Data] Assembly Description: 
+[Identity Data] Assembly Code: 
+[Identity Data] Type Mark: 
+[Identity Data] Cost: 0.000
+[Identity Data] MasterFormatRef: 
+[Other] AssetIdentifier: 
+[Other] BarCode: 
+[Other] InstallationDate: 
+[Other] ProductionYear: 
+[Other] SerialNumber: 
+[Other] TagNumber: 
+[Other] WarrantyStartDate: 
+[Other] ModelReference: 
+[Other] AccessibilityPerformance: 
+[Other] CodePerformance: 
+[Other] Color: 
+[Other] Constituents: 
+[Other] Features: 
+[Other] Finish: 
+[Other] Grade: 
+[Other] Material: 
+[Other] NominalHeight: 0.000 m
+[Other] NominalLength: 0.000 m
+[Other] NominalWidth: 0.000 m
+[Other] ReplacementCost: 
+[Other] Shape: 
+[Other] Size: 
+[Other] SustainabilityPerformance: 
+[Other] WarrantyDescription: 
+[Other] WarrantyDurationLabor: 
+[Other] WarrantyDurationParts: 
+[Other] WarrantyGuarantorLabor: 
+[Other] WarrantyGuarantorParts: 
+[Other] ModelNumber: 
+[Other] ExpectedLife: 
+[Other] AssetType: 
+[Other] ResponsibleSourcing: 
+[Analytical Properties] Heat Transfer Coefficient (U): 0.000 watt / (m^2 kelvin)
+[Analytical Properties] Thermal Resistance (R): 0.000 m^2 kelvin / watt
+[Analytical Properties] Thermal mass: 0.000 kjoule / kelvin
+[Analytical Properties] Absorptance: 0.100
+[Analytical Properties] Roughness: 1
+[IFC Parameters] IfcEntity: 
+[IFC Parameters] IfcEntity[Type]: 
+[Materials and Finishes] Structural Material: <By Category>
+[Graphics] Coarse Scale Fill Pattern: 
+[Graphics] Coarse Scale Fill Color: 0
+[Construction] Structure: 
+[Construction] Default Thickness: 0.250 m
+[Construction] Function: Interior
+
+---
+
+Elemento ID: 62
+Nombre: Floor [925486]
+External ID: 2416ca7d-2bc6-4722-9c46-f9c333609d41-000e1e4c
+Tipo: element
+
+Propiedades:
+[Data] Slopes_Difficulty level: MEDIUM
+[Data] Slopes_Material: SNOW OVER SYNTHETIC
+[Data] Slopes_Light: Yes
+[Data] Slopes_Length: 1012.370 m
+[Data] Uniclass2015PrCode: 
+[Data] Uniclass2015PrTitle: 
+[Data] Uniclass2015SsCode: 
+[Data] Uniclass2015SsTitle: 
+[Data] TSheetCode: 
+[Data] TSheetTitle: 
+[Data] OperationsClass: 
+[Data] RiskClass: 
+[Slab Shape Edit] Curved Edge Condition: 0
+[Constraints] Level: 00_SKI_SlopesStart
+[Constraints] Height Offset From Level: 0.000 m
+[Constraints] Room Bounding: Yes
+[Constraints] Related to Mass: No
+[Phasing] Phase Created: New Construction
+[Phasing] Phase Demolished: None
+[Structural] Structural: No
+[Structural] Enable Analytical Model: No
+[Structural] STR_Description: 
+[Dimensions] Slope: 0.000 degree
+[Dimensions] Perimeter: 1683.198 m
+[Dimensions] Area: 21899.597 m^2
+[Dimensions] Volume: 5474.899 m^3
+[Dimensions] Elevation at Top: 0.000 m
+[Dimensions] Elevation at Bottom: 0.000 m
+[Dimensions] Thickness: 0.250 m
+[Identity Data] Type Name: SKI_00_CRA Slopes
+[Identity Data] Image: 
+[Identity Data] Comments: 
+[Identity Data] Mark: 1A
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+[Identity Data] Type Image: 
+[Identity Data] Keynote: 
+[Identity Data] Model: 
+[Identity Data] Manufacturer: 
+[Identity Data] Type Comments: 
+[Identity Data] URL: 
+[Identity Data] Description: CRA SLOPES
+[Identity Data] Assembly Description: 
+[Identity Data] Assembly Code: 
+[Identity Data] Type Mark: 
+[Identity Data] Cost: 0.000
+[Identity Data] MasterFormatRef: 
+[Other] AssetIdentifier: 
+[Other] BarCode: 
+[Other] InstallationDate: 
+[Other] ProductionYear: 
+[Other] SerialNumber: 
+[Other] TagNumber: 
+[Other] WarrantyStartDate: 
+[Other] ModelReference: 
+[Other] AccessibilityPerformance: 
+[Other] CodePerformance: 
+[Other] Color: 
+[Other] Constituents: 
+[Other] Features: 
+[Other] Finish: 
+[Other] Grade: 
+[Other] Material: 
+[Other] NominalHeight: 0.000 m
+[Other] NominalLength: 0.000 m
+[Other] NominalWidth: 0.000 m
+[Other] ReplacementCost: 
+[Other] Shape: 
+[Other] Size: 
+[Other] SustainabilityPerformance: 
+[Other] WarrantyDescription: 
+[Other] WarrantyDurationLabor: 
+[Other] WarrantyDurationParts: 
+[Other] WarrantyGuarantorLabor: 
+[Other] WarrantyGuarantorParts: 
+[Other] ModelNumber: 
+[Other] ExpectedLife: 
+[Other] AssetType: 
+[Other] ResponsibleSourcing: 
+[Analytical Properties] Heat Transfer Coefficient (U): 0.000 watt / (m^2 kelvin)
+[Analytical Properties] Thermal Resistance (R): 0.000 m^2 kelvin / watt
+[Analytical Properties] Thermal mass: 0.000 kjoule / kelvin
+[Analytical Properties] Absorptance: 0.100
+[Analytical Properties] Roughness: 1
+[IFC Parameters] IfcEntity: 
+[IFC Parameters] IfcEntity[Type]: 
+[Materials and Finishes] Structural Material: <By Category>
+[Graphics] Coarse Scale Fill Pattern: 
+[Graphics] Coarse Scale Fill Color: 0
+[Construction] Structure: 
+[Construction] Default Thickness: 0.250 m
+[Construction] Function: Interior
+
+---
+
+Elemento ID: 7383
+Nombre: SKI_00_CRA Slopes
+External ID: d2b996d7-d33e-4ba8-b659-72e65526a78c-00000ac9
+Tipo: element
+
+Propiedades:
+[Analytical Properties] Heat Transfer Coefficient (U): 0.000 watt / (m^2 kelvin)
+[Analytical Properties] Thermal Resistance (R): 0.000 m^2 kelvin / watt
+[Analytical Properties] Thermal mass: 0.000 kjoule / kelvin
+[Analytical Properties] Absorptance: 0.100
+[Analytical Properties] Roughness: 1
+[Data] Uniclass2015PrCode: 
+[Data] Uniclass2015PrTitle: 
+[Data] Uniclass2015SsCode: 
+[Data] Uniclass2015SsTitle: 
+[Data] TSheetCode: 
+[Data] TSheetTitle: 
+[Data] OperationsClass: 
+[Data] RiskClass: 
+[IFC Parameters] IfcEntity: 
+[IFC Parameters] IfcEntity[Type]: 
+[Structural] STR_Description: 
+[Materials and Finishes] Structural Material: <By Category>
+[Graphics] Coarse Scale Fill Pattern: 
+[Graphics] Coarse Scale Fill Color: 0
+[Construction] Structure: 
+[Construction] Default Thickness: 0.250 m
+[Construction] Function: Interior
+[Identity Data] Type Image: 
+[Identity Data] Keynote: 
+[Identity Data] Model: 
+[Identity Data] Manufacturer: 
+[Identity Data] Type Comments: 
+[Identity Data] URL: 
+[Identity Data] Description: CRA SLOPES
+[Identity Data] Assembly Description: 
+[Identity Data] Assembly Code: 
+[Identity Data] Type Mark: 
+[Identity Data] Cost: 0.000
+[Identity Data] MasterFormatRef: 
+[Identity Data] Workset: Floor Types
+[Identity Data] Edited by: 
+[Other] AccessibilityPerformance: 
+[Other] CodePerformance: 
+[Other] Color: 
+[Other] Constituents: 
+[Other] Features: 
+[Other] Finish: 
+[Other] Grade: 
+[Other] Material: 
+[Other] NominalHeight: 0.000 m
+[Other] NominalLength: 0.000 m
+[Other] NominalWidth: 0.000 m
+[Other] ReplacementCost: 
+[Other] Shape: 
+[Other] Size: 
+[Other] SustainabilityPerformance: 
+[Other] WarrantyDescription: 
+[Other] WarrantyDurationLabor: 
+[Other] WarrantyDurationParts: 
+[Other] WarrantyGuarantorLabor: 
+[Other] WarrantyGuarantorParts: 
+[Other] ModelNumber: 
+[Other] ExpectedLife: 
+[Other] AssetType: 
+[Other] ResponsibleSourcing: 
+
+---
+
+Elemento ID: 67
+Nombre: Floor [1788994]
+External ID: d7510044-03a6-4678-91e2-d2f3145651cd-001b4c42
+Tipo: element
+
+Propiedades:
+[Data] Slopes_Difficulty level: 
+[Data] Slopes_Material: 
+[Data] Slopes_Light: No
+[Data] Slopes_Length: 0.000 m
+[Data] Uniclass2015PrCode: 
+[Data] Uniclass2015PrTitle: 
+[Data] Uniclass2015SsCode: 
+[Data] Uniclass2015SsTitle: 
+[Data] TSheetCode: 
+[Data] TSheetTitle: 
+[Data] OperationsClass: 
+[Data] RiskClass: 
+[Slab Shape Edit] Curved Edge Condition: 0
+[Constraints] Level: 00_SKI_SlopesStart
+[Constraints] Height Offset From Level: -10.000 m
+[Constraints] Room Bounding: Yes
+[Constraints] Related to Mass: No
+[Phasing] Phase Created: New Construction
+[Phasing] Phase Demolished: None
+[Structural] Structural: No
+[Structural] Enable Analytical Model: No
+[Structural] STR_Description: 
+[Dimensions] Slope: 0.000 degree
+[Dimensions] Perimeter: 257.784 m
+[Dimensions] Area: 2959.749 m^2
+[Dimensions] Volume: 739.937 m^3
+[Dimensions] Elevation at Top: 0.000 m
+[Dimensions] Elevation at Bottom: 0.000 m
+[Dimensions] Thickness: 0.250 m
+[Identity Data] Type Name: SKI_Lift Station
+[Identity Data] Image: 
+[Identity Data] Comments: 
+[Identity Data] Mark: 
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+[Identity Data] Type Image: 
+[Identity Data] Keynote: 
+[Identity Data] Model: 
+[Identity Data] Manufacturer: 
+[Identity Data] Type Comments: 
+[Identity Data] URL: 
+[Identity Data] Description: CRA LIFT STATIONS
+[Identity Data] Assembly Description: 
+[Identity Data] Assembly Code: 
+[Identity Data] Type Mark: 
+[Identity Data] Cost: 0.000
+[Identity Data] MasterFormatRef: 
+[Other] AssetIdentifier: 
+[Other] BarCode: 
+[Other] InstallationDate: 
+[Other] ProductionYear: 
+[Other] SerialNumber: 
+[Other] TagNumber: 
+[Other] WarrantyStartDate: 
+[Other] ModelReference: 
+[Other] AccessibilityPerformance: 
+[Other] CodePerformance: 
+[Other] Color: 
+[Other] Constituents: 
+[Other] Features: 
+[Other] Finish: 
+[Other] Grade: 
+[Other] Material: 
+[Other] NominalHeight: 0.000 m
+[Other] NominalLength: 0.000 m
+[Other] NominalWidth: 0.000 m
+[Other] ReplacementCost: 
+[Other] Shape: 
+[Other] Size: 
+[Other] SustainabilityPerformance: 
+[Other] WarrantyDescription: 
+[Other] WarrantyDurationLabor: 
+[Other] WarrantyDurationParts: 
+[Other] WarrantyGuarantorLabor: 
+[Other] WarrantyGuarantorParts: 
+[Other] ModelNumber: 
+[Other] ExpectedLife: 
+[Other] AssetType: 
+[Other] ResponsibleSourcing: 
+[Analytical Properties] Heat Transfer Coefficient (U): 3.348 watt / (m^2 kelvin)
+[Analytical Properties] Thermal Resistance (R): 0.299 m^2 kelvin / watt
+[Analytical Properties] Thermal mass: 31.582 kjoule / kelvin
+[Analytical Properties] Absorptance: 0.100
+[Analytical Properties] Roughness: 1
+[IFC Parameters] IfcEntity: 
+[IFC Parameters] IfcEntity[Type]: 
+[Materials and Finishes] Structural Material: <By Category>
+[Graphics] Coarse Scale Fill Pattern: 
+[Graphics] Coarse Scale Fill Color: 0
+[Construction] Structure: 
+[Construction] Default Thickness: 0.250 m
+[Construction] Function: Interior
+
+---
+
+Elemento ID: 68
+Nombre: Floor [1872478]
+External ID: 913b3e33-3942-4eaf-a46a-c285ff6f033e-001c925e
+Tipo: element
+
+Propiedades:
+[Data] Slopes_Difficulty level: 
+[Data] Slopes_Material: 
+[Data] Slopes_Light: No
+[Data] Slopes_Length: 0.000 m
+[Data] Uniclass2015PrCode: 
+[Data] Uniclass2015PrTitle: 
+[Data] Uniclass2015SsCode: 
+[Data] Uniclass2015SsTitle: 
+[Data] TSheetCode: 
+[Data] TSheetTitle: 
+[Data] OperationsClass: 
+[Data] RiskClass: 
+[Constraints] Level: 00_SKI_SlopesStart
+[Constraints] Height Offset From Level: -10.000 m
+[Constraints] Room Bounding: Yes
+[Constraints] Related to Mass: No
+[Phasing] Phase Created: New Construction
+[Phasing] Phase Demolished: None
+[Structural] Structural: No
+[Structural] Enable Analytical Model: No
+[Structural] STR_Description: 
+[Dimensions] Slope: 0.000 degree
+[Dimensions] Perimeter: 277.510 m
+[Dimensions] Area: 3889.597 m^2
+[Dimensions] Volume: 972.399 m^3
+[Dimensions] Elevation at Top: 2360.000 m
+[Dimensions] Elevation at Bottom: 2359.750 m
+[Dimensions] Thickness: 0.250 m
+[Identity Data] Type Name: SKI_Lift Station
+[Identity Data] Image: 
+[Identity Data] Comments: 
+[Identity Data] Mark: 
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+[Identity Data] Type Image: 
+[Identity Data] Keynote: 
+[Identity Data] Model: 
+[Identity Data] Manufacturer: 
+[Identity Data] Type Comments: 
+[Identity Data] URL: 
+[Identity Data] Description: CRA LIFT STATIONS
+[Identity Data] Assembly Description: 
+[Identity Data] Assembly Code: 
+[Identity Data] Type Mark: 
+[Identity Data] Cost: 0.000
+[Identity Data] MasterFormatRef: 
+[Other] AssetIdentifier: 
+[Other] BarCode: 
+[Other] InstallationDate: 
+[Other] ProductionYear: 
+[Other] SerialNumber: 
+[Other] TagNumber: 
+[Other] WarrantyStartDate: 
+[Other] ModelReference: 
+[Other] AccessibilityPerformance: 
+[Other] CodePerformance: 
+[Other] Color: 
+[Other] Constituents: 
+[Other] Features: 
+[Other] Finish: 
+[Other] Grade: 
+[Other] Material: 
+[Other] NominalHeight: 0.000 m
+[Other] NominalLength: 0.000 m
+[Other] NominalWidth: 0.000 m
+[Other] ReplacementCost: 
+[Other] Shape: 
+[Other] Size: 
+[Other] SustainabilityPerformance: 
+[Other] WarrantyDescription: 
+[Other] WarrantyDurationLabor: 
+[Other] WarrantyDurationParts: 
+[Other] WarrantyGuarantorLabor: 
+[Other] WarrantyGuarantorParts: 
+[Other] ModelNumber: 
+[Other] ExpectedLife: 
+[Other] AssetType: 
+[Other] ResponsibleSourcing: 
+[Analytical Properties] Heat Transfer Coefficient (U): 3.348 watt / (m^2 kelvin)
+[Analytical Properties] Thermal Resistance (R): 0.299 m^2 kelvin / watt
+[Analytical Properties] Thermal mass: 31.582 kjoule / kelvin
+[Analytical Properties] Absorptance: 0.100
+[Analytical Properties] Roughness: 1
+[IFC Parameters] IfcEntity: 
+[IFC Parameters] IfcEntity[Type]: 
+[Materials and Finishes] Structural Material: <By Category>
+[Graphics] Coarse Scale Fill Pattern: 
+[Graphics] Coarse Scale Fill Color: 0
+[Construction] Structure: 
+[Construction] Default Thickness: 0.250 m
+[Construction] Function: Interior
+
+---
+
+Elemento ID: 7384
+Nombre: SKI_Lift Station
+External ID: b533ca81-21b7-4d8f-9e05-67b1a28000bb-00086c14
+Tipo: element
+
+Propiedades:
+[Analytical Properties] Heat Transfer Coefficient (U): 3.348 watt / (m^2 kelvin)
+[Analytical Properties] Thermal Resistance (R): 0.299 m^2 kelvin / watt
+[Analytical Properties] Thermal mass: 31.582 kjoule / kelvin
+[Analytical Properties] Absorptance: 0.100
+[Analytical Properties] Roughness: 1
+[Data] Uniclass2015PrCode: 
+[Data] Uniclass2015PrTitle: 
+[Data] Uniclass2015SsCode: 
+[Data] Uniclass2015SsTitle: 
+[Data] TSheetCode: 
+[Data] TSheetTitle: 
+[Data] OperationsClass: 
+[Data] RiskClass: 
+[IFC Parameters] IfcEntity: 
+[IFC Parameters] IfcEntity[Type]: 
+[Structural] STR_Description: 
+[Materials and Finishes] Structural Material: <By Category>
+[Graphics] Coarse Scale Fill Pattern: 
+[Graphics] Coarse Scale Fill Color: 0
+[Construction] Structure: 
+[Construction] Default Thickness: 0.250 m
+[Construction] Function: Interior
+[Identity Data] Type Image: 
+[Identity Data] Keynote: 
+[Identity Data] Model: 
+[Identity Data] Manufacturer: 
+[Identity Data] Type Comments: 
+[Identity Data] URL: 
+[Identity Data] Description: CRA LIFT STATIONS
+[Identity Data] Assembly Description: 
+[Identity Data] Assembly Code: 
+[Identity Data] Type Mark: 
+[Identity Data] Cost: 0.000
+[Identity Data] MasterFormatRef: 
+[Identity Data] Workset: Floor Types
+[Identity Data] Edited by: 
+[Other] AccessibilityPerformance: 
+[Other] CodePerformance: 
+[Other] Color: 
+[Other] Constituents: 
+[Other] Features: 
+[Other] Finish: 
+[Other] Grade: 
+[Other] Material: 
+[Other] NominalHeight: 0.000 m
+[Other] NominalLength: 0.000 m
+[Other] NominalWidth: 0.000 m
+[Other] ReplacementCost: 
+[Other] Shape: 
+[Other] Size: 
+[Other] SustainabilityPerformance: 
+[Other] WarrantyDescription: 
+[Other] WarrantyDurationLabor: 
+[Other] WarrantyDurationParts: 
+[Other] WarrantyGuarantorLabor: 
+[Other] WarrantyGuarantorParts: 
+[Other] ModelNumber: 
+[Other] ExpectedLife: 
+[Other] AssetType: 
+[Other] ResponsibleSourcing: 
+
+---
+
+Elemento ID: 7382
+Nombre: Floor
+External ID: 80429f13-0d8e-4c02-945c-35c6253746fa
+Tipo: element
+
+Propiedades:
+
+
+---
+
+Elemento ID: 45
+Nombre: Floors
+External ID: 3b70ae67-627c-47db-bb77-bdde194d34db
+Tipo: element
+
+Propiedades:
+
+
+---
+
+Elemento ID: 66
+Nombre: LB_Ski plaza_Lift Station [1777870]
+External ID: 35552ba5-2a6b-412d-ae8c-c9945b3293a0-001b0cf7
+Tipo: element
+
+Propiedades:
+[Constraints] Level: 00_SKI_SlopesStart
+[Constraints] Elevation from Level: -4.000 m
+[Constraints] Host: Level : 00_SKI_SlopesStart
+[Constraints] Offset from Host: -4.000 m
+[Constraints] Moves With Nearby Elements: No
+[Constraints] Default Elevation: 0.000 m
+[Phasing] Phase Created: New Construction
+[Phasing] Phase Demolished: None
+[Dimensions] Volume: 940.861 m^3
+[Identity Data] Type Name: DOWN
+[Identity Data] Image: 
+[Identity Data] Comments: 
+[Identity Data] Mark: 
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+[Identity Data] Type Image: 
+[Identity Data] Keynote: 
+[Identity Data] Model: 
+[Identity Data] Manufacturer: 
+[Identity Data] Type Comments: 
+[Identity Data] URL: 
+[Identity Data] Description: 
+[Identity Data] Assembly Code: 
+[Identity Data] Cost: 0.000
+[Identity Data] Assembly Description: 
+[Identity Data] Type Mark: 
+[Identity Data] MasterFormatRef: 
+[Identity Data] OmniClass Number: 
+[Identity Data] OmniClass Title: 
+[Identity Data] Code Name: 
+[Other] DOWN: Yes
+[Other] UP: No
+[Other] AssetIdentifier: 
+[Other] BarCode: 
+[Other] InstallationDate: 
+[Other] ProductionYear: 
+[Other] SerialNumber: 
+[Other] TagNumber: 
+[Other] WarrantyStartDate: 
+[Other] ModelReference: 
+[Other] AccessibilityPerformance: 
+[Other] CodePerformance: 
+[Other] Color: 
+[Other] Constituents: 
+[Other] Features: 
+[Other] Finish: 
+[Other] Grade: 
+[Other] Material: 
+[Other] NominalHeight: 0.000 m
+[Other] NominalLength: 0.000 m
+[Other] NominalWidth: 0.000 m
+[Other] ReplacementCost: 
+[Other] Shape: 
+[Other] Size: 
+[Other] SustainabilityPerformance: 
+[Other] WarrantyDescription: 
+[Other] WarrantyDurationLabor: 
+[Other] WarrantyDurationParts: 
+[Other] WarrantyGuarantorLabor: 
+[Other] WarrantyGuarantorParts: 
+[Other] ModelNumber: 
+[Other] ExpectedLife: 
+[Other] AssetType: 
+[Other] ResponsibleSourcing: 
+[Data] Uniclass2015PrCode: 
+[Data] Uniclass2015PrTitle: 
+[Data] Uniclass2015SsCode: 
+[Data] Uniclass2015SsTitle: 
+[Data] TSheetCode: 
+[Data] TSheetTitle: 
+[Data] OperationsClass: 
+[Data] RiskClass: 
+[IFC Parameters] IfcEntity: 
+[IFC Parameters] IfcEntity[Type]: 
+
+---
+
+Elemento ID: 7900
+Nombre: DOWN
+External ID: 3a7a3cd6-7bb3-4dd7-8513-2c1c347ba958-0017bdc9
+Tipo: element
+
+Propiedades:
+[Data] Uniclass2015PrCode: 
+[Data] Uniclass2015PrTitle: 
+[Data] Uniclass2015SsCode: 
+[Data] Uniclass2015SsTitle: 
+[Data] TSheetCode: 
+[Data] TSheetTitle: 
+[Data] OperationsClass: 
+[Data] RiskClass: 
+[IFC Parameters] IfcEntity: 
+[IFC Parameters] IfcEntity[Type]: 
+[Constraints] Default Elevation: 0.000 m
+[Identity Data] Type Image: 
+[Identity Data] Keynote: 
+[Identity Data] Model: 
+[Identity Data] Manufacturer: 
+[Identity Data] Type Comments: 
+[Identity Data] URL: 
+[Identity Data] Description: 
+[Identity Data] Assembly Code: 
+[Identity Data] Cost: 0.000
+[Identity Data] Assembly Description: 
+[Identity Data] Type Mark: 
+[Identity Data] MasterFormatRef: 
+[Identity Data] Workset: Family  : Generic Models : LB_Ski plaza_Lift Station
+[Identity Data] Edited by: 
+[Identity Data] OmniClass Number: 
+[Identity Data] OmniClass Title: 
+[Identity Data] Code Name: 
+[Other] AccessibilityPerformance: 
+[Other] CodePerformance: 
+[Other] Color: 
+[Other] Constituents: 
+[Other] Features: 
+[Other] Finish: 
+[Other] Grade: 
+[Other] Material: 
+[Other] NominalHeight: 0.000 m
+[Other] NominalLength: 0.000 m
+[Other] NominalWidth: 0.000 m
+[Other] ReplacementCost: 
+[Other] Shape: 
+[Other] Size: 
+[Other] SustainabilityPerformance: 
+[Other] WarrantyDescription: 
+[Other] WarrantyDurationLabor: 
+[Other] WarrantyDurationParts: 
+[Other] WarrantyGuarantorLabor: 
+[Other] WarrantyGuarantorParts: 
+[Other] ModelNumber: 
+[Other] ExpectedLife: 
+[Other] AssetType: 
+[Other] ResponsibleSourcing: 
+
+---
+
+Elemento ID: 7895
+Nombre: LB_Ski plaza_Lift Station
+External ID: 4eec3e92-8eeb-4f5a-8361-c37dd590f04c
+Tipo: element
+
+Propiedades:
+
+
+---
+
+Elemento ID: 54
+Nombre: Generic Models
+External ID: d26090ab-0d97-4ce7-acc4-bac19fc0dd6a
+Tipo: element
+
+Propiedades:
+
+
+---
+
+Elemento ID: 1
+Nombre: Model
+External ID: doc_b8fc4407-d2a1-493e-b73c-4c3d7f9371c0
+Tipo: element
+
+Propiedades:
+[Route Analysis] Route Analysis Settings: 
+[Energy Analysis] Energy Settings: 
+[Text] ModelCreatedBy: AED
+[Text] ModelCreationDate: 14.12.21
+[Text] RevitTemplateDate: 02.00
+[Text] RevitVersion: 2020.2
+[Text] ModelDescription: Cable Car, Ski and Snow
+[Text] ModelIssueDate: 02.03.2022
+[Identity Data] Organization Name: 
+[Identity Data] Organization Description: 
+[Identity Data] Building Name: 
+[Identity Data] Author: 
+[Identity Data] Workset: Project Info
+[Identity Data] Edited by: 
+[Other] Project Issue Date: 
+[Other] Project Status: 
+[Other] Client Name: NEOM
+[Other] Project Address: 
+[Other] Project Name: 4200000004/002 - NEOM MOUNTAIN SKI VILLAGE
+[Other] Project Number: 
+[Other] ProductionYear: 
