@@ -1,12 +1,15 @@
 @host = http://localhost:3000
 @projectId = b.76947f01-cc26-47db-9681-fff27e5430ce
 @projectId2= b.611f0303-7b8a-4f45-99f1-5da93b802707
+@projectIdVolta= b.7ce44dfd-1f18-44aa-957d-bc777c301389
 @hubId = b.1bb899d4-8dd4-42d8-aefd-6c0e35acd825
 @urnId= dXJuOmFkc2sud2lwcHJvZDpmcy5maWxlOnZmLnFSbHZQSFFoUmd5b0NFd0NsM2VFbGc_dmVyc2lvbj0y
 @urnId2= dXJuOmFkc2sud2lwcHJvZDpmcy5maWxlOnZmLm9fb2pBVGRMVHRPZ3lRTVJvbk1lakE_dmVyc2lvbj0x
 @urnId3= dXJuOmFkc2sud2lwcHJvZDpmcy5maWxlOnZmLnFSbHZQSFFoUmd5b0NFd0NsM2VFbGc_dmVyc2lvbj0z
+@urnIdVolta= dXJuOmFkc2sud2lwcHJvZDpmcy5maWxlOnZmLll0Q3c2elN4UUllMjNldTBVdTkxQnc_dmVyc2lvbj0z
 @itemId= urn:adsk.wipprod:dm.lineage:o_ojATdLTtOgyQMRonMejA
 @itemId2= urn:adsk.wipprod:dm.lineage:qRlvPHQhRgyoCEwCl3eElg
+@itemIdVolta= urn:adsk.wipprod:dm.lineage:YtCw6zSxQIe23eu0Uu91Bw
 @urlAuth = /api/auth
 @urlHub = /api/hub
 @urlProjects = /api/projects
@@ -38,13 +41,13 @@ GET {{host}}{{urlHub}}
 GET {{host}}{{urlProjects}}/{{hubId}}
 
 ### listar recursivamente todos las subcarpetas y ficheros finales del proyecto
-GET {{host}}{{urlRoot}}/{{hubId}}/{{projectId}}{{urlFiles}}
+GET {{host}}{{urlRoot}}/{{hubId}}/{{projectIdVolta}}{{urlFiles}}
 
 ### Listar el proyecto by Id
-GET {{host}}{{urlProjects}}/{{hubId}}/{{projectId}}
+GET {{host}}{{urlProjects}}/{{hubId}}/{{projectIdVolta}}
 
 ### Obtener el Version ID del fichero
-GET {{host}}{{urlRoot}}/{{projectId}}/{{itemId2}}/versionId
+GET {{host}}{{urlRoot}}/{{projectIdVolta}}/{{itemIdVolta}}/versionId
 
 ### Metadata of .rvt
 GET {{host}}{{urlProperties}}/meta/{{urnId3}}/metadata
@@ -59,7 +62,7 @@ GET {{host}}{{urlProperties}}/{{urnId3}}/919ace9e-438c-9400-4285-5c1eced5ebd5/mo
 GET {{host}}{{urlProperties}}/{{urnId}}/modelStatus
 
 ### Model Translate
-POST {{host}}{{urlProperties}}/{{urnId3}}/translate
+POST {{host}}{{urlProperties}}/{{urnIdVolta}}/translate
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
