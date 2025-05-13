@@ -15,6 +15,7 @@
 @urlProperties = /api/properties
 @urlModels = /api/model
 @urlElements = /api/elements
+@accessToken = eyJhbGciOiJSUzI1NiIsImtpZCI6ImI4YjJkMzNhLTFlOTYtNDYwNS1iMWE4LTgwYjRhNWE4YjNlNyIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2F1dG9kZXNrLmNvbSIsImNsaWVudF9pZCI6ImhFVGlGanExaEpWQUVpUXNxTVNBajluSWdGQXZnUXRzeWJ2ZkFpV0dXdDJzQzA1WSIsInNjb3BlIjpbImRhdGE6Y3JlYXRlIiwiZGF0YTpyZWFkIiwiZGF0YTp3cml0ZSIsImJ1Y2tldDpjcmVhdGUiLCJidWNrZXQ6cmVhZCIsImJ1Y2tldDpkZWxldGUiLCJ2aWV3YWJsZXM6cmVhZCJdLCJpc3MiOiJodHRwczovL2RldmVsb3Blci5hcGkuYXV0b2Rlc2suY29tIiwiZXhwIjoxNzQ3MTI2NTQyLCJqdGkiOiJBVC01MTUxOWMwOS1kOWQwLTRlMmItOGQwYS04ZTczNGRkODFhZjIifQ.OJNUm_k4Sk0zFXGL4n5nbFUnDXte60ohGQn7w7OeelJD_Ziym-zg8Pf89m_H3E_0hNtdNd4H3FyRYLjgZusVHGMapjX4qQeIQ3DMxxrKe3mIk4JYra_erGQHmpm0C_TPKx4X8Sr7vFrZposL71gx3g4Uep3c-hcrMmH5FZBhJXtU2lmJjuARv_NrUMns94m78xeTmKeG1Doa857rtFp1K5PkSDqXqVA5D_TF8-AYCMiho6wOZradkDZrKwHSxI21m__NP-BqEc8tHVQ-2l4a0nKdag6gB9jg-Gake7gCgN_bXjDfsbA9tri4gds5hnTl3NjG4I99RX6u3FgoARCiUA
 
 
 ###################
@@ -56,6 +57,11 @@ GET {{host}}{{urlProperties}}/{{urnId3}}/919ace9e-438c-9400-4285-5c1eced5ebd5/mo
 
 ### Model Status
 GET {{host}}{{urlProperties}}/{{urnId}}/modelStatus
+
+### Model Translate
+POST {{host}}{{urlProperties}}/{{urnId3}}/translate
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
 
 ############
 ### DDBB ###

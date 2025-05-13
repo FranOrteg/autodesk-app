@@ -1,0 +1,265 @@
+CHUNK 1 OF 1 (Modelo: 20043_KRBC01_Gava, URN: urn:adsk.wipprod:dm.lineage:g2Q99Wf7RDy6AWXCmaRqrA)
+
+Elemento ID: 2
+Nombre: Level 1
+External ID: 2d272375-1127-40ba-a229-26cd95b29ac6-0000064a
+Tipo: element
+
+Propiedades:
+[Identity Data] Name: Level 1
+[Identity Data] Structural: No
+[Identity Data] Building Story: Yes
+[Identity Data] Workset: Shared Levels and Grids
+[Identity Data] Edited by: 
+[Constraints] Elevation: 0.000 mm
+[Constraints] Story Above: Default
+[Dimensions] Computation Height: 0.000 mm
+[Extents] Scope Box: None
+
+---
+
+Elemento ID: 4989
+Nombre: Model Lines [5984]
+External ID: 2d272375-1127-40ba-a229-26cd95b29ac6-00001760
+Tipo: element
+
+Propiedades:
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+[Phasing] Phase Created: New Construction
+[Phasing] Phase Demolished: None
+[Constraints] Work Plane: Level : Level 1
+[Constraints] Moves With Nearby Elements: No
+[Graphics] Line Style: Lines
+[Graphics] Detail Line: No
+[Dimensions] Length: 168.500 mm
+
+---
+
+Elemento ID: 4990
+Nombre: Model Lines [6206]
+External ID: 2d272375-1127-40ba-a229-26cd95b29ac6-0000183e
+Tipo: element
+
+Propiedades:
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+[Phasing] Phase Created: New Construction
+[Phasing] Phase Demolished: None
+[Constraints] Work Plane: Level : Level 1
+[Constraints] Moves With Nearby Elements: No
+[Graphics] Line Style: Lines
+[Graphics] Detail Line: No
+[Dimensions] Length: 9000.000 mm
+
+---
+
+Elemento ID: 5303
+Nombre: Model Lines [21481]
+External ID: 4db9bc9a-cf62-4e72-a8ce-292c993a3d89-000053e9
+Tipo: element
+
+Propiedades:
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+[Phasing] Phase Created: New Construction
+[Phasing] Phase Demolished: None
+[Constraints] Work Plane: Level : Level 1
+[Constraints] Moves With Nearby Elements: No
+[Graphics] Line Style: Lines
+[Graphics] Detail Line: No
+[Dimensions] Length: 1055110.906 mm
+
+---
+
+Elemento ID: 5304
+Nombre: Model Lines [21482]
+External ID: 4db9bc9a-cf62-4e72-a8ce-292c993a3d89-000053ea
+Tipo: element
+
+Propiedades:
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+[Phasing] Phase Created: New Construction
+[Phasing] Phase Demolished: None
+[Constraints] Work Plane: Level : Level 1
+[Constraints] Moves With Nearby Elements: No
+[Graphics] Line Style: Lines
+[Graphics] Detail Line: No
+[Dimensions] Length: 1564086.863 mm
+
+---
+
+Elemento ID: 2898
+Nombre: Model Lines [21483]
+External ID: 4db9bc9a-cf62-4e72-a8ce-292c993a3d89-000053eb
+Tipo: element
+
+Propiedades:
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+[Phasing] Phase Created: New Construction
+[Phasing] Phase Demolished: None
+[Constraints] Work Plane: Level : Level 1
+[Constraints] Moves With Nearby Elements: No
+[Graphics] Line Style: Lines
+[Graphics] Detail Line: No
+[Dimensions] Length: 1055110.906 mm
+
+---
+
+Elemento ID: 2899
+Nombre: Model Lines [21484]
+External ID: 4db9bc9a-cf62-4e72-a8ce-292c993a3d89-000053ec
+Tipo: element
+
+Propiedades:
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+[Phasing] Phase Created: New Construction
+[Phasing] Phase Demolished: None
+[Constraints] Work Plane: Level : Level 1
+[Constraints] Moves With Nearby Elements: No
+[Graphics] Line Style: Lines
+[Graphics] Detail Line: No
+[Dimensions] Length: 1564086.863 mm
+
+---
+
+Elemento ID: 3990
+Nombre: Model Lines [24809]
+External ID: 4db9bc9a-cf62-4e72-a8ce-292c993a3d89-000060e9
+Tipo: element
+
+Propiedades:
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+[Phasing] Phase Created: New Construction
+[Phasing] Phase Demolished: None
+[Constraints] Work Plane: Level : Level 1
+[Constraints] Moves With Nearby Elements: No
+[Graphics] Line Style: Lines
+[Graphics] Detail Line: No
+[Dimensions] Length: 168.500 mm
+
+---
+
+Elemento ID: 3991
+Nombre: Model Lines [24810]
+External ID: 4db9bc9a-cf62-4e72-a8ce-292c993a3d89-000060ea
+Tipo: element
+
+Propiedades:
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+[Phasing] Phase Created: New Construction
+[Phasing] Phase Demolished: None
+[Constraints] Work Plane: Level : Level 1
+[Constraints] Moves With Nearby Elements: No
+[Graphics] Line Style: Lines
+[Graphics] Detail Line: No
+[Dimensions] Length: 9000.000 mm
+
+---
+
+Elemento ID: 4578
+Nombre: Model Lines [26491]
+External ID: 4db9bc9a-cf62-4e72-a8ce-292c993a3d89-0000677b
+Tipo: element
+
+Propiedades:
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+[Phasing] Phase Created: New Construction
+[Phasing] Phase Demolished: None
+[Constraints] Work Plane: Level : Level 1
+[Constraints] Moves With Nearby Elements: No
+[Graphics] Line Style: Lines
+[Graphics] Detail Line: No
+[Dimensions] Length: 1055110.906 mm
+
+---
+
+Elemento ID: 4579
+Nombre: Model Lines [26492]
+External ID: 4db9bc9a-cf62-4e72-a8ce-292c993a3d89-0000677c
+Tipo: element
+
+Propiedades:
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+[Phasing] Phase Created: New Construction
+[Phasing] Phase Demolished: None
+[Constraints] Work Plane: Level : Level 1
+[Constraints] Moves With Nearby Elements: No
+[Graphics] Line Style: Lines
+[Graphics] Detail Line: No
+[Dimensions] Length: 1564086.863 mm
+
+---
+
+Elemento ID: 3275
+Nombre: Model Lines [26493]
+External ID: 4db9bc9a-cf62-4e72-a8ce-292c993a3d89-0000677d
+Tipo: element
+
+Propiedades:
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+[Phasing] Phase Created: New Construction
+[Phasing] Phase Demolished: None
+[Constraints] Work Plane: Level : Level 1
+[Constraints] Moves With Nearby Elements: No
+[Graphics] Line Style: Lines
+[Graphics] Detail Line: No
+[Dimensions] Length: 1055110.906 mm
+
+---
+
+Elemento ID: 3276
+Nombre: Model Lines [26494]
+External ID: 4db9bc9a-cf62-4e72-a8ce-292c993a3d89-0000677e
+Tipo: element
+
+Propiedades:
+[Identity Data] Workset: Workset1
+[Identity Data] Edited by: 
+[Phasing] Phase Created: New Construction
+[Phasing] Phase Demolished: None
+[Constraints] Work Plane: Level : Level 1
+[Constraints] Moves With Nearby Elements: No
+[Graphics] Line Style: Lines
+[Graphics] Detail Line: No
+[Dimensions] Length: 1564086.863 mm
+
+---
+
+Elemento ID: 2525
+Nombre: Lines
+External ID: 91a8a99f-2a16-4cf8-9a93-87f19853e88d
+Tipo: element
+
+Propiedades:
+
+
+---
+
+Elemento ID: 1
+Nombre: Model
+External ID: doc_5c1c18f4-ecb0-44d9-b06d-e4fe9c3751b5
+Tipo: element
+
+Propiedades:
+[Identity Data] Organization Name: 
+[Identity Data] Organization Description: 
+[Identity Data] Building Name: 
+[Identity Data] Author: 
+[Identity Data] Workset: Project Info
+[Identity Data] Edited by: 
+[Other] Project Issue Date: 
+[Other] Project Status: 
+[Other] Client Name: 
+[Other] Project Address: 
+[Other] Project Name: 
+[Other] Project Number: 
+[Energy Analysis] Energy Settings: 
