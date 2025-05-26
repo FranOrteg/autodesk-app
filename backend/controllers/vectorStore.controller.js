@@ -74,6 +74,9 @@ const uploadModelToVectorStore = async (req, res) => {
 
     const safeModelName = modelName.replace(/\s+/g, "_").replace(/[^\w\-]/g, "");
     const tempDir = path.join(__dirname, "..", "temp");
+
+    await fsp.mkdir(tempDir, { recursive: true });
+    
     const CHUNK_SIZE = 10 * 1024 * 1024;
 
     const chunks = createChunksWithHeader(modelName, urn, enrichedCollection, CHUNK_SIZE);
