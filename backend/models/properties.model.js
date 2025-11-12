@@ -1,4 +1,5 @@
 // models/properties.model.js
+
 const axios = require('axios');
 
 /**
